@@ -1,0 +1,1031 @@
+[
+  {
+    "id": "AUTH-UG",
+    "path": "screenshots/AUTH-UG.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "619eae9253abc1fdfe8bdc69c6f0f6cda9dd4875eae928db1956294e22077eb8"
+  },
+  {
+    "id": "COURSE-001",
+    "path": "screenshots/COURSE-001.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "8abff9f85e398c91de06ddb2f89a30895f8d7e958dbb88d7dcb6d8cd48542917"
+  },
+  {
+    "id": "COURSE-002",
+    "path": "screenshots/COURSE-002.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "3df8320f5a4167bbe7893ed1dbad2c3bc244e0bce48552fc0b2d6a8be166e96c"
+  },
+  {
+    "id": "COURSE-003",
+    "path": "screenshots/COURSE-003.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "79adb8dff6d17aed43405dcfcb33b94fb387455e00fa6733cc07a85a85d4e03a"
+  },
+  {
+    "id": "COURSE-004",
+    "path": "screenshots/COURSE-004.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "d1ea4874478179133692b0225cc4b6e226439534f2b23e9f51ed5cbed83dfbd7"
+  },
+  {
+    "id": "COURSE-005",
+    "path": "screenshots/COURSE-005.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "3ceac4b0e761e79410fb61323d16a1185eb10cd80e36e1e08c7735d6d32652d9"
+  },
+  {
+    "id": "COURSE-006",
+    "path": "screenshots/COURSE-006.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "65d08b7e88fcac57bc0039261b14b82431c549e1de3a12f9a34f61925f64b446"
+  },
+  {
+    "id": "COURSE-007",
+    "path": "screenshots/COURSE-007.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "db68d77a6fe46017468d4f3a8b8fc737268f342b8f4a600925e4cca0363ff598"
+  },
+  {
+    "id": "COURSE-008",
+    "path": "screenshots/COURSE-008.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "fdc25f5fbbf5e3aab8779c2520d24f46f601a3b1071d4dc736a5f35b9c1d2841"
+  },
+  {
+    "id": "COURSE-009",
+    "path": "screenshots/COURSE-009.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "6b8beb537f89f137fbbf5906a120517da8afd74ac34957cc5c81ca2ef0543512"
+  },
+  {
+    "id": "FLOW-UG-01",
+    "path": "screenshots/FLOW-UG-01.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "e6fee525da3586391d1183f834026d23bbed51672c5f81dc20df0b59a349712c"
+  },
+  {
+    "id": "AUTH-PG",
+    "path": "screenshots/AUTH-PG.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "5a3304a86522273f7ff5cb30055d3184643c011157e909fefe267d50a955da08"
+  },
+  {
+    "id": "FLOW-PG-00",
+    "path": "screenshots/FLOW-PG-00.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "6d2927e91a566ca183a29b5254da270da1eca4e706843889dfd71bfb814c0205"
+  },
+  {
+    "id": "FLOW-PG-00B",
+    "path": "screenshots/FLOW-PG-00B.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "e55206f4ca23df292686d7bfcc98c8519738295ad6ea6a689acd9ee6b64d4128"
+  },
+  {
+    "id": "AUTH-HEAD",
+    "path": "screenshots/AUTH-HEAD.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "d58a1376b71fe70462e721b3797ed59a701cc704ec3f6251724e5284e3ae3ee6"
+  },
+  {
+    "id": "FLOW-UG-02",
+    "path": "screenshots/FLOW-UG-02.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "b537cb8bf7ffb6c24f89be366365100ef4835ae6e1468624ee41c62c4b5af06c"
+  },
+  {
+    "id": "FLOW-UG-03",
+    "path": "screenshots/FLOW-UG-03.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "7fadfc81190348c625ab54c0815a17069e9d6540ae2d18d7d79ce8d5acb2545e"
+  },
+  {
+    "id": "FLOW-UG-04",
+    "path": "screenshots/FLOW-UG-04.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "2ad11a8f1aa6b60cf72d8462b776b2c12aa1fe1787364227124f270c7eb17aa6"
+  },
+  {
+    "id": "FLOW-UG-05",
+    "path": "screenshots/FLOW-UG-05.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "83e2a4855af7ad2600757e53eb59f3614165136404eec11148b6b7f3604c2fb7"
+  },
+  {
+    "id": "CONFIG-TERM-01",
+    "path": "screenshots/CONFIG-TERM-01.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "04702f87056b20f3e1f8c232c93a0a93c6d9b869a999501c0e8a82fa16ec14ba"
+  },
+  {
+    "id": "FLOW-UG-05R",
+    "path": "screenshots/FLOW-UG-05R.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "46fd38c60fae6ed26c561ccd50a533e6cba5880a5648dff353d55a3c4019473b"
+  },
+  {
+    "id": "FLOW-UG-06",
+    "path": "screenshots/FLOW-UG-06.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "2abffb30ac7bad85ec88f885071d77cfae9c077f838f9f6bdcf40e8ac369ddfc"
+  },
+  {
+    "id": "FLOW-PG-01",
+    "path": "screenshots/FLOW-PG-01.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "c8b515895eeb11d29bdf46279edf6abb59b77e6d4689ccf8c04dc3d0b9a21aac"
+  },
+  {
+    "id": "FLOW-PG-02",
+    "path": "screenshots/FLOW-PG-02.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "32dd1d0df617ee21b544b58e0cadee27552b0e66821ee5e7f8d56c3fac2fe5e6"
+  },
+  {
+    "id": "FLOW-PG-03",
+    "path": "screenshots/FLOW-PG-03.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "802839e75bb43278cb61273fcbeffa51a5589d1ecf25d14eca59a38141f8055e"
+  },
+  {
+    "id": "FLOW-UG-07",
+    "path": "screenshots/FLOW-UG-07.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "fd7a22df12e6f3d29e098e9a82c26d755fff34407d0a3d08f0ded62562d6251a"
+  },
+  {
+    "id": "FLOW-PG-04",
+    "path": "screenshots/FLOW-PG-04.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "f6188db8cffac4aef579d47bf0858c8688485932425ef4ed4062322fccb829c8"
+  },
+  {
+    "id": "AUTH-ADMINUG",
+    "path": "screenshots/AUTH-ADMINUG.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "c45b9af491084669ff548695b41894e769c624d3e618af5d506405d04c163178"
+  },
+  {
+    "id": "PERM-ADMINUG",
+    "path": "screenshots/PERM-ADMINUG.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "74983adccfbb15452ccdbc1087e034cc40051621c9def9685768f910b6f7f455"
+  },
+  {
+    "id": "FLOW-UG-08A",
+    "path": "screenshots/FLOW-UG-08A.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "e7e4dea2d44e71fa90d6a35115206caac10b0125dc5f6ddaa232d6cb418d4cb8"
+  },
+  {
+    "id": "FLOW-UG-08",
+    "path": "screenshots/FLOW-UG-08.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "a0bd5b21cfa92af8dd6f46a6e5d5c98d0d4caabe086a00eb403008276266ac6f"
+  },
+  {
+    "id": "AUTH-ADMINPG",
+    "path": "screenshots/AUTH-ADMINPG.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "208f028f075d56d89900de25be5a2aa28c2163aef7c4a3ab252f159399c6c6d8"
+  },
+  {
+    "id": "PERM-ADMINPG",
+    "path": "screenshots/PERM-ADMINPG.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "a6960af6b1bce275e42029d31f4ee519601a882b3ce85459f39c241bddd38887"
+  },
+  {
+    "id": "FLOW-PG-05",
+    "path": "screenshots/FLOW-PG-05.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "57970aa5b84469ae29784697825200231bade7325c78fe7f7b36b5535a674c27"
+  },
+  {
+    "id": "AUTH-SUP",
+    "path": "screenshots/AUTH-SUP.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "7a38b3c81510938b54f9802593b8ecf3800e30f41dad9088a4de1c505e1ef27d"
+  },
+  {
+    "id": "FLOW-SUP-01",
+    "path": "screenshots/FLOW-SUP-01.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "da2aa8c11e7822c3015604dcef5e5e3d30f0e8bd848203b14cc9aeeb4761b635"
+  },
+  {
+    "id": "FLOW-UG-09",
+    "path": "screenshots/FLOW-UG-09.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "f078e3f4a6a18b43f0171ec7be26b75fbfbc73831420f9508bca066bfc35119f"
+  },
+  {
+    "id": "FLOW-PG-06",
+    "path": "screenshots/FLOW-PG-06.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "c899ab5ff7e403e1230573813164592570ab4c955647f9c44e490bc28f4060c7"
+  },
+  {
+    "id": "AUTH-DEAN",
+    "path": "screenshots/AUTH-DEAN.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "364299755ef38474102f41775431bae578dad9872f77f4ec92305ed9115c4bcb"
+  },
+  {
+    "id": "FLOW-UG-10",
+    "path": "screenshots/FLOW-UG-10.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "01831be84f2afcede48946983640602f7aefadc0267f86ab0c7f02b7d38ef6e6"
+  },
+  {
+    "id": "FLOW-PG-07",
+    "path": "screenshots/FLOW-PG-07.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "7b10a6bae747f0e18ba409cd1b55a2ce17d89186bdcf755d17f32e03a8bd1fca"
+  },
+  {
+    "id": "AUTH-ADMIN",
+    "path": "screenshots/AUTH-ADMIN.jpg",
+    "width": 1428,
+    "height": 1035,
+    "sha256": "8d57b64854b0f2d15ec674e4409831de7713914caf7583670b7e1a6fb25fc43e"
+  },
+  {
+    "id": "CONFIG-COURSE-01",
+    "path": "screenshots/CONFIG-COURSE-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "60af431337feb0f6cbee57fd2b0af9a289bb93f910e2ce2223cbfdebc0edbacb"
+  },
+  {
+    "id": "CONFIG-COURSE-03",
+    "path": "screenshots/CONFIG-COURSE-03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "daa39122e1dbbab63cce25b20c81bb9870debc1094a602f51206ab1404a44d2e"
+  },
+  {
+    "id": "CONFIG-COURSE-02",
+    "path": "screenshots/CONFIG-COURSE-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "be850bb08ac88d7e3c05ce5bc7730403c56c51f1ede3432dd157bf086ea97d09"
+  },
+  {
+    "id": "CONFIG-COURSE-04",
+    "path": "screenshots/CONFIG-COURSE-04.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "230a4a431e00cf8fa5da358b83d807a145bb6d7d0c55840a3c47986cbed61be7"
+  },
+  {
+    "id": "SPECIAL-001",
+    "path": "screenshots/SPECIAL-001.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "19b559d216b3492905eceb538c3c595d985927f47b31b7052476e14cc2935fd1"
+  },
+  {
+    "id": "SPECIAL-002",
+    "path": "screenshots/SPECIAL-002.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "d9779d866e85873483850b5d96415bba1d954b50ce9cb8b65ba13925768ddda1"
+  },
+  {
+    "id": "SPECIAL-002R",
+    "path": "screenshots/SPECIAL-002R.jpg",
+    "width": 1910,
+    "height": 977,
+    "sha256": "dac2457e9e1411900686c456503f892877b8d889a80f615764064ebe31871ff7"
+  },
+  {
+    "id": "SPECIAL-003",
+    "path": "screenshots/SPECIAL-003.jpg",
+    "width": 1910,
+    "height": 977,
+    "sha256": "416683bbc46dd5c052c6ef8b9b17bb92d3fed2617ce4850d426e58de3db9d60b"
+  },
+  {
+    "id": "CONFIG-YEAR-01",
+    "path": "screenshots/CONFIG-YEAR-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "5627c26b3a390815d7d331bc42dd5ee5e6633108a9dc21b1b910d97680cd3472"
+  },
+  {
+    "id": "CONFIG-YEAR-02",
+    "path": "screenshots/CONFIG-YEAR-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "8b4cca2214a9aebda573583f52186dfa7b086da0829b5fbc292b3e3e5d3d8533"
+  },
+  {
+    "id": "CONFIG-TERM-02",
+    "path": "screenshots/CONFIG-TERM-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "2f47b889da3b076dcbfff9e626d0fb9478431ee6b6b9f63a66eadf129653181c"
+  },
+  {
+    "id": "CONFIG-STD-01",
+    "path": "screenshots/CONFIG-STD-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "6fa2fce994b6ce26be7ee5222a31e8b1251563d13d34e82483414d3fd0420a0d"
+  },
+  {
+    "id": "CONFIG-STD-02",
+    "path": "screenshots/CONFIG-STD-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "e01df8d67312af7507014f840fc9eb2081a5390f3b46b53aaaebc410bc09bac2"
+  },
+  {
+    "id": "CONFIG-RULE-01",
+    "path": "screenshots/CONFIG-RULE-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "d3471656c2631d857d50dead5a3e9ed8f0bfa18eb69b0983b03b16260e03170c"
+  },
+  {
+    "id": "CONFIG-RULE-02",
+    "path": "screenshots/CONFIG-RULE-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "042055f9fc68b341e4b345d8deb8d8d9e88cc40e11a24cf97361aa8a02d93a7f"
+  },
+  {
+    "id": "CONFIG-RULE-03",
+    "path": "screenshots/CONFIG-RULE-03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "b866d7823b9aade968343d3b58aac5d0b656b481e78da40bcdba65b800d0ccc0"
+  },
+  {
+    "id": "CONFIG-RULE-04",
+    "path": "screenshots/CONFIG-RULE-04.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "8d5151383c644f6a0adcd099d9a7ceb66f23570533e8638374688ce4e407cc6d"
+  },
+  {
+    "id": "CONFIG-RULE-05",
+    "path": "screenshots/CONFIG-RULE-05.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "16bd2872ba98214ff42f3496c14c43d821efa6860d501becafe9a4c3e980558a"
+  },
+  {
+    "id": "CONFIG-RULE-06",
+    "path": "screenshots/CONFIG-RULE-06.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "b5f37784ba771fd920634fa7990727b31600bc35b4b6a1f0f573986b4c25c877"
+  },
+  {
+    "id": "CONFIG-RULE-07",
+    "path": "screenshots/CONFIG-RULE-07.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "af2cecbc43c7c6e9e65e32c8d0018945367341537b746274583ac94cd1468dc4"
+  },
+  {
+    "id": "SET-SIS-01",
+    "path": "screenshots/SET-SIS-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "1120979d8c58f219c7015f22d61fbf0b0649759a30bd2100dec279caad3024a7"
+  },
+  {
+    "id": "SET-SIS-02",
+    "path": "screenshots/SET-SIS-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "ed60f1241e35fbcdc17633b89abdfe29477cb8965d588e6e38c314097fc58578"
+  },
+  {
+    "id": "SET-SIS-03",
+    "path": "screenshots/SET-SIS-03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "b090d608f4faf427b3faedccf00dd08295c481c8837ab769ad93a9b7c2404024"
+  },
+  {
+    "id": "SET-ENGINE-01",
+    "path": "screenshots/SET-ENGINE-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "aed5a0318ed5e4792a94db6414987b69820b358cbdc78533ba71f20860a0fd92"
+  },
+  {
+    "id": "SET-HOURS-01",
+    "path": "screenshots/SET-HOURS-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "95f9e194a0c9fa5ea8c44b6fd8e2f2c437b8c4e5f8acda1fb3275d4e620ce47b"
+  },
+  {
+    "id": "SET-HOURS-02",
+    "path": "screenshots/SET-HOURS-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "226427826819a224309daad8cc7442473d3a75f094d6aa3fdd673e31f83bd08a"
+  },
+  {
+    "id": "SET-HOURS-03",
+    "path": "screenshots/SET-HOURS-03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "f21c84d812a41e32d9a32ff47c3096efe79a51705e05f00a385b4f6b25db12ce"
+  },
+  {
+    "id": "SET-ENGINE-02",
+    "path": "screenshots/SET-ENGINE-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "a8020439a87b8aa796620a16dadffb8da60b4be0f7b2b0ebf397dcf1f9806c37"
+  },
+  {
+    "id": "SET-ENGINE-03",
+    "path": "screenshots/SET-ENGINE-03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "c7e08cd160d01621e11e9fc51eb0652f7fe218eda1ebc39dd15d3d097651918b"
+  },
+  {
+    "id": "SET-ENGINE-04",
+    "path": "screenshots/SET-ENGINE-04.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "b0e6930a9ac16e3823a78b92a66cdc4a746f1b010eaa03981a1c1f9e0ecab7ec"
+  },
+  {
+    "id": "SET-DETAIL-01",
+    "path": "screenshots/SET-DETAIL-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "2f012e34cd8d1922b38668663ff1ae64ab603bb37a1c49fe5a8b6d6964af73fb"
+  },
+  {
+    "id": "SET-COMPARE-01",
+    "path": "screenshots/SET-COMPARE-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "85c04d908d2c7d49b6294cb26c850ec0f5f9671b49a7d0cf1730873ac638a436"
+  },
+  {
+    "id": "SET-ADJUST-01",
+    "path": "screenshots/SET-ADJUST-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "11017ad3e290ffbde8d5c581b56c9dbd9b59fd6dd0beb592943a50b77de99b10"
+  },
+  {
+    "id": "SET-ADJUST-02",
+    "path": "screenshots/SET-ADJUST-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "11017ad3e290ffbde8d5c581b56c9dbd9b59fd6dd0beb592943a50b77de99b10"
+  },
+  {
+    "id": "SET-SUMMARY-01",
+    "path": "screenshots/SET-SUMMARY-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "24e63d083cefc4e0af18dc29d3d5088fa748113e7577ce4bdd202ed90b35ad79"
+  },
+  {
+    "id": "SET-EXPORT-01",
+    "path": "screenshots/SET-EXPORT-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "988a334b63a7cecb39b1f47678fac524ae89942fcf8549f9527a706a8262b715"
+  },
+  {
+    "id": "SET-EXPORT-02",
+    "path": "screenshots/SET-EXPORT-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "d0aef6383472eac0112c86f49410b0715f02e440bd95730212ee8e0fb5df9048"
+  },
+  {
+    "id": "SET-EXPORT-03",
+    "path": "screenshots/SET-EXPORT-03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "74bd1919dd4cd78e475dd565eea02b0121da401d22344ad8d43e23c6369ae53b"
+  },
+  {
+    "id": "SET-EXPORT-04",
+    "path": "screenshots/SET-EXPORT-04.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "c03b0fd65e224af3caa5e90d3bb255bd40e4b8d0f13297cfd3b4fdc67ccdd519"
+  },
+  {
+    "id": "SET-COLIST-01",
+    "path": "screenshots/SET-COLIST-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "9a62d8fb8c078aba0fd9a86ec95b17fc46cf178bfb4f397f1c79692de0ff4a7b"
+  },
+  {
+    "id": "SET-COLIST-02",
+    "path": "screenshots/SET-COLIST-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "1439b2af664f7ab808df8a7ec8ffc24ed0f2476d30a311297d849b424c994bd4"
+  },
+  {
+    "id": "SET-COLIST-03",
+    "path": "screenshots/SET-COLIST-03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "c8e2f7c436817017fa95081cdc5354718121435974e467fbcff6ac62408e6da7"
+  },
+  {
+    "id": "SET-SIS-04",
+    "path": "screenshots/SET-SIS-04.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "dad2f1b97245c0e6df124137dfb9ef781196fd808009ec73cbd46c6af141660f"
+  },
+  {
+    "id": "SET-SIS-05",
+    "path": "screenshots/SET-SIS-05.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "b28ecd3578e9ffd4caf5ff2d620576009dbc53266a1438aa4e1eb3aed7f2a612"
+  },
+  {
+    "id": "SET-ENGINE-05",
+    "path": "screenshots/SET-ENGINE-05.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "61f82ae13083c5a5ac2edbff894ebc47d4ac8fb5504bce7294dfa06e9f65756f"
+  },
+  {
+    "id": "SET-COMPARE-02",
+    "path": "screenshots/SET-COMPARE-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "82abfe52b8c86d32b46f26453e1cfb09aeb014556273190e490e58e7bb322ab8"
+  },
+  {
+    "id": "SET-WORKLOAD-01",
+    "path": "screenshots/SET-WORKLOAD-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "183a6d556eda32aed7e577e64e2da7b06d4bf8546451cca3d6a5bb3a0e8adf56"
+  },
+  {
+    "id": "SET-SNAPSHOT-01",
+    "path": "screenshots/SET-SNAPSHOT-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "fd070b874c45d369266f844f559fc22956a62fb71fdc79e498a858a06f387d5a"
+  },
+  {
+    "id": "SET-ARCHIVE-01",
+    "path": "screenshots/SET-ARCHIVE-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "b6cf41e5937974b20470ae9c2778a5b08f161cbd3cc449337ed1b59b5ae37ead"
+  },
+  {
+    "id": "SET-ARCHIVE-02",
+    "path": "screenshots/SET-ARCHIVE-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "bceb3696438491643f99612c9813d95b10c7531dd78c43ab266cd183807ca96e"
+  },
+  {
+    "id": "SET-ARCHIVE-03",
+    "path": "screenshots/SET-ARCHIVE-03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "f261242377bd0657e7866be15b8de8aae94e592c07db041309bc5854bdc68dcb"
+  },
+  {
+    "id": "SET-ARCHIVE-04",
+    "path": "screenshots/SET-ARCHIVE-04.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "f261242377bd0657e7866be15b8de8aae94e592c07db041309bc5854bdc68dcb"
+  },
+  {
+    "id": "SET-REGEN-01",
+    "path": "screenshots/SET-REGEN-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "79d9adb058932e1dcfd8cab83b8efbae1a7badf29d584b69d684acec058986be"
+  },
+  {
+    "id": "SET-CLEAN-01",
+    "path": "screenshots/SET-CLEAN-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "fec7fb576c19666ad543ad23bb533599cbb9b2eec02f150d8397feebc0572999"
+  },
+  {
+    "id": "COURSE-IMPORT-00",
+    "path": "screenshots/COURSE-IMPORT-00.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "4daddc35f7405479837becb0592e8683b82e228d85f58d145a400533ae7bc71c"
+  },
+  {
+    "id": "COURSE-REDUCTION-01",
+    "path": "screenshots/COURSE-REDUCTION-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "310cff8c46085d0a31387cc24da8e92863ee66acbf371ddd2b08484413ecd472"
+  },
+  {
+    "id": "COURSE-CARRY-01",
+    "path": "screenshots/COURSE-CARRY-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "7b9d7f54abdff4cfc07f103b6d9266ce8f34fec8f03191305720383c381d12a1"
+  },
+  {
+    "id": "COURSE-CARRY-02",
+    "path": "screenshots/COURSE-CARRY-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "7b9d7f54abdff4cfc07f103b6d9266ce8f34fec8f03191305720383c381d12a1"
+  },
+  {
+    "id": "COURSE-IMPORT-01",
+    "path": "screenshots/COURSE-IMPORT-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "7ba2463365e9aef6c57bcceda056a3e65418e6d1a88684b44852c35f3fe6fca4"
+  },
+  {
+    "id": "COURSE-IMPORT-02",
+    "path": "screenshots/COURSE-IMPORT-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "90908a050478962de5c7635f229ac70af5f3a8b30baf71269e0e5cc446f4ae24"
+  },
+  {
+    "id": "COURSE-PLAN-02",
+    "path": "screenshots/COURSE-PLAN-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "85c3275d1506f3fb2d67671abc007a63503d093484199e3683b7dac577c7bbc1"
+  },
+  {
+    "id": "COURSE-HISTORY-01",
+    "path": "screenshots/COURSE-HISTORY-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "0175566b725745c1e9e8e353d1dc8b3ed5b53293be823d42cfcad31a31a6e752"
+  },
+  {
+    "id": "COURSE-COPY-02",
+    "path": "screenshots/COURSE-COPY-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "296811e954873c057c245305e81701ec8e82733023d6f97241b91b4142dbc202"
+  },
+  {
+    "id": "COURSE-COPY-03",
+    "path": "screenshots/COURSE-COPY-03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "9b9b45cc0acf2db61aad7c093b84d708e26d404a69e3fb6f015c965821c8e2d1"
+  },
+  {
+    "id": "COURSE-CLEAR-01",
+    "path": "screenshots/COURSE-CLEAR-01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "8474cdb5874947ee1d613b417d9a8a4c1cb026f60696037867abe0e4818ee5d8"
+  },
+  {
+    "id": "CONFIG-RULE-BASELINE",
+    "path": "screenshots/CONFIG-RULE-BASELINE.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "aa0bc38d14d5d45c3c3576f191fe50f6eb3a5cf12ea7237bcf6ccf2a3b15ac98"
+  },
+  {
+    "id": "CONFIG-COURSE-03R",
+    "path": "screenshots/CONFIG-COURSE-03R.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "66b9be2014b9e4e94e7e525846ab9e7aeb313da853a392569e66843d692ada88"
+  },
+  {
+    "id": "CONFIG-COURSE-CLEAN",
+    "path": "screenshots/CONFIG-COURSE-CLEAN.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "7be4e6f285eb034d0df24e9a7c62d931e254891eb52d43edbe744c2b2cd5316b"
+  },
+  {
+    "id": "CONFIG-IMPORT-01",
+    "path": "screenshots/CONFIG-IMPORT-01.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "9bcb7d1e26f55ffa7973a072012cab67fcf4b27311199b6f66326a201c3a9ade"
+  },
+  {
+    "id": "CONFIG-IMPORT-02",
+    "path": "screenshots/CONFIG-IMPORT-02.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "8f04fe2d863020fd687bba776963058712961026d886ba88e75fabe25f99bdc6"
+  },
+  {
+    "id": "CONFIG-IMPORT-03",
+    "path": "screenshots/CONFIG-IMPORT-03.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "8f04fe2d863020fd687bba776963058712961026d886ba88e75fabe25f99bdc6"
+  },
+  {
+    "id": "TEACHER-01",
+    "path": "screenshots/TEACHER-01.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "c9b8a2acdf6c1f7e0f7780c6be0021bf3f12b926abd48d33ae6e3ecf1c4ec5fa"
+  },
+  {
+    "id": "TEACHER-02",
+    "path": "screenshots/TEACHER-02.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "1554cebdfd83b972529bfa4aef684547a4c2fcafbc1f41b50e436b3e18c17de2"
+  },
+  {
+    "id": "SPECIAL-003R",
+    "path": "screenshots/SPECIAL-003R.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "dfab21fe086fd9be63e65506fdbd4ee398b768c79cf112ada838075b7def687e"
+  },
+  {
+    "id": "TEACHER-03",
+    "path": "screenshots/TEACHER-03.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "ac6a7db3d9698ae877acbb98293d51f01b71be0905f07e9595ef31de64d71dfa"
+  },
+  {
+    "id": "TEACHER-CLEAN-01",
+    "path": "screenshots/TEACHER-CLEAN-01.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "70b4853070f8d6d3784fcf70c2e7502833a83f6588e027590e7bfbebbee7ad10"
+  },
+  {
+    "id": "CONFIG-IMPORT-CLEAN",
+    "path": "screenshots/CONFIG-IMPORT-CLEAN.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "c1c7269afbf81939ee280d0179ce24b7f905c2a345f8d2f43c13c905589f81eb"
+  },
+  {
+    "id": "SET-PLAN-01",
+    "path": "screenshots/SET-PLAN-01.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "697e03e282a9f8ba1bc549cd6ec02aff6fc0a35d67fe089aabeabfeaca6d71a4"
+  },
+  {
+    "id": "SET-PLAN-02",
+    "path": "screenshots/SET-PLAN-02.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "697e03e282a9f8ba1bc549cd6ec02aff6fc0a35d67fe089aabeabfeaca6d71a4"
+  },
+  {
+    "id": "SET-WEIGHT-01",
+    "path": "screenshots/SET-WEIGHT-01.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "8e9a0e929cdbc8470fc32e4fa475044cc7a093326ac38eeb9b2fa13b28a6eec9"
+  },
+  {
+    "id": "SET-WEIGHT-02",
+    "path": "screenshots/SET-WEIGHT-02.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "6e0e12f3da9a136547e94dc1fefb1acdb8497011f44c26f6a91e2fac5dfb99b2"
+  },
+  {
+    "id": "TEACHER-IMPORT-01",
+    "path": "screenshots/TEACHER-IMPORT-01.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "f775d30a83dce119f024a8605afc3971ac5290f45646dbfd9dfe2e8ca2bf2ebd"
+  },
+  {
+    "id": "TEACHER-IMPORT-02",
+    "path": "screenshots/TEACHER-IMPORT-02.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "376211f7c6197fcc87246fdfb11a8c856cdfc28766c1e4362b73585765a80b0c"
+  },
+  {
+    "id": "TEACHER-IMPORT-CLEAN",
+    "path": "screenshots/TEACHER-IMPORT-CLEAN.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "8a44931caa7207f704128d0c7a5f075df9dfab5783ffffdbd6f4a553e448d93b"
+  },
+  {
+    "id": "COURSE-CLEAN-02",
+    "path": "screenshots/COURSE-CLEAN-02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "60561ef26d1926267cd22b8c2d9709b3cb8663fa38b0d7a474adf2b5039aa67f"
+  },
+  {
+    "id": "SET-PLAN-CLEAN",
+    "path": "screenshots/SET-PLAN-CLEAN.jpg",
+    "width": 1910,
+    "height": 972,
+    "sha256": "45347fe9f3b96c197a52fbf9b19915dece09119a680cd1b03bb4f80b710f0704"
+  },
+  {
+    "id": "COURSE-REDUCTION02",
+    "path": "screenshots/COURSE-REDUCTION02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "d0533356a02a6d542b84c8375f68acc195168870ee5fd200fdabdee5c0fbbadc"
+  },
+  {
+    "id": "QUERY01",
+    "path": "screenshots/QUERY01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "bb0c5266ac1f77d4109fce0d83b930a263875fd3f23976bf1a9157db8c5ec708"
+  },
+  {
+    "id": "QUERY02",
+    "path": "screenshots/QUERY02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "70e259e005ab4cf26951e6874c116256d4c1ad67f3fcb76f88ad9be6ce937cfc"
+  },
+  {
+    "id": "QUERY03",
+    "path": "screenshots/QUERY03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "0822a81c358ee9f488c3ac4724a038a25d9d4e90e153b4141dca4b4a3cc32280"
+  },
+  {
+    "id": "COMPLIANCE01",
+    "path": "screenshots/COMPLIANCE01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "0104340aeca2b8bf0d36f0f81c3dd4ec988e12398be66aeb7c9ceb7459b60fed"
+  },
+  {
+    "id": "COMPLIANCE02",
+    "path": "screenshots/COMPLIANCE02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "8118eec0ecd5cf047daa4d58bb0c3879ee92c3f276d3285b30af954846017ced"
+  },
+  {
+    "id": "COMPLIANCE03",
+    "path": "screenshots/COMPLIANCE03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "d83556553160d43bc2626119fc60f07f5bb4e1c8aee3f0f7926ee8ba2a5b072e"
+  },
+  {
+    "id": "TASK01",
+    "path": "screenshots/TASK01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "41e60e8543587d5258063046443cb0eccf97fd9ec4d1ab975095e8e10a786d0e"
+  },
+  {
+    "id": "MESSAGE01",
+    "path": "screenshots/MESSAGE01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "4072bbe36df4f402cb6486e7a3b31f5610560403700a8f4f85f7e5d149fde222"
+  },
+  {
+    "id": "MESSAGE02",
+    "path": "screenshots/MESSAGE02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "f251fa9f97e7d55cbfe0268c3a150ad0b1c117b47fe3faaa6816104782f016ac"
+  },
+  {
+    "id": "MESSAGE03",
+    "path": "screenshots/MESSAGE03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "1120641a9edb8dd9b2dbd42401e4a2619ecaa80454d2aadf1b5df95c4ffec48f"
+  },
+  {
+    "id": "HOME01",
+    "path": "screenshots/HOME01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "661f8a746995b99b971924e8833ad002160542b3b538497c90c962e0cda32e23"
+  },
+  {
+    "id": "HOME02",
+    "path": "screenshots/HOME02.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "6b09665afc1175a3ecc006ff1a7ac969c88d230592f202c3beb1c9a72c771ff7"
+  },
+  {
+    "id": "CONFIG-YEAR03",
+    "path": "screenshots/CONFIG-YEAR03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "e1359c2ab5cc79ffc22e64f6ce3e5495f0e389ec67aa5f0325e704ed6ef1a978"
+  },
+  {
+    "id": "COURSE-LOCK01",
+    "path": "screenshots/COURSE-LOCK01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "0add195b339299586ca5fefe158b49c83cae036571a4c0ecee811aaaa081e08e"
+  },
+  {
+    "id": "COURSE-CLEAN03",
+    "path": "screenshots/COURSE-CLEAN03.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "e417b279174c3f8801a6d013525c8b61baeaa9787803043f73f1774ac98b3dbf"
+  },
+  {
+    "id": "CONFIG-COPY01",
+    "path": "screenshots/CONFIG-COPY01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "e1624788d68a2ecd42464d059e7ed5460327e6a6f1f4496cde802e84d2339556"
+  },
+  {
+    "id": "FLOW-FINAL-RECHECK",
+    "path": "screenshots/FLOW-FINAL-RECHECK.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "c3a0ffcd1e286270bb6fd88b56e54cc3de7a3b62173006d0d1f1865fb5c00a5d"
+  },
+  {
+    "id": "TRACK-COPY01",
+    "path": "screenshots/TRACK-COPY01.jpg",
+    "width": 1910,
+    "height": 975,
+    "sha256": "c3a0ffcd1e286270bb6fd88b56e54cc3de7a3b62173006d0d1f1865fb5c00a5d"
+  }
+]

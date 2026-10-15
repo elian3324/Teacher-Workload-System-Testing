@@ -1,0 +1,31 @@
+条件测试 - 分钟取整规则
+变量赋值
+原始课时
+选课人数
+学分
+上课模式(每周/隔周)
+学期代码
+评分基础(DPF/PU/ADF)
+课程类型(CEC/TRA/SUP)
+课程代码
+课程类别(PE/LANG)
+课程级别(UG/PG/RPG)
+指导学生数
+上课教室数
+阈值
+规则值(当前规则的value字段)
+超出整点的分钟数
+整点小时数
+测试结果
+未匹配到任何规则
+请检查输入值或规则条件
+执行日志
+输入值: {"rawHours":3,"enrolled":30,"units":3,"weeklyMode":"每周","termCode":"2450","gradingBasis":"DPF","courseType":"CEC","courseCode":"PSY7010","courseCategory":"PE","courseLevel":"UG","supervisionStudents":0,"classroomCount":1,"thresholdValue":0,"ruleValue":0,"minutes":10,"hours":2}
+---
+[不匹配] ≥30分钟取半: 条件不满足 (结果=0)
+[不匹配] ≥10分钟靠整: 条件不满足 (结果=0)
+[不匹配] 低于阈值舍去: 条件不满足 (结果=0)
+---
+测试完成: 未匹配到任何规则
+取消
+执行测试

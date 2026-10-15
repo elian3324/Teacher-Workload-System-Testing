@@ -1,0 +1,36 @@
+历史数据导入（Course Offering）
+步骤 1: 下载模板并上传数据
+下载导入模板
+拖拽 Course Offering Excel 文件到此处，或点击上传
+支持 Course Offering v005 标准模板（Updated Course Offering information collection table）
+已导入历史记录
+学年
+	
+文件名
+	
+导入时间
+	
+条数
+	
+状态
+2024-2025
+	
+CoursePlan_2024.xlsx
+	
+2026-05-10 14:30:00
+	
+156
+	
+SUCCESS
+
+
+2023-2024
+	
+CoursePlan_2023.xlsx
+	
+2026-05-12 09:15:00
+	
+142
+	
+PARTIAL
+关闭

@@ -1,0 +1,14 @@
+{
+  "business_steps": 110,
+  "source_records": 147,
+  "word_pages": 112,
+  "word_images": 110,
+  "unique_html_originals": 141,
+  "html_self_contained": true,
+  "all_html_images_match_originals": true,
+  "all_word_images_match_originals": true,
+  "word_render_method": "原生Word导出加pypdfium2逐页渲染；系统无LibreOffice",
+  "visual_review": "112页版式总览及首页、终审、结算和阻塞示例页检查；无空白溢出页，标题说明结果图注齐全",
+  "browser_operated": false,
+  "archive_integrity": "passed"
+}

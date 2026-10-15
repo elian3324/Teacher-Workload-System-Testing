@@ -1,0 +1,662 @@
+[
+  {
+    "number": "1.1",
+    "old_step": 1,
+    "title": "登录系统",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "2.1",
+    "old_step": 101,
+    "title": "查看首页概览",
+    "conclusion": "待确认。"
+  },
+  {
+    "number": "3.1.1",
+    "old_step": 5,
+    "title": "查看复制的工作量标准",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.1.2",
+    "old_step": 6,
+    "title": "调整测试学年标准",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.1.3",
+    "old_step": 22,
+    "title": "选择学年学期",
+    "conclusion": "采用绕行方式后完成，直接进入的学期加载待完善。"
+  },
+  {
+    "number": "3.1.4",
+    "old_step": 93,
+    "title": "进入课时减免页面",
+    "conclusion": "阻塞，当前账号只读。"
+  },
+  {
+    "number": "3.1.5",
+    "old_step": 94,
+    "title": "维护减免并检查联动",
+    "conclusion": "未执行，上游阻塞。"
+  },
+  {
+    "number": "3.1.6",
+    "old_step": 95,
+    "title": "查询具体学期结转差额",
+    "conclusion": "有待完善项。"
+  },
+  {
+    "number": "3.1.7",
+    "old_step": 96,
+    "title": "验证全年结转入账",
+    "conclusion": "未执行，需补充验收。"
+  },
+  {
+    "number": "3.2.1",
+    "old_step": 23,
+    "title": "检查新建课程必填项",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.2.2",
+    "old_step": 24,
+    "title": "新增本科开课安排",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.2.3",
+    "old_step": 25,
+    "title": "修改开课资料",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.2.4",
+    "old_step": 27,
+    "title": "复制一条开课记录",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.2.5",
+    "old_step": 28,
+    "title": "删除复制记录",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.2.6",
+    "old_step": 30,
+    "title": "获取标准导入模板",
+    "conclusion": "模板下载需补验；已提供模板继续导入。"
+  },
+  {
+    "number": "3.2.7",
+    "old_step": 31,
+    "title": "上传标准开课文件并预览",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.2.8",
+    "old_step": 32,
+    "title": "确认开课导入并回读",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.2.9",
+    "old_step": 34,
+    "title": "复制开课计划到下一学期",
+    "conclusion": "有待完善项。"
+  },
+  {
+    "number": "3.2.10",
+    "old_step": 35,
+    "title": "历史开课文件导入",
+    "conclusion": "阻塞。"
+  },
+  {
+    "number": "3.2.11",
+    "old_step": 26,
+    "title": "查看课程版本记录",
+    "conclusion": "有待完善项。"
+  },
+  {
+    "number": "3.3.1",
+    "old_step": 29,
+    "title": "查看教师计划工作量",
+    "conclusion": "有待完善项。"
+  },
+  {
+    "number": "3.3.2",
+    "old_step": 33,
+    "title": "核对混合频率及多教师分配",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.4.1",
+    "old_step": 21,
+    "title": "本科助理登录",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.4.2",
+    "old_step": 36,
+    "title": "助理提交本科计划",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.4.3",
+    "old_step": 37,
+    "title": "主任登录并接收本科待办",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.4.4",
+    "old_step": 38,
+    "title": "校验驳回原因",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.4.5",
+    "old_step": 39,
+    "title": "主任驳回计划",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.4.6",
+    "old_step": 40,
+    "title": "助理重建课程后重新提交",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.4.7",
+    "old_step": 41,
+    "title": "主任初审通过",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.4.8",
+    "old_step": 42,
+    "title": "本科行政登录核对待办和计划",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.4.9",
+    "old_step": 43,
+    "title": "本科行政复审通过",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.4.10",
+    "old_step": 44,
+    "title": "行政主管接收并通过本科计划",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.4.11",
+    "old_step": 45,
+    "title": "主管领导终审本科计划",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.5.1",
+    "old_step": 46,
+    "title": "研究生助理登录选择学期",
+    "conclusion": "采用绕行方式后完成，直接进入的学期加载待完善。"
+  },
+  {
+    "number": "3.5.2",
+    "old_step": 47,
+    "title": "新增研究生开课安排",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.5.3",
+    "old_step": 48,
+    "title": "研究生助理提交计划",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.5.4",
+    "old_step": 49,
+    "title": "主任通过研究生计划",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.5.5",
+    "old_step": 50,
+    "title": "研究生行政登录并核对范围",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.5.6",
+    "old_step": 51,
+    "title": "研究生行政复审通过",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.5.7",
+    "old_step": 52,
+    "title": "行政主管复审研究生计划",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.5.8",
+    "old_step": 53,
+    "title": "主管领导终审研究生计划",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "3.5.9",
+    "old_step": 54,
+    "title": "审批跟踪核对两条已完成计划",
+    "conclusion": "有待完善项。"
+  },
+  {
+    "number": "4.1.1",
+    "old_step": 55,
+    "title": "校验SIS文件关键列",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.1.2",
+    "old_step": 56,
+    "title": "导入SIS课程数据",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.1.3",
+    "old_step": 57,
+    "title": "补齐标准学分列并重复导入",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.1.4",
+    "old_step": 58,
+    "title": "检查课时文件格式",
+    "conclusion": "格式校验通过，调整文件后继续。"
+  },
+  {
+    "number": "4.1.5",
+    "old_step": 59,
+    "title": "导入正确的上课时间",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.2.1",
+    "old_step": 60,
+    "title": "从开课资料生成结算计划",
+    "conclusion": "有待完善项。"
+  },
+  {
+    "number": "4.2.2",
+    "old_step": 61,
+    "title": "识别缺少时间的记录",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.2.3",
+    "old_step": 62,
+    "title": "查看零学分异常及筛选",
+    "conclusion": "阻塞。"
+  },
+  {
+    "number": "4.2.4",
+    "old_step": 63,
+    "title": "验证有效学分与课时计算",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.2.5",
+    "old_step": 64,
+    "title": "保存结算结果及偏差说明",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.2.6",
+    "old_step": 65,
+    "title": "重新计算后再次保存",
+    "conclusion": "阻塞。"
+  },
+  {
+    "number": "4.2.7",
+    "old_step": 66,
+    "title": "查看课程处理记录",
+    "conclusion": "有待完善项。"
+  },
+  {
+    "number": "4.3.1",
+    "old_step": 67,
+    "title": "人工调整工作量与课程数",
+    "conclusion": "有待完善项。"
+  },
+  {
+    "number": "4.3.2",
+    "old_step": 68,
+    "title": "核对教师汇总",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.3.3",
+    "old_step": 69,
+    "title": "查看保存后的工作量明细",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.4.1",
+    "old_step": 70,
+    "title": "新增合教课程代码",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.4.2",
+    "old_step": 71,
+    "title": "修改合教课程代码",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.4.3",
+    "old_step": 72,
+    "title": "删除合教课程代码",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.4.4",
+    "old_step": 73,
+    "title": "检查授课比例合计",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.4.5",
+    "old_step": 74,
+    "title": "保存合法授课比例",
+    "conclusion": "阻塞。"
+  },
+  {
+    "number": "4.5.1",
+    "old_step": 89,
+    "title": "检查特殊申请必填项",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.5.2",
+    "old_step": 90,
+    "title": "填写申请并选择模拟附件",
+    "conclusion": "附件选择通过；随申请保存待验证。"
+  },
+  {
+    "number": "4.5.3",
+    "old_step": 91,
+    "title": "提交特殊申请",
+    "conclusion": "阻塞。"
+  },
+  {
+    "number": "4.5.4",
+    "old_step": 92,
+    "title": "审核特殊申请并回写调整",
+    "conclusion": "未执行，上游阻塞。"
+  },
+  {
+    "number": "4.6.1",
+    "old_step": 75,
+    "title": "导出教师明细",
+    "conclusion": "需补充实际文件验证。"
+  },
+  {
+    "number": "4.6.2",
+    "old_step": 76,
+    "title": "导出学部汇总",
+    "conclusion": "需补充实际文件验证。"
+  },
+  {
+    "number": "4.6.3",
+    "old_step": 77,
+    "title": "导出差异汇总",
+    "conclusion": "需补充实际文件验证。"
+  },
+  {
+    "number": "4.6.4",
+    "old_step": 78,
+    "title": "导出空的特殊审批报表",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "4.7.1",
+    "old_step": 79,
+    "title": "创建结算快照",
+    "conclusion": "阻塞。"
+  },
+  {
+    "number": "4.7.2",
+    "old_step": 80,
+    "title": "查看和使用新建快照",
+    "conclusion": "未执行，上游阻塞。"
+  },
+  {
+    "number": "4.7.3",
+    "old_step": 81,
+    "title": "归档结算批次并检查写保护",
+    "conclusion": "阻塞。"
+  },
+  {
+    "number": "4.7.4",
+    "old_step": 82,
+    "title": "取消归档继续维护",
+    "conclusion": "有待完善项。"
+  },
+  {
+    "number": "5.1.1",
+    "old_step": 83,
+    "title": "查询实际版达标情况",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "5.1.2",
+    "old_step": 84,
+    "title": "按具体学期查看达标情况",
+    "conclusion": "待确认。"
+  },
+  {
+    "number": "5.1.3",
+    "old_step": 85,
+    "title": "切换预估版达标情况",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "5.2.1",
+    "old_step": 86,
+    "title": "按工号查询工作量",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "5.2.2",
+    "old_step": 87,
+    "title": "打开教师课程明细",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "5.2.3",
+    "old_step": 88,
+    "title": "按课程代码筛选明细",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "6.1.1",
+    "old_step": 97,
+    "title": "刷新当前待办",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "6.2.1",
+    "old_step": 98,
+    "title": "查看提交计划生成的通知",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "6.2.2",
+    "old_step": 99,
+    "title": "标记本轮通知已读",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "6.2.3",
+    "old_step": 100,
+    "title": "从通知进入待办",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "7.1.1",
+    "old_step": 2,
+    "title": "新建测试学年",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "7.1.2",
+    "old_step": 3,
+    "title": "查看自动生成的学期",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "7.1.3",
+    "old_step": 4,
+    "title": "维护学期信息",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "7.1.4",
+    "old_step": 110,
+    "title": "学年启用及当前版本切换",
+    "conclusion": "未执行，需补充验收。"
+  },
+  {
+    "number": "7.2.1",
+    "old_step": 7,
+    "title": "新增测试规则",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "7.2.2",
+    "old_step": 8,
+    "title": "验证规则命中和未命中",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "7.2.3",
+    "old_step": 9,
+    "title": "修改规则并回读",
+    "conclusion": "有待完善项。"
+  },
+  {
+    "number": "7.2.4",
+    "old_step": 10,
+    "title": "查看规则影响范围",
+    "conclusion": "有待完善项。"
+  },
+  {
+    "number": "7.2.5",
+    "old_step": 11,
+    "title": "删除自建规则",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "7.2.6",
+    "old_step": 12,
+    "title": "确认原业务规则版本",
+    "conclusion": "有待完善项。"
+  },
+  {
+    "number": "7.3.1",
+    "old_step": 13,
+    "title": "新增基础课程",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "7.3.2",
+    "old_step": 14,
+    "title": "修改基础课程",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "7.3.3",
+    "old_step": 15,
+    "title": "导入基础课程",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "7.3.4",
+    "old_step": 16,
+    "title": "重复导入更新基础课程",
+    "conclusion": "待确认。"
+  },
+  {
+    "number": "7.4.1",
+    "old_step": 17,
+    "title": "创建模拟教师并查询",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "7.4.2",
+    "old_step": 18,
+    "title": "修改模拟教师",
+    "conclusion": "阻塞。"
+  },
+  {
+    "number": "7.4.3",
+    "old_step": 19,
+    "title": "批量导入教师并查询",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "7.4.4",
+    "old_step": 20,
+    "title": "移除模拟教师身份",
+    "conclusion": "阻塞。"
+  },
+  {
+    "number": "8.1.1",
+    "old_step": 102,
+    "title": "清理复制到Term2的模拟课程",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "8.1.2",
+    "old_step": 103,
+    "title": "清理Term1导入课程",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "8.1.3",
+    "old_step": 108,
+    "title": "单条清理已审批的模拟课程",
+    "conclusion": "待确认。"
+  },
+  {
+    "number": "8.2.1",
+    "old_step": 104,
+    "title": "清理生成的结算计划",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "8.2.2",
+    "old_step": 105,
+    "title": "清理模拟SIS课程与课时",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "8.3.1",
+    "old_step": 106,
+    "title": "删除模拟基础课程",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "8.3.2",
+    "old_step": 107,
+    "title": "清理模拟教师及账号",
+    "conclusion": "通过。"
+  },
+  {
+    "number": "8.3.3",
+    "old_step": 109,
+    "title": "删除测试草稿学年",
+    "conclusion": "阻塞。"
+  }
+]

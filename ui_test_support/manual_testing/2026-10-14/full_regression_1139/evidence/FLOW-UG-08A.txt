@@ -1,0 +1,113 @@
+CUHK-SZ HSS Teacher Teaching Hours Management System
+首页
+教学计划管理
+结算管理
+工作量结算管理
+达标情况对比
+特殊审批
+工作量查询
+待办任务
+系统消息
+系统配置管理
+结算管理
+/
+达标情况对比
+En
+学院行政--本科
+首页
+待办任务
+达标情况对比
+达标情况对比
+学年：
+2026-2027学年
+学期：
+Summer
+实际学科部：
+请选择实际学科部
+层次：
+本科
+当前学年：2026-2027
+当前学期：Summer
+当前层次：本科
+计划版
+预估版
+实际版
+导出汇总
+合同类型
+	
+教师数
+	
+达标
+	
+不达标
+	
+Hours/w/t (avg / max / min)
+	
+Courses/t (avg / max / min)
+	
+Credits/y (avg / max / min)
+	
+studentNo (avg / max / min)
+Tenure-track
+	
+1
+	
+0
+	
+1
+	
+2.0 / 2 / 2
+	
+1.0 / 1 / 1
+	
+3.0 / 3 / 3
+	
+0 / 0 / 0
+筛选合同类型
+减免状态
+筛选状态
+导出明细
+列筛选
+	
+#
+	
+教师
+	
+工号
+	
+学部
+	
+合同类型
+	
+Hours(实际/全年标准)
+	
+Courses(实际/全年标准)
+	
+Credits(实际/全年标准)
+	
+studentNo(实际/全年标准)
+	
+判定
+	
+1
+	
+陈纯
+	
+002272
+	
+Division of Applied Psychology
+	
+Tenure-track
+	
+2 / 9
+减免详情
+	
+1 / 3
+减免详情
+	
+3 / 9
+减免详情
+	
+0 / 0
+	
+不达标

@@ -1,0 +1,1555 @@
+[
+  {
+    "id": "SYS-001",
+    "module": "用户管理",
+    "flow": "登录账号模糊查询",
+    "status": "通过",
+    "actual": "assistant_ug查询返回3条包含该字符串的账号，精确账号所属Applied Psychology本科助理。",
+    "evidence": "evidence/SYS-001.txt",
+    "screenshot": "screenshots/SYS-001.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "AUTH-UG",
+    "module": "角色登录",
+    "flow": "本科助理登录及菜单",
+    "status": "通过",
+    "actual": "assistant_ug登录成功，头部显示学科部助理--本科，系统管理菜单不可见。",
+    "evidence": "evidence/AUTH-UG.txt",
+    "screenshot": "screenshots/AUTH-UG.jpg"
+  },
+  {
+    "id": "COURSE-001",
+    "module": "开课管理",
+    "flow": "新增课程必填校验",
+    "status": "通过",
+    "actual": "空表保存被拦截，提示Course Code和Course Title必填。",
+    "evidence": "evidence/COURSE-001.txt",
+    "screenshot": "screenshots/COURSE-001.jpg"
+  },
+  {
+    "id": "COURSE-002",
+    "module": "开课管理",
+    "flow": "本科助理新增课程并回读列表",
+    "status": "通过",
+    "actual": "模拟课程PSY1020新增成功，仅该学部该学期1条。",
+    "evidence": "evidence/COURSE-002.txt",
+    "screenshot": "screenshots/COURSE-002.jpg"
+  },
+  {
+    "id": "COURSE-003",
+    "module": "开课管理",
+    "flow": "保存后回读教学安排",
+    "status": "通过",
+    "actual": "编辑页保留QAUG、课时2.0和Mon:10:30-12:20。",
+    "evidence": "evidence/COURSE-003.txt",
+    "screenshot": "screenshots/COURSE-003.jpg"
+  },
+  {
+    "id": "COURSE-004",
+    "module": "开课管理",
+    "flow": "编辑课程标题",
+    "status": "通过",
+    "actual": "保存后列表显示-修订标题。",
+    "evidence": "evidence/COURSE-004.txt",
+    "screenshot": "screenshots/COURSE-004.jpg"
+  },
+  {
+    "id": "COURSE-005",
+    "module": "开课管理",
+    "flow": "新增及编辑后的版本历史",
+    "status": "失败",
+    "actual": "新增成功且编辑保存成功后，版本弹窗仍显示暂无版本记录（首次保存后会生成）。",
+    "evidence": "evidence/COURSE-005.txt",
+    "screenshot": "screenshots/COURSE-005.jpg"
+  },
+  {
+    "id": "COURSE-006",
+    "module": "开课管理",
+    "flow": "复制模拟课程",
+    "status": "通过",
+    "actual": "复制后列表由1条变2条，提示已复制PSY1020-QAUG。",
+    "evidence": "evidence/COURSE-006.txt",
+    "screenshot": "screenshots/COURSE-006.jpg"
+  },
+  {
+    "id": "COURSE-007",
+    "module": "开课管理",
+    "flow": "删除本轮复制项",
+    "status": "通过",
+    "actual": "删除复制项后剩余1条本科模拟课程。",
+    "evidence": "evidence/COURSE-007.txt",
+    "screenshot": "screenshots/COURSE-007.jpg"
+  },
+  {
+    "id": "COURSE-008",
+    "module": "开课管理",
+    "flow": "计划版按教师汇总",
+    "status": "通过",
+    "actual": "单教师每周2小时、1门3学分、名额30，计划版汇总Hours2/课程1/学分3/人数30。",
+    "evidence": "evidence/COURSE-008.txt",
+    "screenshot": "screenshots/COURSE-008.jpg"
+  },
+  {
+    "id": "COURSE-009",
+    "module": "开课管理",
+    "flow": "列表课时与已保存安排一致",
+    "status": "失败",
+    "actual": "编辑页课时2.0，计划版Hours2，但开课列表讲座课时/周与辅导课时/周均为“-”。",
+    "evidence": "evidence/COURSE-009.txt",
+    "screenshot": "screenshots/COURSE-009.jpg"
+  },
+  {
+    "id": "FLOW-UG-01",
+    "module": "本科开课审批",
+    "flow": "助理提交并进入只读",
+    "status": "通过",
+    "actual": "2026-2027 Summer本科模拟计划已提交，页面状态待审批，新增编辑删除入口收起，仅保留版本只读模式。",
+    "evidence": "evidence/FLOW-UG-01.txt",
+    "screenshot": "screenshots/FLOW-UG-01.jpg"
+  },
+  {
+    "id": "AUTH-PG",
+    "module": "角色登录",
+    "flow": "研究生助理登录及菜单",
+    "status": "通过",
+    "actual": "assistant_pg成功登录，头部显示研究生助理。",
+    "evidence": "evidence/AUTH-PG.txt",
+    "screenshot": "screenshots/AUTH-PG.jpg"
+  },
+  {
+    "id": "FLOW-PG-00",
+    "module": "研究生开课审批",
+    "flow": "选择可提交的具体学期",
+    "status": "失败",
+    "actual": "研究生助理在2026-2027学年学期下拉仅有全年，无法选择Term1/Term2/Summer；全年只读，阻断隔离学期创建及提交流程。本科助理同学年可选Summer。",
+    "evidence": "evidence/FLOW-PG-00.txt",
+    "screenshot": "screenshots/FLOW-PG-00.jpg"
+  },
+  {
+    "id": "FLOW-PG-00B",
+    "module": "研究生开课审批",
+    "flow": "其他学年复核学期下拉",
+    "status": "失败",
+    "actual": "2025-2026同样仅全年，说明不是2026-2027单个学年无数据。",
+    "evidence": "evidence/FLOW-PG-00B.txt",
+    "screenshot": "screenshots/FLOW-PG-00B.jpg"
+  },
+  {
+    "id": "AUTH-HEAD",
+    "module": "角色登录",
+    "flow": "学科部主任登录及菜单",
+    "status": "通过",
+    "actual": "dept_head成功登录，头部角色正确。",
+    "evidence": "evidence/AUTH-HEAD.txt",
+    "screenshot": "screenshots/AUTH-HEAD.jpg"
+  },
+  {
+    "id": "FLOW-UG-02",
+    "module": "本科开课审批",
+    "flow": "主任接收计划与节点进度",
+    "status": "通过",
+    "actual": "主任待办出现本科2026-2027SUMMER1门，四级审批流程待处理。",
+    "evidence": "evidence/FLOW-UG-02.txt",
+    "screenshot": "screenshots/FLOW-UG-02.jpg"
+  },
+  {
+    "id": "FLOW-UG-03",
+    "module": "本科开课审批",
+    "flow": "驳回原因必填",
+    "status": "通过",
+    "actual": "空原因点击确认驳回提示请输入驳回原因，未改变待审状态。",
+    "evidence": "evidence/FLOW-UG-03.txt",
+    "screenshot": "screenshots/FLOW-UG-03.jpg"
+  },
+  {
+    "id": "FLOW-UG-04",
+    "module": "本科开课审批",
+    "flow": "主任驳回模拟计划",
+    "status": "通过",
+    "actual": "模拟计划变已驳回，流程记录主任及时间；提示会清空该提交人当前学期课程，待回助理核对。",
+    "evidence": "evidence/FLOW-UG-04.txt",
+    "screenshot": "screenshots/FLOW-UG-04.jpg"
+  },
+  {
+    "id": "FLOW-UG-05",
+    "module": "本科开课审批",
+    "flow": "驳回后重新选择学期重提",
+    "status": "阻塞",
+    "actual": "重新登录本科助理并刷新后，具体学期同样消失，只剩全年，阻断重新建课和重提；不是仅研究生账号问题。",
+    "evidence": "evidence/FLOW-UG-05.txt",
+    "screenshot": "screenshots/FLOW-UG-05.jpg"
+  },
+  {
+    "id": "CONFIG-TERM-01",
+    "module": "学年学期",
+    "flow": "对照开课下拉与学期配置",
+    "status": "失败",
+    "actual": "本科助理能在学期管理看到全部9个学期，但开课学期下拉仅全年，基础记录存在，具体原因待开发核对。",
+    "evidence": "evidence/CONFIG-TERM-01.txt",
+    "screenshot": "screenshots/CONFIG-TERM-01.jpg"
+  },
+  {
+    "id": "FLOW-UG-05R",
+    "module": "本科开课审批",
+    "flow": "通过先访问学期管理恢复下拉",
+    "status": "通过",
+    "actual": "未修改任何配置，仅先打开学年学期管理→学期管理，再返回开课管理，Term1/Term2/Summer恢复。确认存在页面初始化/加载依赖，后续可绕行执行。",
+    "evidence": "evidence/FLOW-UG-05R.txt",
+    "screenshot": "screenshots/FLOW-UG-05R.jpg"
+  },
+  {
+    "id": "FLOW-UG-06",
+    "module": "本科开课审批",
+    "flow": "驳回后重新建课并重提",
+    "status": "通过",
+    "actual": "恢复学期选项后重建PSY1020 QAUGR，重新提交成功，待审批只读。",
+    "evidence": "evidence/FLOW-UG-06.txt",
+    "screenshot": "screenshots/FLOW-UG-06.jpg"
+  },
+  {
+    "id": "FLOW-PG-01",
+    "module": "研究生开课审批",
+    "flow": "绕行恢复学期并核对本科隔离",
+    "status": "通过",
+    "actual": "访问学期管理后Summer可选；研究生Summer列表为空，本科模拟UG记录不可见。",
+    "evidence": "evidence/FLOW-PG-01.txt",
+    "screenshot": "screenshots/FLOW-PG-01.jpg"
+  },
+  {
+    "id": "FLOW-PG-02",
+    "module": "研究生开课审批",
+    "flow": "研究生模拟课程新增",
+    "status": "通过",
+    "actual": "TPG模拟课程新增，QAPG每周3小时；本科UG模拟课程在研究生列表不可见。",
+    "evidence": "evidence/FLOW-PG-02.txt",
+    "screenshot": "screenshots/FLOW-PG-02.jpg"
+  },
+  {
+    "id": "FLOW-PG-03",
+    "module": "研究生开课审批",
+    "flow": "研究生助理提交",
+    "status": "通过",
+    "actual": "模拟TPG计划提交成功，进入审批中只读。",
+    "evidence": "evidence/FLOW-PG-03.txt",
+    "screenshot": "screenshots/FLOW-PG-03.jpg"
+  },
+  {
+    "id": "FLOW-UG-07",
+    "module": "本科开课审批",
+    "flow": "主任初审通过",
+    "status": "通过",
+    "actual": "本科模拟计划转为待学院行政审批。",
+    "evidence": "evidence/FLOW-UG-07.txt",
+    "screenshot": "screenshots/FLOW-UG-07.jpg"
+  },
+  {
+    "id": "FLOW-PG-04",
+    "module": "研究生开课审批",
+    "flow": "主任初审通过",
+    "status": "通过",
+    "actual": "研究生模拟计划转为待学院行政审批。",
+    "evidence": "evidence/FLOW-PG-04.txt",
+    "screenshot": "screenshots/FLOW-PG-04.jpg"
+  },
+  {
+    "id": "AUTH-ADMINUG",
+    "module": "角色登录",
+    "flow": "本科行政登录",
+    "status": "通过",
+    "actual": "admin_ug登录成功。",
+    "evidence": "evidence/AUTH-ADMINUG.txt",
+    "screenshot": "screenshots/AUTH-ADMINUG.jpg"
+  },
+  {
+    "id": "PERM-ADMINUG",
+    "module": "角色范围",
+    "flow": "本科行政待办按层次隔离",
+    "status": "通过",
+    "actual": "待办仅本科模拟计划1条，同学部同学期研究生模拟计划不可见。",
+    "evidence": "evidence/PERM-ADMINUG.txt",
+    "screenshot": "screenshots/PERM-ADMINUG.jpg"
+  },
+  {
+    "id": "FLOW-UG-08A",
+    "module": "本科开课审批",
+    "flow": "审批行跳转达标情况上下文",
+    "status": "通过",
+    "actual": "页面加载完成后正确应用URL参数：2026-2027/Summer/本科，显示模拟课程Hours2/课程1/学分3。初始加载瞬间为默认值，未判为Bug。",
+    "evidence": "evidence/FLOW-UG-08A.txt",
+    "screenshot": "screenshots/FLOW-UG-08A.jpg"
+  },
+  {
+    "id": "FLOW-UG-08",
+    "module": "本科开课审批",
+    "flow": "本科行政复审通过",
+    "status": "通过",
+    "actual": "本科行政待办清空，流程转待学院行政主管审批，保留主任与本科行政通过记录。",
+    "evidence": "evidence/FLOW-UG-08.txt",
+    "screenshot": "screenshots/FLOW-UG-08.jpg"
+  },
+  {
+    "id": "AUTH-ADMINPG",
+    "module": "角色登录",
+    "flow": "研究生行政登录",
+    "status": "通过",
+    "actual": "admin_pg成功登录。",
+    "evidence": "evidence/AUTH-ADMINPG.txt",
+    "screenshot": "screenshots/AUTH-ADMINPG.jpg"
+  },
+  {
+    "id": "PERM-ADMINPG",
+    "module": "角色范围",
+    "flow": "研究生行政待办按层次隔离",
+    "status": "通过",
+    "actual": "待办仅研究生模拟计划，本科计划已在主管节点，不出现可处理本科计划。",
+    "evidence": "evidence/PERM-ADMINPG.txt",
+    "screenshot": "screenshots/PERM-ADMINPG.jpg"
+  },
+  {
+    "id": "FLOW-PG-05",
+    "module": "研究生开课审批",
+    "flow": "研究生行政复审通过",
+    "status": "通过",
+    "actual": "研究生行政处理后流程转待学院行政主管审批。",
+    "evidence": "evidence/FLOW-PG-05.txt",
+    "screenshot": "screenshots/FLOW-PG-05.jpg"
+  },
+  {
+    "id": "AUTH-SUP",
+    "module": "角色登录",
+    "flow": "学院行政主管登录",
+    "status": "通过",
+    "actual": "admin_sup成功登录。",
+    "evidence": "evidence/AUTH-SUP.txt",
+    "screenshot": "screenshots/AUTH-SUP.jpg"
+  },
+  {
+    "id": "FLOW-SUP-01",
+    "module": "开课审批",
+    "flow": "行政主管接收两类计划",
+    "status": "通过",
+    "actual": "行政主管待办同时出现本科、研究生两条模拟计划，均待主管审批。",
+    "evidence": "evidence/FLOW-SUP-01.txt",
+    "screenshot": "screenshots/FLOW-SUP-01.jpg"
+  },
+  {
+    "id": "FLOW-UG-09",
+    "module": "本科开课审批",
+    "flow": "行政主管复审通过",
+    "status": "通过",
+    "actual": "本科计划转待主管领导审批。",
+    "evidence": "evidence/FLOW-UG-09.txt",
+    "screenshot": "screenshots/FLOW-UG-09.jpg"
+  },
+  {
+    "id": "FLOW-PG-06",
+    "module": "研究生开课审批",
+    "flow": "行政主管复审通过",
+    "status": "通过",
+    "actual": "研究生计划转待主管领导审批。",
+    "evidence": "evidence/FLOW-PG-06.txt",
+    "screenshot": "screenshots/FLOW-PG-06.jpg"
+  },
+  {
+    "id": "AUTH-DEAN",
+    "module": "角色登录",
+    "flow": "主管领导登录",
+    "status": "通过",
+    "actual": "dean成功登录。",
+    "evidence": "evidence/AUTH-DEAN.txt",
+    "screenshot": "screenshots/AUTH-DEAN.jpg"
+  },
+  {
+    "id": "FLOW-UG-10",
+    "module": "本科开课审批",
+    "flow": "主管领导终审通过",
+    "status": "通过",
+    "actual": "本科模拟计划完成四级审批，流程显示审批通过，各级通过人和时间完整。 最终状态另见FLOW-FINAL-RECHECK；原操作截图可能仍在确认弹窗，不单独作为最终成功证明。",
+    "evidence": "evidence/FLOW-UG-10.txt",
+    "screenshot": "screenshots/FLOW-UG-10.jpg"
+  },
+  {
+    "id": "FLOW-PG-07",
+    "module": "研究生开课审批",
+    "flow": "主管领导终审通过",
+    "status": "通过",
+    "actual": "研究生模拟计划完成四级审批，流程显示审批通过，各级通过人和时间完整。 最终状态另见FLOW-FINAL-RECHECK；原操作截图可能仍在确认弹窗，不单独作为最终成功证明。",
+    "evidence": "evidence/FLOW-PG-07.txt",
+    "screenshot": "screenshots/FLOW-PG-07.jpg"
+  },
+  {
+    "id": "AUTH-ADMIN",
+    "module": "角色登录",
+    "flow": "管理员登录",
+    "status": "通过",
+    "actual": "提供的管理员账号登录成功，系统管理菜单可见。",
+    "evidence": "evidence/AUTH-ADMIN.txt",
+    "screenshot": "screenshots/AUTH-ADMIN.jpg"
+  },
+  {
+    "id": "SYS-POST-01",
+    "module": "岗位管理",
+    "flow": "新增模拟岗位",
+    "status": "通过",
+    "actual": "新增岗位qa1014_1139成功，列表显示名称顺序备注与状态。",
+    "evidence": "evidence/SYS-POST-01.txt",
+    "screenshot": "screenshots/SYS-POST-01.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-POST-02",
+    "module": "岗位管理",
+    "flow": "查询与修改模拟岗位",
+    "status": "通过",
+    "actual": "按编码查询并编辑岗位名为测试岗位修订，保存后回读一致。",
+    "evidence": "evidence/SYS-POST-02.txt",
+    "screenshot": "screenshots/SYS-POST-02.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-POST-03",
+    "module": "岗位管理",
+    "flow": "删除并核对清理",
+    "status": "通过",
+    "actual": "删除本轮测试岗位后查询无数据。",
+    "evidence": "evidence/SYS-POST-03.txt",
+    "screenshot": "screenshots/SYS-POST-03.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-DICT-01",
+    "module": "字典管理",
+    "flow": "新增查询测试字典",
+    "status": "通过",
+    "actual": "独立qa1014_1139字典新增及按类型查询成功。",
+    "evidence": "evidence/SYS-DICT-01.txt",
+    "screenshot": "screenshots/SYS-DICT-01.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-DICT-02",
+    "module": "字典数据",
+    "flow": "新增数据项",
+    "status": "通过",
+    "actual": "QA_1数据项新增成功。",
+    "evidence": "evidence/SYS-DICT-02.txt",
+    "screenshot": "screenshots/SYS-DICT-02.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-DICT-03",
+    "module": "字典数据",
+    "flow": "修改中文标签",
+    "status": "通过",
+    "actual": "中文标签修改后列表回显正确。",
+    "evidence": "evidence/SYS-DICT-03.txt",
+    "screenshot": "screenshots/SYS-DICT-03.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-DICT-04",
+    "module": "字典数据",
+    "flow": "英文标签保存回读",
+    "status": "失败",
+    "actual": "新增输入QA Test Item，修改输入QA Updated Item，两次保存后列表英文标签均空；重新打开修改，英文标签输入框也是空。",
+    "evidence": "evidence/SYS-DICT-04.txt",
+    "screenshot": "screenshots/SYS-DICT-04.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-DICT-05",
+    "module": "字典数据",
+    "flow": "删除测试数据项",
+    "status": "通过",
+    "actual": "QA_1删除成功，数据列表无记录。",
+    "evidence": "evidence/SYS-DICT-05.txt",
+    "screenshot": "screenshots/SYS-DICT-05.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-DICT-06",
+    "module": "字典管理",
+    "flow": "修改字典名称",
+    "status": "通过",
+    "actual": "字典名修订保存并回显。",
+    "evidence": "evidence/SYS-DICT-06.txt",
+    "screenshot": "screenshots/SYS-DICT-06.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-DICT-07",
+    "module": "字典管理",
+    "flow": "删除测试字典并核对清理",
+    "status": "通过",
+    "actual": "测试字典删除成功，查询无数据。",
+    "evidence": "evidence/SYS-DICT-07.txt",
+    "screenshot": "screenshots/SYS-DICT-07.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-DEPT-01",
+    "module": "部门管理",
+    "flow": "新增查询模拟部门",
+    "status": "通过",
+    "actual": "新增Cuhksz下模拟部门，按唯一标记查询可见。",
+    "evidence": "evidence/SYS-DEPT-01.txt",
+    "screenshot": "screenshots/SYS-DEPT-01.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-DEPT-02",
+    "module": "部门管理",
+    "flow": "修改模拟部门",
+    "status": "通过",
+    "actual": "实际键盘替换名称为QA1014_1139部门修订后，保存并回读一致。",
+    "evidence": "evidence/SYS-DEPT-02.txt",
+    "screenshot": "screenshots/SYS-DEPT-02.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-DEPT-03",
+    "module": "部门管理",
+    "flow": "删除并核对清理",
+    "status": "通过",
+    "actual": "测试部门删除，查询无数据。",
+    "evidence": "evidence/SYS-DEPT-03.txt",
+    "screenshot": "screenshots/SYS-DEPT-03.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-ROLE-01",
+    "module": "角色管理",
+    "flow": "新增未分配用户的测试角色",
+    "status": "失败",
+    "actual": "全部可见必填项已填写，保存返回“请求参数不正确:显示顺序不能为空”，但表单没有显示顺序字段，无法完成新增。",
+    "evidence": "evidence/SYS-ROLE-01.txt",
+    "screenshot": "screenshots/SYS-ROLE-01.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-ROLE-02",
+    "module": "角色管理",
+    "flow": "核对失败新增残留",
+    "status": "通过",
+    "actual": "按qa1014_1139查询无数据，失败请求未创建角色。",
+    "evidence": "evidence/SYS-ROLE-02.txt",
+    "screenshot": "screenshots/SYS-ROLE-02.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-MENU-01",
+    "module": "菜单管理",
+    "flow": "新增关闭隐藏的测试目录",
+    "status": "通过",
+    "actual": "新增qa1014_1139目录，未分配权限，状态关闭、显示隐藏。",
+    "evidence": "evidence/SYS-MENU-01.txt",
+    "screenshot": "screenshots/SYS-MENU-01.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-MENU-02",
+    "module": "菜单管理",
+    "flow": "查询回读并修改测试目录",
+    "status": "通过",
+    "actual": "关闭和隐藏状态正确回读，名称修订后列表一致。",
+    "evidence": "evidence/SYS-MENU-02.txt",
+    "screenshot": "screenshots/SYS-MENU-02.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-MENU-03",
+    "module": "菜单管理",
+    "flow": "删除测试目录并核对清理",
+    "status": "通过",
+    "actual": "测试目录删除，查询无数据，未新增任何用户权限。",
+    "evidence": "evidence/SYS-MENU-03.txt",
+    "screenshot": "screenshots/SYS-MENU-03.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "CONFIG-COURSE-01",
+    "module": "课程信息维护",
+    "flow": "新增查询测试课程",
+    "status": "通过",
+    "actual": "QA1014TEST基础课程新增并按编号查询。",
+    "evidence": "evidence/CONFIG-COURSE-01.txt",
+    "screenshot": "screenshots/CONFIG-COURSE-01.jpg"
+  },
+  {
+    "id": "CONFIG-COURSE-03",
+    "module": "课程信息维护",
+    "flow": "编辑页学分回显",
+    "status": "通过",
+    "actual": "复核排除输入工具影响：使用真实键盘录入3并保存、整页刷新，再打开编辑正确显示3.0。先前空白现象未稳定复现，不列产品缺陷。证据见CONFIG-COURSE-03R。",
+    "evidence": "evidence/CONFIG-COURSE-03.txt",
+    "screenshot": "screenshots/CONFIG-COURSE-03.jpg"
+  },
+  {
+    "id": "CONFIG-COURSE-02",
+    "module": "课程信息维护",
+    "flow": "修改名称和体育课标记",
+    "status": "通过",
+    "actual": "用实际键盘保留学分3，修改名称并切换体育课为是，列表正确回显。",
+    "evidence": "evidence/CONFIG-COURSE-02.txt",
+    "screenshot": "screenshots/CONFIG-COURSE-02.jpg"
+  },
+  {
+    "id": "CONFIG-COURSE-04",
+    "module": "课程信息维护",
+    "flow": "删除测试基础课程",
+    "status": "通过",
+    "actual": "QA1014TEST删除，按编号查询无数据。",
+    "evidence": "evidence/CONFIG-COURSE-04.txt",
+    "screenshot": "screenshots/CONFIG-COURSE-04.jpg"
+  },
+  {
+    "id": "SPECIAL-001",
+    "module": "特殊审批",
+    "flow": "申请必填校验",
+    "status": "通过",
+    "actual": "空表提交未通过，申请人/所属学部/案例类型等必填被校验。",
+    "evidence": "evidence/SPECIAL-001.txt",
+    "screenshot": "screenshots/SPECIAL-001.jpg"
+  },
+  {
+    "id": "SPECIAL-002",
+    "module": "特殊审批",
+    "flow": "上传模拟证明附件",
+    "status": "阻塞",
+    "actual": "Edge工具要求ChatGPT扩展开启允许访问文件URL，目前工具拦截上传；已询问用户开启，非系统功能Bug。",
+    "evidence": "evidence/SPECIAL-002.txt",
+    "screenshot": "screenshots/SPECIAL-002.jpg"
+  },
+  {
+    "id": "SPECIAL-002R",
+    "module": "特殊审批",
+    "flow": "权限开启后上传模拟附件",
+    "status": "通过",
+    "actual": "模拟证明.txt成功出现在附件列表，原工具权限阻塞已解除。",
+    "evidence": "evidence/SPECIAL-002R.txt",
+    "screenshot": "screenshots/SPECIAL-002R.jpg"
+  },
+  {
+    "id": "SPECIAL-003",
+    "module": "特殊审批",
+    "flow": "提交完整可见字段的模拟申请",
+    "status": "失败",
+    "actual": "填写申请人、学部、2026、科研转换、1小时、描述及附件后，服务器报“请求参数不正确:教师用户ID不能为空”，同时页面提示提交失败:未知错误；表单没有教师用户ID选择控件。",
+    "evidence": "evidence/SPECIAL-003.txt",
+    "screenshot": "screenshots/SPECIAL-003.jpg"
+  },
+  {
+    "id": "CONFIG-YEAR-01",
+    "module": "学年学期",
+    "flow": "新增隔离草稿学年",
+    "status": "通过",
+    "actual": "2027-2028草稿学年创建成功，原当前2024-2025仍已启用，新草稿可删除。",
+    "evidence": "evidence/CONFIG-YEAR-01.txt",
+    "screenshot": "screenshots/CONFIG-YEAR-01.jpg"
+  },
+  {
+    "id": "CONFIG-YEAR-02",
+    "module": "学年学期",
+    "flow": "新学年自动生成学期",
+    "status": "通过",
+    "actual": "刷新后新学年生成Term1/Term2/Summer三条记录；原当前2410不变。",
+    "evidence": "evidence/CONFIG-YEAR-02.txt",
+    "screenshot": "screenshots/CONFIG-YEAR-02.jpg"
+  },
+  {
+    "id": "CONFIG-TERM-02",
+    "module": "学年学期",
+    "flow": "修改独立测试学期",
+    "status": "通过",
+    "actual": "2710名称修改为QA1014_1139 Term1，结束日期2027-12-10，代码学年类别排序为只读。",
+    "evidence": "evidence/CONFIG-TERM-02.txt",
+    "screenshot": "screenshots/CONFIG-TERM-02.jpg"
+  },
+  {
+    "id": "CONFIG-STD-01",
+    "module": "学院工作量标准",
+    "flow": "新学年自动复制标准",
+    "status": "通过",
+    "actual": "草稿学年有3种合同标准并注明沿用2026-2027。",
+    "evidence": "evidence/CONFIG-STD-01.txt",
+    "screenshot": "screenshots/CONFIG-STD-01.jpg"
+  },
+  {
+    "id": "CONFIG-STD-02",
+    "module": "学院工作量标准",
+    "flow": "编辑隔离学年标准并回读",
+    "status": "通过",
+    "actual": "仅2027-2028草稿Teaching-track全年课时由24改26，列表回显26h。",
+    "evidence": "evidence/CONFIG-STD-02.txt",
+    "screenshot": "screenshots/CONFIG-STD-02.jpg"
+  },
+  {
+    "id": "CONFIG-RULE-01",
+    "module": "计算规则",
+    "flow": "隔离学年新增规则",
+    "status": "通过",
+    "actual": "仅2027-2028草稿新增QA1014_FREQ，值1.25，条件仅匹配唯一测试标记。",
+    "evidence": "evidence/CONFIG-RULE-01.txt",
+    "screenshot": "screenshots/CONFIG-RULE-01.jpg"
+  },
+  {
+    "id": "CONFIG-RULE-02",
+    "module": "计算规则",
+    "flow": "条件匹配返回已保存系数",
+    "status": "通过",
+    "actual": "weeklyMode=QA1014_1139命中测试规则，条件测试返回1.25。",
+    "evidence": "evidence/CONFIG-RULE-02.txt",
+    "screenshot": "screenshots/CONFIG-RULE-02.jpg"
+  },
+  {
+    "id": "CONFIG-RULE-03",
+    "module": "计算规则",
+    "flow": "条件不匹配分支",
+    "status": "通过",
+    "actual": "weeklyMode=每周不满足仅测试标记条件，显示没有匹配规则。",
+    "evidence": "evidence/CONFIG-RULE-03.txt",
+    "screenshot": "screenshots/CONFIG-RULE-03.jpg"
+  },
+  {
+    "id": "CONFIG-RULE-04",
+    "module": "计算规则",
+    "flow": "规则列表显示已保存实际系数",
+    "status": "失败",
+    "actual": "条件测试实际返回1.25，而列表值单元格显示“每周1.0”，列表未反映配置值。",
+    "evidence": "evidence/CONFIG-RULE-04.txt",
+    "screenshot": "screenshots/CONFIG-RULE-04.jpg"
+  },
+  {
+    "id": "CONFIG-RULE-05",
+    "module": "计算规则",
+    "flow": "隔离规则修改后重新打开",
+    "status": "通过",
+    "actual": "规则数值由1.25修改为1.5，重新打开显示1.50，说明修改保存成功。",
+    "evidence": "evidence/CONFIG-RULE-05.txt",
+    "screenshot": "screenshots/CONFIG-RULE-05.jpg"
+  },
+  {
+    "id": "CONFIG-RULE-06",
+    "module": "计算规则",
+    "flow": "影响范围按版本及条件筛选",
+    "status": "失败",
+    "actual": "2027-2028草稿规则条件weeklyMode唯一测试标记，但影响预览列出了2026-2027的两门测试课程，其weeklyMode为每周；影响范围未正确隔离。",
+    "evidence": "evidence/CONFIG-RULE-06.txt",
+    "screenshot": "screenshots/CONFIG-RULE-06.jpg"
+  },
+  {
+    "id": "CONFIG-RULE-07",
+    "module": "计算规则",
+    "flow": "删除本轮模拟规则",
+    "status": "通过",
+    "actual": "QA1014_FREQ删除后频率组为空，草稿版本规则总数恢复1。",
+    "evidence": "evidence/CONFIG-RULE-07.txt",
+    "screenshot": "screenshots/CONFIG-RULE-07.jpg"
+  },
+  {
+    "id": "SET-SIS-01",
+    "module": "结算SIS导入",
+    "flow": "缺少课程教师列时校验跳过",
+    "status": "通过",
+    "actual": "上传3条模拟行，预览逐行提示Course Instructor缺少课程教师，3条均跳过，未写入。",
+    "evidence": "evidence/SET-SIS-01.txt",
+    "screenshot": "screenshots/SET-SIS-01.jpg"
+  },
+  {
+    "id": "SET-SIS-02",
+    "module": "结算SIS导入",
+    "flow": "解析预览与输入值核对",
+    "status": "通过",
+    "actual": "后续按引擎提示改用标准Course Units列，预览正确识别3/3/0，确认此前Units列不属于标准导入列，不计产品缺陷。",
+    "evidence": "evidence/SET-SIS-02.txt",
+    "screenshot": "screenshots/SET-SIS-02.jpg"
+  },
+  {
+    "id": "SET-SIS-03",
+    "module": "结算SIS导入",
+    "flow": "分学期确认后持久化",
+    "status": "通过",
+    "actual": "隔离2027-2028 Term1预估版成功导入3条QATEST模拟数据，列表显示文件名、导入时间及教师、人数。",
+    "evidence": "evidence/SET-SIS-03.txt",
+    "screenshot": "screenshots/SET-SIS-03.jpg"
+  },
+  {
+    "id": "SET-ENGINE-01",
+    "module": "结算引擎",
+    "flow": "缺上课时间异常归类",
+    "status": "通过",
+    "actual": "3条模拟数据均归入ERROR缺上课时间，原始课时与最终工作量为0，明确提示需补TIME_INSTRUCTOR。",
+    "evidence": "evidence/SET-ENGINE-01.txt",
+    "screenshot": "screenshots/SET-ENGINE-01.jpg"
+  },
+  {
+    "id": "SET-HOURS-01",
+    "module": "SIS课时导入",
+    "flow": "课时文件格式识别",
+    "status": "待确认",
+    "actual": "含Class Nbr/Class Date/Start Time/End Time的模拟TIME_INSTRUCTOR文件解析为0行且错误数0。页面缺少可下载模板；需按预览所示Class/Days&Time等字段补齐后复测。",
+    "evidence": "evidence/SET-HOURS-01.txt",
+    "screenshot": "screenshots/SET-HOURS-01.jpg"
+  },
+  {
+    "id": "SET-HOURS-02",
+    "module": "SIS课时导入",
+    "flow": "Class格式校验与课时预览",
+    "status": "通过",
+    "actual": "Class不符合CEC 1010-L01(5287)格式时2行明确报错，禁止确认；Mon10:30-12:20解析周课时2，Tue14:00-14:50解析周课时1。",
+    "evidence": "evidence/SET-HOURS-02.txt",
+    "screenshot": "screenshots/SET-HOURS-02.jpg"
+  },
+  {
+    "id": "SET-HOURS-03",
+    "module": "SIS课时导入",
+    "flow": "按Class编号更新模拟课时",
+    "status": "通过",
+    "actual": "两条有效课时按Class Nbr991401/991403更新，列表显示Mon10:30-12:20和Tue14:00-14:50，Section更新L01/T01。",
+    "evidence": "evidence/SET-HOURS-03.txt",
+    "screenshot": "screenshots/SET-HOURS-03.jpg"
+  },
+  {
+    "id": "SET-ENGINE-02",
+    "module": "结算引擎",
+    "flow": "有效课时与缺课时混合计算",
+    "status": "待确认",
+    "actual": "原始课时解析2/1已出现，但最终完成状态与失败提示矛盾，见SET-ENGINE-03；不能视为正常计算通过。",
+    "evidence": "evidence/SET-ENGINE-02.txt",
+    "screenshot": "screenshots/SET-ENGINE-02.jpg"
+  },
+  {
+    "id": "SET-ENGINE-03",
+    "module": "结算引擎",
+    "flow": "失败记录状态与工作量一致性",
+    "status": "失败",
+    "actual": "计算完成提示成功0、未通过2、缺上课时间1，日志明确零学分无法运算；但QATEST101/QATEST103行状态NORMAL且最终工作量2/1，说明同列提示无法运算，结果互相矛盾。",
+    "evidence": "evidence/SET-ENGINE-03.txt",
+    "screenshot": "screenshots/SET-ENGINE-03.jpg"
+  },
+  {
+    "id": "SET-ENGINE-04",
+    "module": "结算对比",
+    "flow": "运算未通过筛选",
+    "status": "通过",
+    "actual": "选择运算未通过显示2条零学分记录，排除1条缺课时记录；但两条仍显示NORMAL，状态矛盾与SET-ENGINE-03同因。",
+    "evidence": "evidence/SET-ENGINE-04.txt",
+    "screenshot": "screenshots/SET-ENGINE-04.jpg"
+  },
+  {
+    "id": "SET-DETAIL-01",
+    "module": "结算详情",
+    "flow": "模拟记录处理时间线",
+    "status": "失败",
+    "actual": "今日2026-10-14新导入的2027-2028模拟课程详情，却显示2026-06-01同步、06-05计算、06-10学部核实通过；本次未执行核实通过。存在非本记录的固定历史信息。",
+    "evidence": "evidence/SET-DETAIL-01.txt",
+    "screenshot": "screenshots/SET-DETAIL-01.jpg"
+  },
+  {
+    "id": "SET-COMPARE-01",
+    "module": "结算对比",
+    "flow": "保存结果与偏差说明刷新回读",
+    "status": "通过",
+    "actual": "全局保存提示3条成功，刷新后三条仍存在；缺课时QATEST102的模拟偏差说明保留。",
+    "evidence": "evidence/SET-COMPARE-01.txt",
+    "screenshot": "screenshots/SET-COMPARE-01.jpg"
+  },
+  {
+    "id": "SET-ADJUST-01",
+    "module": "结算调整",
+    "flow": "模拟最终工作量与课程数人工调整",
+    "status": "通过",
+    "actual": "QATEST101最终工作量2→4、课程数1→0.5，显示人工调整原因、操作账号及前后值。",
+    "evidence": "evidence/SET-ADJUST-01.txt",
+    "screenshot": "screenshots/SET-ADJUST-01.jpg"
+  },
+  {
+    "id": "SET-ADJUST-02",
+    "module": "结算调整",
+    "flow": "人工调整是否保留原始课时",
+    "status": "失败",
+    "actual": "仅修改最终工作量2→4与课程数0.5，上课时间仍Mon10:30-12:20，但表中原始课时也由2改成4，原始时间解析值被覆盖。",
+    "evidence": "evidence/SET-ADJUST-02.txt",
+    "screenshot": "screenshots/SET-ADJUST-02.jpg"
+  },
+  {
+    "id": "SET-SUMMARY-01",
+    "module": "结算汇总",
+    "flow": "人工课程数同步教师汇总",
+    "status": "通过",
+    "actual": "模拟教师汇总课程数1.5，工作量5.0h，与QATEST101人工0.5门/4h和QATEST103的1门/1h一致；失败结果混入汇总的问题见SET-ENGINE-03。",
+    "evidence": "evidence/SET-SUMMARY-01.txt",
+    "screenshot": "screenshots/SET-SUMMARY-01.jpg"
+  },
+  {
+    "id": "SET-EXPORT-01",
+    "module": "结算报告",
+    "flow": "教师明细表导出文件",
+    "status": "待确认",
+    "actual": "点击教师明细表导出，页面提示导出成功；浏览器未返回下载文件，默认Downloads无文件，不能确认实际文件生成及内容。",
+    "evidence": "evidence/SET-EXPORT-01.txt",
+    "screenshot": "screenshots/SET-EXPORT-01.jpg"
+  },
+  {
+    "id": "SET-EXPORT-02",
+    "module": "结算报告",
+    "flow": "学部汇总导出反馈",
+    "status": "待确认",
+    "actual": "点击学部汇总表导出提示成功，实际下载文件未确认。",
+    "evidence": "evidence/SET-EXPORT-02.txt",
+    "screenshot": "screenshots/SET-EXPORT-02.jpg"
+  },
+  {
+    "id": "SET-EXPORT-03",
+    "module": "结算报告",
+    "flow": "差异汇总导出反馈",
+    "status": "待确认",
+    "actual": "点击差异汇总表导出提示成功，实际下载文件未确认。",
+    "evidence": "evidence/SET-EXPORT-03.txt",
+    "screenshot": "screenshots/SET-EXPORT-03.jpg"
+  },
+  {
+    "id": "SET-EXPORT-04",
+    "module": "结算报告",
+    "flow": "无特殊审批数据导出提示",
+    "status": "通过",
+    "actual": "无特殊审批数据时明确提示暂无特殊审批数据可导出。",
+    "evidence": "evidence/SET-EXPORT-04.txt",
+    "screenshot": "screenshots/SET-EXPORT-04.jpg"
+  },
+  {
+    "id": "SET-COLIST-01",
+    "module": "co-list",
+    "flow": "新增模拟课程代码",
+    "status": "通过",
+    "actual": "隔离2027-2028 Term1新增QATEST101，列表回读成功。",
+    "evidence": "evidence/SET-COLIST-01.txt",
+    "screenshot": "screenshots/SET-COLIST-01.jpg"
+  },
+  {
+    "id": "SET-COLIST-02",
+    "module": "co-list",
+    "flow": "修改模拟课程代码",
+    "status": "通过",
+    "actual": "QATEST101修改为QATEST103后列表只显示新代码。",
+    "evidence": "evidence/SET-COLIST-02.txt",
+    "screenshot": "screenshots/SET-COLIST-02.jpg"
+  },
+  {
+    "id": "SET-COLIST-03",
+    "module": "co-list",
+    "flow": "删除模拟课程代码",
+    "status": "通过",
+    "actual": "本轮唯一co-list删除后列表为空。",
+    "evidence": "evidence/SET-COLIST-03.txt",
+    "screenshot": "screenshots/SET-COLIST-03.jpg"
+  },
+  {
+    "id": "SET-SIS-04",
+    "module": "结算SIS导入",
+    "flow": "标准Course Units列解析",
+    "status": "通过",
+    "actual": "Course Units列3/3/0正确识别，3行均可导入，0错误。",
+    "evidence": "evidence/SET-SIS-04.txt",
+    "screenshot": "screenshots/SET-SIS-04.jpg"
+  },
+  {
+    "id": "SET-SIS-05",
+    "module": "结算SIS导入",
+    "flow": "相同Class重复导入更新",
+    "status": "通过",
+    "actual": "同3条再次导入显示新建0更新3，列表仍3条，Course Units更新3/3/0，之前导入的Days&Time保留。",
+    "evidence": "evidence/SET-SIS-05.txt",
+    "screenshot": "screenshots/SET-SIS-05.jpg"
+  },
+  {
+    "id": "SET-ENGINE-05",
+    "module": "结算引擎",
+    "flow": "有效学分有效课时计算",
+    "status": "通过",
+    "actual": "QATEST101为3学分、Mon10:30-12:20，原始课时2、最终2、NORMAL；同批缺课时与零学分不阻塞有效行。零学分行状态矛盾另见缺陷。",
+    "evidence": "evidence/SET-ENGINE-05.txt",
+    "screenshot": "screenshots/SET-ENGINE-05.jpg"
+  },
+  {
+    "id": "SET-COMPARE-02",
+    "module": "结算对比",
+    "flow": "重新计算保存保留已有偏差说明",
+    "status": "失败",
+    "actual": "QATEST102已有行级保存并刷新回读的模拟偏差说明，重新计算时仍回显，但再次全局保存后字段变空。",
+    "evidence": "evidence/SET-COMPARE-02.txt",
+    "screenshot": "screenshots/SET-COMPARE-02.jpg"
+  },
+  {
+    "id": "SET-WORKLOAD-01",
+    "module": "工作量明细",
+    "flow": "保存结果同步到明细表",
+    "status": "通过",
+    "actual": "工作量明细显示3条隔离模拟记录，与已保存对比表2/0/1h一致；零学分正常状态问题也同步到此表。",
+    "evidence": "evidence/SET-WORKLOAD-01.txt",
+    "screenshot": "screenshots/SET-WORKLOAD-01.jpg"
+  },
+  {
+    "id": "SET-SNAPSHOT-01",
+    "module": "结算快照",
+    "flow": "已选批次创建快照",
+    "status": "失败",
+    "actual": "已选2027-2028 Term1预估版且有3条保存记录，输入模拟名称创建，后端提示请求参数缺失:sourceBatchId，页面创建快照失败。",
+    "evidence": "evidence/SET-SNAPSHOT-01.txt",
+    "screenshot": "screenshots/SET-SNAPSHOT-01.jpg"
+  },
+  {
+    "id": "SET-ARCHIVE-01",
+    "module": "结算归档",
+    "flow": "隔离批次归档只读",
+    "status": "通过",
+    "actual": "确认归档后出现只读模式、已归档历史副本，创建快照/导出报告禁用，并有取消归档按钮。",
+    "evidence": "evidence/SET-ARCHIVE-01.txt",
+    "screenshot": "screenshots/SET-ARCHIVE-01.jpg"
+  },
+  {
+    "id": "SET-ARCHIVE-02",
+    "module": "结算归档",
+    "flow": "归档只读拦截行级保存",
+    "status": "失败",
+    "actual": "归档显示只读模式且全局保存禁用，但缺课时行的偏差说明可编辑保存，刷新仍回显QA1014_1139归档只读验证，归档只读未覆盖行级操作。",
+    "evidence": "evidence/SET-ARCHIVE-02.txt",
+    "screenshot": "screenshots/SET-ARCHIVE-02.jpg"
+  },
+  {
+    "id": "SET-ARCHIVE-03",
+    "module": "结算归档",
+    "flow": "取消归档恢复编辑",
+    "status": "通过",
+    "actual": "取消归档成功，退出只读模式，重新生成、保存、调整操作恢复。",
+    "evidence": "evidence/SET-ARCHIVE-03.txt",
+    "screenshot": "screenshots/SET-ARCHIVE-03.jpg"
+  },
+  {
+    "id": "SET-ARCHIVE-04",
+    "module": "结算归档",
+    "flow": "批次模式文案一致性",
+    "status": "失败",
+    "actual": "取消归档后同一预估版批次顶部标签变为期末实际，但批次名称、页签标签及提示均为预估版，模式信息矛盾。",
+    "evidence": "evidence/SET-ARCHIVE-04.txt",
+    "screenshot": "screenshots/SET-ARCHIVE-04.jpg"
+  },
+  {
+    "id": "SET-REGEN-01",
+    "module": "结算对比",
+    "flow": "空开课计划重新生成",
+    "status": "通过",
+    "actual": "仅有模拟SIS记录的隔离学期确认重新生成后旧对比数据清空，提示先维护该学年学期课程。",
+    "evidence": "evidence/SET-REGEN-01.txt",
+    "screenshot": "screenshots/SET-REGEN-01.jpg"
+  },
+  {
+    "id": "SET-CLEAN-01",
+    "module": "结算SIS导入",
+    "flow": "清理隔离模拟SIS数据",
+    "status": "通过",
+    "actual": "隔离2027-2028 Term12710清空3条Summary及课时数据，列表为空；此前重新生成已清空结算明细。",
+    "evidence": "evidence/SET-CLEAN-01.txt",
+    "screenshot": "screenshots/SET-CLEAN-01.jpg"
+  },
+  {
+    "id": "COURSE-IMPORT-00",
+    "module": "开课导入",
+    "flow": "下载标准开课导入模板",
+    "status": "待确认",
+    "actual": "点击下载导入模板显示模板已下载，工具未取得实际文件；待提供下载路径后按标准模板执行，避免猜列名造成误报。",
+    "evidence": "evidence/COURSE-IMPORT-00.txt",
+    "screenshot": "screenshots/COURSE-IMPORT-00.jpg"
+  },
+  {
+    "id": "COURSE-REDUCTION-01",
+    "module": "课时减免",
+    "flow": "管理员隔离学年减免页面",
+    "status": "受阻",
+    "actual": "页面可打开、查询及导出，标记只读，无新增/导入/编辑入口；当前账号无法完成减免增改，需要确认有写权限的角色。",
+    "evidence": "evidence/COURSE-REDUCTION-01.txt",
+    "screenshot": "screenshots/COURSE-REDUCTION-01.jpg"
+  },
+  {
+    "id": "COURSE-CARRY-01",
+    "module": "跨学年结转",
+    "flow": "具体学期查询与差额明细",
+    "status": "通过",
+    "actual": "隔离2027-2028 Term1按工号002272筛选，详情合同标准6、减免0、结算0，有效标准6、结转-6与公式一致。",
+    "evidence": "evidence/COURSE-CARRY-01.txt",
+    "screenshot": "screenshots/COURSE-CARRY-01.jpg"
+  },
+  {
+    "id": "COURSE-CARRY-02",
+    "module": "跨学年结转",
+    "flow": "具体学期标准说明",
+    "status": "失败",
+    "actual": "来源筛选Term1，但详情②仍写合同全年课时标准6、来源全年课时；该教师隔离学年全年标准12，显示值6为学期标准，标签误导。",
+    "evidence": "evidence/COURSE-CARRY-02.txt",
+    "screenshot": "screenshots/COURSE-CARRY-02.jpg"
+  },
+  {
+    "id": "COURSE-IMPORT-01",
+    "module": "开课导入",
+    "flow": "v005标准模板解析",
+    "status": "通过",
+    "actual": "用户提供的v005模板填入2条隔离模拟行：UG单教师LEC2/TUT2和TPG双教师LEC1.5×2=3，解析2有效0警告0错误。",
+    "evidence": "evidence/COURSE-IMPORT-01.txt",
+    "screenshot": "screenshots/COURSE-IMPORT-01.jpg"
+  },
+  {
+    "id": "COURSE-IMPORT-02",
+    "module": "开课导入",
+    "flow": "导入两条课程字段持久化",
+    "status": "通过",
+    "actual": "隔离2027-2028 Term1保存2条：UG单教师100，TPG双教师50/50，工号、合同、Units、人数及LEC/TUT课时回读。混合频率准确性另测。",
+    "evidence": "evidence/COURSE-IMPORT-02.txt",
+    "screenshot": "screenshots/COURSE-IMPORT-02.jpg"
+  },
+  {
+    "id": "COURSE-PLAN-02",
+    "module": "开课计划版",
+    "flow": "混合频率与双教师分配",
+    "status": "通过",
+    "actual": "本科LEC每周2+TUT隔周2正确折算周课时3；双教师LEC3按0.5/0.5分配各1.5，教师汇总陈纯4.5、王立弟1.5、总6。列表隔周标签未导致计算整门减半。",
+    "evidence": "evidence/COURSE-PLAN-02.txt",
+    "screenshot": "screenshots/COURSE-PLAN-02.jpg"
+  },
+  {
+    "id": "COURSE-HISTORY-01",
+    "module": "历史开课导入",
+    "flow": "提交历史导入后的审计记录",
+    "status": "失败",
+    "actual": "v005模拟文件解析2有效0错误，确认导入后弹窗关闭，但历史记录仍仅2024/2023两条旧记录，无本次文件、时间及成功/失败结果。未能证明历史数据已实际落库。",
+    "evidence": "evidence/COURSE-HISTORY-01.txt",
+    "screenshot": "screenshots/COURSE-HISTORY-01.jpg"
+  },
+  {
+    "id": "COURSE-COPY-02",
+    "module": "开课复制",
+    "flow": "跨学期复制后目标读取",
+    "status": "通过",
+    "actual": "将隔离2027-2028 Term1的2条模拟课程复制到Term2，切换目标Term2后显示2条相同标记课程及教师/课时字段。",
+    "evidence": "evidence/COURSE-COPY-02.txt",
+    "screenshot": "screenshots/COURSE-COPY-02.jpg"
+  },
+  {
+    "id": "COURSE-COPY-03",
+    "module": "开课复制",
+    "flow": "复制保留学科部归属",
+    "status": "失败",
+    "actual": "源Term1两条模拟课程Division为Applied Psychology；复制到Term2后两条学科部均显示“-”，教师、课时仍在。复制未完整保留学科部字段。",
+    "evidence": "evidence/COURSE-COPY-03.txt",
+    "screenshot": "screenshots/COURSE-COPY-03.jpg"
+  },
+  {
+    "id": "COURSE-CLEAR-01",
+    "module": "开课管理",
+    "flow": "清除隔离学期开课列表",
+    "status": "通过",
+    "actual": "明确确认2027-2028 Term2，清除后列表为空，删除2条复制模拟数据。",
+    "evidence": "evidence/COURSE-CLEAR-01.txt",
+    "screenshot": "screenshots/COURSE-CLEAR-01.jpg"
+  },
+  {
+    "id": "CONFIG-RULE-BASELINE",
+    "module": "计算规则",
+    "flow": "原业务版本规则复核",
+    "status": "通过",
+    "actual": "2024-2025当前业务版本仍显示24条规则，页面DPF0.8、P/U1及等级1；本轮规则增改删仅在2027-2028草稿版本执行。",
+    "evidence": "evidence/CONFIG-RULE-BASELINE.txt",
+    "screenshot": "screenshots/CONFIG-RULE-BASELINE.jpg"
+  },
+  {
+    "id": "CONFIG-COURSE-03R",
+    "module": "课程信息维护",
+    "flow": "学分回显排除误报复核",
+    "status": "通过",
+    "actual": "QA1014CHECK键盘录入3，刷新后表格3、编辑3.0，回显正常。",
+    "evidence": "evidence/CONFIG-COURSE-03R.txt",
+    "screenshot": "screenshots/CONFIG-COURSE-03R.jpg"
+  },
+  {
+    "id": "CONFIG-COURSE-CLEAN",
+    "module": "课程信息维护",
+    "flow": "清理学分复核数据",
+    "status": "通过",
+    "actual": "QA1014CHECK删除后搜索0条。",
+    "evidence": "evidence/CONFIG-COURSE-CLEAN.txt",
+    "screenshot": "screenshots/CONFIG-COURSE-CLEAN.jpg"
+  },
+  {
+    "id": "CONFIG-IMPORT-01",
+    "module": "课程信息导入",
+    "flow": "新增模拟基础课程",
+    "status": "通过",
+    "actual": "按页面支持表头导入QA1014IMP，提示新增1更新0；查询名称、学部、学分2正确。布尔标记另做格式兼容核验。",
+    "evidence": "evidence/CONFIG-IMPORT-01.txt",
+    "screenshot": "screenshots/CONFIG-IMPORT-01.jpg"
+  },
+  {
+    "id": "CONFIG-IMPORT-02",
+    "module": "课程信息导入",
+    "flow": "相同代码更新及中文标记",
+    "status": "通过",
+    "actual": "QA1014IMP再次导入后仍仅1条，名称更新、学分2→3、论文指导为是，其余否。",
+    "evidence": "evidence/CONFIG-IMPORT-02.txt",
+    "screenshot": "screenshots/CONFIG-IMPORT-02.jpg"
+  },
+  {
+    "id": "CONFIG-IMPORT-03",
+    "module": "课程信息导入",
+    "flow": "英文Yes标记兼容性",
+    "status": "待确认",
+    "actual": "英文Is Repeated/Is Physical Education表头下Yes导入为否，而中文是可生效；页面未说明布尔值允许格式，建议补充格式说明。",
+    "evidence": "evidence/CONFIG-IMPORT-03.txt",
+    "screenshot": "screenshots/CONFIG-IMPORT-03.jpg"
+  },
+  {
+    "id": "TEACHER-01",
+    "module": "教师管理",
+    "flow": "创建后按工号查询",
+    "status": "通过",
+    "actual": "用户完成含初始凭据的模拟教师创建；工号QA1014T查询命中，姓名、Applied Psychology、Teaching-track正确，报告不保存密码。",
+    "evidence": "evidence/TEACHER-01.txt",
+    "screenshot": "screenshots/TEACHER-01.jpg"
+  },
+  {
+    "id": "TEACHER-02",
+    "module": "教师管理",
+    "flow": "编辑新建模拟教师",
+    "status": "失败",
+    "actual": "新建后列表按QA1014T可查询，但只修改姓名提交，后端提示教师不存在、页面更新失败；字段未更新。",
+    "evidence": "evidence/TEACHER-02.txt",
+    "screenshot": "screenshots/TEACHER-02.jpg"
+  },
+  {
+    "id": "SPECIAL-003R",
+    "module": "特殊审批",
+    "flow": "已存在模拟教师提交复核",
+    "status": "失败",
+    "actual": "使用刚创建并能查询的QA1014T教师姓名发起申请，仍提示教师用户ID不能为空、未知错误，排除单纯教师姓名不存在的解释。",
+    "evidence": "evidence/SPECIAL-003R.txt",
+    "screenshot": "screenshots/SPECIAL-003R.jpg"
+  },
+  {
+    "id": "TEACHER-03",
+    "module": "教师管理",
+    "flow": "移除新建模拟教师身份",
+    "status": "失败",
+    "actual": "QA1014T列表存在，点击移除教师身份确认后提示教师不存在，无法从教师管理完成清理。",
+    "evidence": "evidence/TEACHER-03.txt",
+    "screenshot": "screenshots/TEACHER-03.jpg"
+  },
+  {
+    "id": "SYS-USER-01",
+    "module": "用户管理",
+    "flow": "模拟教师自动关联用户查询",
+    "status": "通过",
+    "actual": "按工号QA1014T查得唯一同名测试账号，教师角色、学部、合同类型与创建表单一致。",
+    "evidence": "evidence/SYS-USER-01.txt",
+    "screenshot": "screenshots/SYS-USER-01.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-USER-02",
+    "module": "用户管理",
+    "flow": "修改模拟用户显示名与备注",
+    "status": "通过",
+    "actual": "QA1014T显示名更新为QA1014_1139用户资料修订，登录账号、工号、教师角色、学部保持原值。",
+    "evidence": "evidence/SYS-USER-02.txt",
+    "screenshot": "screenshots/SYS-USER-02.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-USER-03",
+    "module": "用户管理",
+    "flow": "角色分配只读回显",
+    "status": "通过",
+    "actual": "分配角色弹窗回显QA1014T和教师角色，本轮未改变任何角色授权。",
+    "evidence": "evidence/SYS-USER-03.txt",
+    "screenshot": "screenshots/SYS-USER-03.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "SYS-USER-04",
+    "module": "用户管理",
+    "flow": "删除本轮模拟账号",
+    "status": "通过",
+    "actual": "删除QA1014T后当前工号过滤列表为空。",
+    "evidence": "evidence/SYS-USER-04.txt",
+    "screenshot": "screenshots/SYS-USER-04.jpg",
+    "scope": "范围外，仅辅助数据操作"
+  },
+  {
+    "id": "TEACHER-CLEAN-01",
+    "module": "教师管理",
+    "flow": "用户侧删除后关联教师清理",
+    "status": "通过",
+    "actual": "用户管理删除QA1014T后，教师管理重新搜索QA1014T也为空。",
+    "evidence": "evidence/TEACHER-CLEAN-01.txt",
+    "screenshot": "screenshots/TEACHER-CLEAN-01.jpg"
+  },
+  {
+    "id": "CONFIG-IMPORT-CLEAN",
+    "module": "课程信息导入",
+    "flow": "清理模拟基础课程",
+    "status": "通过",
+    "actual": "QA1014IMP删除后过滤列表无数据。",
+    "evidence": "evidence/CONFIG-IMPORT-CLEAN.txt",
+    "screenshot": "screenshots/CONFIG-IMPORT-CLEAN.jpg"
+  },
+  {
+    "id": "SET-PLAN-01",
+    "module": "结算计划生成",
+    "flow": "双教师拆分条数",
+    "status": "通过",
+    "actual": "2条开课计划重新生成3条对比记录，TPG双教师分别拆为陈纯/王立弟，UG单教师1条。",
+    "evidence": "evidence/SET-PLAN-01.txt",
+    "screenshot": "screenshots/SET-PLAN-01.jpg"
+  },
+  {
+    "id": "SET-PLAN-02",
+    "module": "结算计划生成",
+    "flow": "已生成计划的课时与状态",
+    "status": "失败",
+    "actual": "成功从开课列表生成3条计划数据，但计划学时和计划工作量均显示--，而开课计划版为3/1.5/1.5；三条缺上课时间却显示NORMAL无需填写。",
+    "evidence": "evidence/SET-PLAN-02.txt",
+    "screenshot": "screenshots/SET-PLAN-02.jpg"
+  },
+  {
+    "id": "SET-WEIGHT-01",
+    "module": "合教权重",
+    "flow": "占比合计超过100%限制",
+    "status": "通过",
+    "actual": "原50+50回显正确；第一位改70后合计120%，保存权重禁用。",
+    "evidence": "evidence/SET-WEIGHT-01.txt",
+    "screenshot": "screenshots/SET-WEIGHT-01.jpg"
+  },
+  {
+    "id": "SET-WEIGHT-02",
+    "module": "合教权重",
+    "flow": "合法50%加50%保存",
+    "status": "失败",
+    "actual": "平均分配后恢复50/50、合计100%，点击保存权重提示更新完成成功0条失败1条，未给出失败原因。当前课程全额为0，需核查对缺课时记录的保存处理。",
+    "evidence": "evidence/SET-WEIGHT-02.txt",
+    "screenshot": "screenshots/SET-WEIGHT-02.jpg"
+  },
+  {
+    "id": "TEACHER-IMPORT-01",
+    "module": "教师导入",
+    "flow": "Appointment Type模拟教师导入查询",
+    "status": "通过",
+    "actual": "用户确认单行文件导入后，按工号QA1014I查得唯一模拟教师，姓名、Applied Psychology、Teaching-track正确。",
+    "evidence": "evidence/TEACHER-IMPORT-01.txt",
+    "screenshot": "screenshots/TEACHER-IMPORT-01.jpg"
+  },
+  {
+    "id": "TEACHER-IMPORT-02",
+    "module": "教师导入",
+    "flow": "导入教师移除身份",
+    "status": "失败",
+    "actual": "QA1014I导入后可查询，但移除教师身份仍返回教师不存在；与手工新建教师相同。",
+    "evidence": "evidence/TEACHER-IMPORT-02.txt",
+    "screenshot": "screenshots/TEACHER-IMPORT-02.jpg"
+  },
+  {
+    "id": "TEACHER-IMPORT-CLEAN",
+    "module": "教师导入",
+    "flow": "清理导入测试账号",
+    "status": "通过",
+    "actual": "用户管理删除QA1014I后工号过滤无结果。",
+    "evidence": "evidence/TEACHER-IMPORT-CLEAN.txt",
+    "screenshot": "screenshots/TEACHER-IMPORT-CLEAN.jpg"
+  },
+  {
+    "id": "COURSE-CLEAN-02",
+    "module": "开课管理",
+    "flow": "清理隔离Term1导入记录",
+    "status": "通过",
+    "actual": "清除2027-2028 Term1的两条导入模拟课程，列表为空。",
+    "evidence": "evidence/COURSE-CLEAN-02.txt",
+    "screenshot": "screenshots/COURSE-CLEAN-02.jpg"
+  },
+  {
+    "id": "SET-PLAN-CLEAN",
+    "module": "结算计划生成",
+    "flow": "清理模拟计划拆分记录",
+    "status": "通过",
+    "actual": "清除隔离Term1开课后重新生成，对比与教师汇总均为空。",
+    "evidence": "evidence/SET-PLAN-CLEAN.txt",
+    "screenshot": "screenshots/SET-PLAN-CLEAN.jpg"
+  },
+  {
+    "id": "COURSE-REDUCTION02",
+    "module": "课时减免",
+    "flow": "学院行政主管查看减免写权限",
+    "status": "受阻",
+    "actual": "admin_sup 在隔离测试学年仍显示“只读”，无新增、编辑、导入入口；本账号不能执行减免增删改，未更改权限绕过。",
+    "evidence": "evidence/COURSE-REDUCTION02.txt",
+    "screenshot": "screenshots/COURSE-REDUCTION02.jpg"
+  },
+  {
+    "id": "QUERY01",
+    "module": "工作量查询",
+    "flow": "按教师工号筛选",
+    "status": "通过",
+    "actual": "2024-2025 管理查询输入002272，仅返回陈纯；教学18、特殊调整0、总量18。",
+    "evidence": "evidence/QUERY01.txt",
+    "screenshot": "screenshots/QUERY01.jpg"
+  },
+  {
+    "id": "QUERY02",
+    "module": "工作量查询",
+    "flow": "教师详情与明细汇总核对",
+    "status": "通过",
+    "actual": "陈纯详情列出7条课程明细，6条3学时、1条0学时，合计18，与管理查询汇总18一致；未核验重复课程是否属于不同班级。",
+    "evidence": "evidence/QUERY02.txt",
+    "screenshot": "screenshots/QUERY02.jpg"
+  },
+  {
+    "id": "QUERY03",
+    "module": "工作量查询",
+    "flow": "详情课程代码筛选",
+    "status": "通过",
+    "actual": "详情输入PSY5310后只保留该课程TERM_2、3学时；总量仍显示该教师完整汇总18。",
+    "evidence": "evidence/QUERY03.txt",
+    "screenshot": "screenshots/QUERY03.jpg"
+  },
+  {
+    "id": "COMPLIANCE01",
+    "module": "达标情况对比",
+    "flow": "实际版工号过滤及达标判定",
+    "status": "通过",
+    "actual": "筛选002272仅陈纯，12/12小时、4/4课程、9/12学分、123/0人数，学分不足显示不达标；汇总3类教师数分别10、122、26，与各自达标+不达标之和一致。",
+    "evidence": "evidence/COMPLIANCE01.txt",
+    "screenshot": "screenshots/COMPLIANCE01.jpg"
+  },
+  {
+    "id": "COMPLIANCE02",
+    "module": "达标情况对比",
+    "flow": "Term1筛选与全年标准显示",
+    "status": "通过",
+    "actual": "切换Term1后陈纯实际值由12/4/9/123变为6/2/6/89，标准仍12/4/12/0且表头明确全年标准；仅验证筛选及标签，学期达标采用全年标准的业务口径未独立确认。",
+    "evidence": "evidence/COMPLIANCE02.txt",
+    "screenshot": "screenshots/COMPLIANCE02.jpg"
+  },
+  {
+    "id": "COMPLIANCE03",
+    "module": "达标情况对比",
+    "flow": "预估版切换",
+    "status": "通过",
+    "actual": "预估版正常加载Term1统计，工号过滤保留002272；仅验证页面切换和数据显示，不替代计算规则全分支验证。",
+    "evidence": "evidence/COMPLIANCE03.txt",
+    "screenshot": "screenshots/COMPLIANCE03.jpg"
+  },
+  {
+    "id": "TASK01",
+    "module": "待办任务",
+    "flow": "主管待办刷新与空列表控制",
+    "status": "通过",
+    "actual": "admin_sup 待办刷新后0条，提交(0)及表头复选框禁用；本轮自身两条开课审批已完成，审批操作证据见FLOW系列。",
+    "evidence": "evidence/TASK01.txt",
+    "screenshot": "screenshots/TASK01.jpg"
+  },
+  {
+    "id": "MESSAGE01",
+    "module": "系统消息",
+    "flow": "开课提交生成通知并查看详情",
+    "status": "通过",
+    "actual": "本轮本科/研究生提交各生成1条通知，研究生通知详情含2026-2027 SUMMER、研究生、1门，与本轮提交一致。",
+    "evidence": "evidence/MESSAGE01.txt",
+    "screenshot": "screenshots/MESSAGE01.jpg"
+  },
+  {
+    "id": "MESSAGE02",
+    "module": "系统消息",
+    "flow": "本轮通知标记已读后查看",
+    "status": "通过",
+    "actual": "仅选择本轮本科模拟通知标记已读，重新打开详情显示“是否已读 是”，阅读时间2026-10-14 15:00；未操作历史通知全部已读。",
+    "evidence": "evidence/MESSAGE02.txt",
+    "screenshot": "screenshots/MESSAGE02.jpg"
+  },
+  {
+    "id": "MESSAGE03",
+    "module": "系统消息",
+    "flow": "通知去处理跳转",
+    "status": "通过",
+    "actual": "本轮已完成通知点击去处理可跳转待办任务，弹窗正常关闭；当前待办0，未重复审批已完成记录。",
+    "evidence": "evidence/MESSAGE03.txt",
+    "screenshot": "screenshots/MESSAGE03.jpg"
+  },
+  {
+    "id": "HOME01",
+    "module": "首页",
+    "flow": "隔离学年切换与清理后汇总",
+    "status": "通过",
+    "actual": "选择QA1014_1139测试学年，异步加载完成后差异0、实际0、预算0、SIS课程0、年度概览0条；待办卡显示跨学年2项，未将其当作本学年统计。",
+    "evidence": "evidence/HOME01.txt",
+    "screenshot": "screenshots/HOME01.jpg"
+  },
+  {
+    "id": "HOME02",
+    "module": "首页",
+    "flow": "首页待办数量与快捷入口一致性",
+    "status": "待确认",
+    "actual": "同一admin_sup会话，首页待处理2项且列出2025-2026两项预算任务；点击查看更多待办后全部待办0。需确认首页是否故意展示全院跨角色任务；若应为个人待办则数量/数据范围不一致。",
+    "evidence": "evidence/HOME02.txt",
+    "screenshot": "screenshots/HOME02.jpg"
+  },
+  {
+    "id": "CONFIG-YEAR03",
+    "module": "学年学期管理",
+    "flow": "删除自建草稿学年并刷新确认",
+    "status": "失败",
+    "actual": "删除QA1014_1139草稿后弹窗关闭，列表仍在；整页刷新后仍在。控制台记录删除版本失败、系统异常及使用Mock回退。自建学年无法通过该入口清理；不得将关闭弹窗视为删除成功。",
+    "evidence": "evidence/CONFIG-YEAR03.txt",
+    "screenshot": "screenshots/CONFIG-YEAR03.jpg"
+  },
+  {
+    "id": "COURSE-LOCK01",
+    "module": "开课管理",
+    "flow": "审批通过锁定状态下主管单条删除",
+    "status": "待确认",
+    "actual": "界面显示“已锁定（审批已通过）”，admin_sup仍可确认删除本轮QAPG模拟课程，删除成功且过滤结果2→1。需确认学院行政主管是否有审批后维护特权；若锁定适用于主管则为权限漏洞。",
+    "evidence": "evidence/COURSE-LOCK01.txt",
+    "screenshot": "screenshots/COURSE-LOCK01.jpg"
+  },
+  {
+    "id": "COURSE-CLEAN03",
+    "module": "开课管理",
+    "flow": "单条删除本轮已审批本科和研究生课程",
+    "status": "通过",
+    "actual": "按唯一标题与行标识QAPG、QAUGR分别删除，仅点击这两行删除；当前admin_sup列表已无本轮课程。审批及消息审计记录保留。未使用整学期清除。",
+    "evidence": "evidence/COURSE-CLEAN03.txt",
+    "screenshot": "screenshots/COURSE-CLEAN03.jpg"
+  },
+  {
+    "id": "CONFIG-COPY01",
+    "module": "计算规则",
+    "flow": "评分基础展开说明与配置一致性",
+    "status": "失败",
+    "actual": "当前2024-2025共24规则。标题及PU行均为P/U=1，展开说明仍写“DPF/及格不及格/通过 →0.8”。同页还提示SCH跳过，却称评分基础作为工作量权重参与调整；本轮仅确认文案冲突，未断言正式计算因该项错误。",
+    "evidence": "evidence/CONFIG-COPY01.txt",
+    "screenshot": "screenshots/CONFIG-COPY01.jpg"
+  },
+  {
+    "id": "FLOW-FINAL-RECHECK",
+    "module": "审批跟踪",
+    "flow": "终审记录最终状态复核",
+    "status": "通过",
+    "actual": "管理员审批跟踪筛选2026-2027 Summer 已通过，返回本轮本科和研究生各1条，当前节点第5步，均已通过、已处理。此截图为最终状态证据，替代早期终审按钮确认弹窗截图作为报告证明。",
+    "evidence": "evidence/FLOW-FINAL-RECHECK.txt",
+    "screenshot": "screenshots/FLOW-FINAL-RECHECK.jpg"
+  },
+  {
+    "id": "TRACK-COPY01",
+    "module": "审批跟踪",
+    "flow": "流程图节点与本轮四级审批一致性",
+    "status": "失败",
+    "actual": "本轮实际经过主任、对应学院行政、学院行政主管、主管领导四级审批，跟踪列表已通过且第5步；下方流程图却只有3节点，把学院行政主管显示在“主管领导终审”下，缺少实际主管领导dean终审记录。",
+    "evidence": "evidence/TRACK-COPY01.txt",
+    "screenshot": "screenshots/TRACK-COPY01.jpg"
+  }
+]

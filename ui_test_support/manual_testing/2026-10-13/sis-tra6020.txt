@@ -1,0 +1,75 @@
+SIS 数据同步状态
+全量同步
+SIS数据导入
+SIS课时导入
+清空数据
+教学环节
+列筛选
+导出
+Course Code
+	
+Instructor
+	
+Section
+	
+Class Nbr
+	
+Course Title
+	
+Employee ID
+	
+Units
+	
+Course Component
+	
+Medium of Instruction
+	
+Days&Time
+	
+Term
+	
+Graded Component
+	
+Total Enroll
+	
+Actual Enrol
+	
+导入时间
+	
+文件名
+TRA6020
+	
+WANG,Lidi
+	
+L01
+	
+2749
+	
+Translation Pedagogy
+	
+000208
+	
+3
+	
+LEC
+Lecture
+	
+	
+Wed 08:30-11:20
+	
+2410
+	
+Y
+	
+4
+	
+4
+	
+2026-09-09 09:49:28
+	
+CUSZ_CRSE_SUMMARY_PG 2410 Term.xlsx
+共 1 条
+50条/页
+1
+前往
+页

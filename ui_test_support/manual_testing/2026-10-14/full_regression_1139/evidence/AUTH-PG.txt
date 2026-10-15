@@ -1,0 +1,241 @@
+CUHK-SZ HSS Teacher Teaching Hours Management System
+首页
+教学计划管理
+结算管理
+待办任务
+系统消息
+系统配置管理
+首页
+En
+学科部助理--研究生
+首页
+教师工作量管理首页
+2024-2025学年
+2025-2026学年
+2026-2027学年
+待处理项
+0 项
+查看更多待办 →
+SIS数据同步状态
+0%
+0%
+待处理差异数
+69 项
+查看差异详情 →
+结算引擎状态
+已完成
+总预算工作量
+0小时
+实际核实工作量
+3,277小时
+学科部预算 vs 实际
+学期工作量趋势
+教学环节分布
+合同类型分布
+待办任务中心
+查看更多待办
+最近活动日志
+SIS 同步明细
+SIS (PeopleSoft) common.dataSync
+查看同步详情
+上次同步时间	2026-10-14T05:37:21.191Z	同步课程数	1554	匹配率	0%	不匹配 / 待处理	0 / 1554
+已同步
+0 / 1554
+不匹配
+0 / 1554
+0%
+待处理
+1554 / 1554
+100%
+学科部年度概览
+2024-2025学年
+2024-2025学年
+重置
+列筛选
+导出 Excel
+注：已排除 UG/TPG/RPG 课程中不涉及常规授课的课程（SUP 论文指导、LAB 实验课等）
+实际学科部
+	
+合同类型
+	
+平均选课人数
+	
+Avg Courses
+	
+Avg Teaching hrs/wk
+	
+Avg Credits
+	
+教师数
+	
+课程数
+未分配
+	
+Contractually Limited
+	
+11.5
+	
+6.1
+	
+12.7
+	
+16.1
+	
+10
+	
+61
+
+
+Teaching-track
+	
+27.1
+	
+10.25
+	
+21.7
+	
+26.6
+	
+119
+	
+1220
+
+
+Tenure-track
+	
+18.3
+	
+3.55
+	
+7.8
+	
+9.3
+	
+20
+	
+71
+
+
+Division of Applied Psychology
+	
+Teaching-track
+	
+34.4
+	
+5.33
+	
+12
+	
+14
+	
+3
+	
+16
+
+
+Tenure-track
+	
+25.7
+	
+5
+	
+9.5
+	
+10
+	
+6
+	
+30
+实际学科部
+	
+合同类型
+	
+选课人数合计
+	
+Total Courses
+	
+Total Teaching hrs
+	
+Total Credits
+	
+Teachers
+	
+Courses
+未分配
+	
+Contractually Limited
+	
+699
+	
+61
+	
+127
+	
+161
+	
+10
+	
+61
+
+
+Teaching-track
+	
+33063
+	
+1219.5
+	
+2577.5
+	
+3165
+	
+119
+	
+1220
+
+
+Tenure-track
+	
+1301
+	
+71
+	
+157
+	
+186
+	
+20
+	
+71
+
+
+Division of Applied Psychology
+	
+Teaching-track
+	
+551
+	
+16
+	
+36
+	
+42
+	
+3
+	
+16
+
+
+Tenure-track
+	
+770
+	
+30
+	
+57
+	
+60
+	
+6
+	
+30
+共 5 条记录 · 数据基于结算系统自动计算

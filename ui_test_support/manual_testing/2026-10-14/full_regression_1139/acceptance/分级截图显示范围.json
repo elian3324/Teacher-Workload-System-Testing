@@ -1,0 +1,517 @@
+{
+  "AUTH-ADMIN": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 1035
+  },
+  "HOME01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 975
+  },
+  "CONFIG-STD-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "CONFIG-STD-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "FLOW-UG-05R": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 569
+  },
+  "COURSE-REDUCTION02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "COURSE-CARRY-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 650
+  },
+  "COURSE-001": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 569
+  },
+  "COURSE-003": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 640
+  },
+  "COURSE-004": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 588
+  },
+  "COURSE-006": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 657
+  },
+  "COURSE-007": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 620
+  },
+  "COURSE-IMPORT-00": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "COURSE-IMPORT-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "COURSE-IMPORT-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 615
+  },
+  "COURSE-COPY-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 569
+  },
+  "COURSE-HISTORY-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 615
+  },
+  "COURSE-005": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 588
+  },
+  "COURSE-008": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 569
+  },
+  "COURSE-PLAN-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "AUTH-UG": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 941
+  },
+  "FLOW-UG-01": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 594
+  },
+  "FLOW-UG-02": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 777
+  },
+  "FLOW-UG-03": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 755
+  },
+  "FLOW-UG-04": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 752
+  },
+  "FLOW-UG-06": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 588
+  },
+  "FLOW-UG-07": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 841
+  },
+  "FLOW-UG-08A": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 680
+  },
+  "FLOW-UG-08": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 640
+  },
+  "FLOW-UG-09": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 623
+  },
+  "FLOW-FINAL-RECHECK": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 618
+  },
+  "FLOW-PG-01": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 569
+  },
+  "FLOW-PG-02": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 594
+  },
+  "FLOW-PG-03": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 588
+  },
+  "FLOW-PG-04": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 837
+  },
+  "PERM-ADMINPG": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 569
+  },
+  "FLOW-PG-05": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 621
+  },
+  "FLOW-PG-06": {
+    "width": 1428,
+    "height": 1035,
+    "display_bottom": 640
+  },
+  "SET-SIS-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "SET-SIS-03": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 744
+  },
+  "SET-SIS-05": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 744
+  },
+  "SET-HOURS-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 690
+  },
+  "SET-HOURS-03": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 744
+  },
+  "SET-PLAN-01": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 949
+  },
+  "SET-ENGINE-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 974
+  },
+  "SET-ENGINE-03": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 972
+  },
+  "SET-ENGINE-05": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 975
+  },
+  "SET-COMPARE-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 931
+  },
+  "SET-COMPARE-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 951
+  },
+  "SET-DETAIL-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 927
+  },
+  "SET-ADJUST-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 935
+  },
+  "SET-SUMMARY-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 931
+  },
+  "SET-WORKLOAD-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 813
+  },
+  "SET-COLIST-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 660
+  },
+  "SET-COLIST-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 660
+  },
+  "SET-COLIST-03": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 621
+  },
+  "SET-WEIGHT-01": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 928
+  },
+  "SET-WEIGHT-02": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 928
+  },
+  "SPECIAL-001": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 850
+  },
+  "SPECIAL-002R": {
+    "width": 1910,
+    "height": 977,
+    "display_bottom": 890
+  },
+  "SPECIAL-003R": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 850
+  },
+  "SET-EXPORT-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 651
+  },
+  "SET-EXPORT-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 651
+  },
+  "SET-EXPORT-03": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 651
+  },
+  "SET-EXPORT-04": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 651
+  },
+  "SET-SNAPSHOT-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 946
+  },
+  "SET-ARCHIVE-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 951
+  },
+  "SET-ARCHIVE-03": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 951
+  },
+  "COMPLIANCE01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 679
+  },
+  "COMPLIANCE02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 679
+  },
+  "COMPLIANCE03": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 679
+  },
+  "QUERY01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 975
+  },
+  "QUERY02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 975
+  },
+  "QUERY03": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 975
+  },
+  "TASK01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "MESSAGE01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 832
+  },
+  "MESSAGE02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 832
+  },
+  "MESSAGE03": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "CONFIG-YEAR-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 679
+  },
+  "CONFIG-YEAR-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 968
+  },
+  "CONFIG-TERM-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 968
+  },
+  "CONFIG-YEAR03": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 679
+  },
+  "CONFIG-RULE-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 664
+  },
+  "CONFIG-RULE-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 948
+  },
+  "CONFIG-RULE-05": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 948
+  },
+  "CONFIG-RULE-06": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 948
+  },
+  "CONFIG-RULE-07": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 691
+  },
+  "CONFIG-RULE-BASELINE": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 960
+  },
+  "CONFIG-COURSE-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "CONFIG-COURSE-03R": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 838
+  },
+  "CONFIG-IMPORT-01": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 534
+  },
+  "CONFIG-IMPORT-02": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 534
+  },
+  "TEACHER-01": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 534
+  },
+  "TEACHER-02": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 587
+  },
+  "TEACHER-IMPORT-01": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 534
+  },
+  "TEACHER-IMPORT-02": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 534
+  },
+  "COURSE-CLEAR-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "COURSE-CLEAN-02": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "COURSE-CLEAN03": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 536
+  },
+  "SET-PLAN-CLEAN": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 850
+  },
+  "SET-CLEAN-01": {
+    "width": 1910,
+    "height": 975,
+    "display_bottom": 850
+  },
+  "CONFIG-IMPORT-CLEAN": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 534
+  },
+  "TEACHER-CLEAN-01": {
+    "width": 1910,
+    "height": 972,
+    "display_bottom": 534
+  }
+}

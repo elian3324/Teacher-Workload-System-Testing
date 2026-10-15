@@ -1,0 +1,213 @@
+CUHK-SZ HSS Teacher Teaching Hours Management System
+首页
+教学计划管理
+结算管理
+工作量结算管理
+达标情况对比
+特殊审批
+工作量查询
+待办任务
+系统消息
+系统配置管理
+系统管理
+结算管理
+/
+工作量结算管理
+En
+首页
+计算规则管理
+工作量结算管理
+结算管理
+2027-2028 学年度工作量结算
+导出报告
+学年:
+QA1014_1139测试学年
+结算批次
+2027-2028 Term 1 预估版 (已归档)
+已归档
+快照时间 2026-10-14 14:15:51
+创建快照
+归档当前批次
+预估版模式: 计算结果仅供参考,可多次重新计算,归档后生成历史副本
+SIS 数据同步状态
+全量同步
+SIS数据导入
+SIS课时导入
+清空数据
+教学环节
+列筛选
+导出
+Course Code
+	
+Instructor
+	
+Section
+	
+Class Nbr
+	
+Course Title
+	
+Employee ID
+	
+Units
+	
+Course Component
+	
+Medium of Instruction
+	
+Days&Time
+	
+Term
+	
+Graded Component
+	
+Total Enroll
+	
+Actual Enrol
+	
+导入时间
+	
+文件名
+QATEST101
+	
+QA1014模拟教师
+	
+	
+991401
+	
+QA1014_1139标准课时模拟
+	
+QA1014T
+	
+0
+	
+LEC
+LEC
+	
+	
+	
+2710
+	
+LEC
+	
+20
+	
+20
+	
+2026-10-14 14:18:35
+	
+CUSZ_CRSE_SUMMARY_PG QA1014_1139 Term.xlsx
+
+
+QATEST102
+	
+QA1014模拟教师
+	
+	
+991402
+	
+QA1014_1139缺失时间模拟
+	
+QA1014T
+	
+0
+	
+LEC
+LEC
+	
+	
+	
+2710
+	
+LEC
+	
+10
+	
+10
+	
+2026-10-14 14:18:35
+	
+CUSZ_CRSE_SUMMARY_PG QA1014_1139 Term.xlsx
+
+
+QATEST103
+	
+QA1014模拟教师
+	
+	
+991403
+	
+QA1014_1139零学分模拟
+	
+QA1014T
+	
+0
+	
+TUT
+TUT
+	
+	
+	
+2710
+	
+LEC
+	
+5
+	
+5
+	
+2026-10-14 14:18:35
+	
+CUSZ_CRSE_SUMMARY_PG QA1014_1139 Term.xlsx
+共 3 条
+50条/页
+1
+前往
+页
+co-list
+SIS同步明细
+结算引擎
+计划vs实际对比
+工作量明细
+结算报告
+SIS 课时导入 (Days&Time 替换)
+步骤 2：预览和确认导入
+重新上传
+总行数
+0
+有效行数
+0
+错误行数
+0
+跳过(TA)
+0
+未能从 Class Date / 工作表识别学期，导入时将尝试按当前结算批次推断
+显示：
+全部 (0)
+有效 (0)
+警告
+错误 (0)
+行号
+	
+Term
+	
+Class Date
+	
+Class
+	
+Title
+	
+Instructor
+	
+Days&Time
+	
+Room
+	
+Role
+	
+Enrolled
+	
+错误信息
+暂无数据
+取消
+确认分学期导入 (0 条)

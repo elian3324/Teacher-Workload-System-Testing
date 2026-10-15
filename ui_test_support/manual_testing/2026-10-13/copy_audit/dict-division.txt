@@ -1,0 +1,275 @@
+CUHK-SZ HSS Teacher Teaching Hours Management System
+首页
+教学计划管理
+结算管理
+待办任务
+系统消息
+系统配置管理
+系统管理
+用户管理
+角色管理
+菜单管理
+部门管理
+岗位管理
+字典管理
+En
+首页
+字典数据
+字典名称
+学部分类
+字典标签
+状态
+数据状态
+搜索
+重置
+新增
+导出
+批量删除
+	
+字典编码
+	
+字典标签
+	
+英文标签
+	
+字典键值
+	
+字典排序
+	
+状态
+	
+颜色类型
+	
+CSS Class
+	
+备注
+	
+创建时间
+	
+操作
+	
+2092902800000000210
+	
+Division of Physical Education
+	
+	
+Division of Physical Education
+	
+10
+	
+开启
+	
+success
+	
+	
+	
+2026-08-28 09:44
+	
+修改
+删除
+
+
+	
+2092902800000000209
+	
+Division of Language Education
+	
+	
+Division of Language Education
+	
+9
+	
+开启
+	
+primary
+	
+	
+	
+2026-08-28 09:44
+	
+修改
+删除
+
+
+	
+2092902800000000208
+	
+Division of Intercultural Communication
+	
+	
+Division of Intercultural Communication
+	
+8
+	
+开启
+	
+info
+	
+	
+	
+2026-08-28 09:44
+	
+修改
+删除
+
+
+	
+2092902800000000206
+	
+Division of General Education
+	
+	
+Division of General Education
+	
+6
+	
+开启
+	
+success
+	
+	
+	
+2026-08-28 09:44
+	
+修改
+删除
+
+
+	
+2092902800000000204
+	
+Division of Computational Social Science
+	
+	
+Division of Computational Social Science
+	
+4
+	
+开启
+	
+info
+	
+	
+	
+2026-08-28 09:44
+	
+修改
+删除
+
+
+	
+80001030
+	
+Division of Global & Area Studies
+	
+	
+Division of Global & Area Studies
+	
+3
+	
+开启
+	
+warning
+	
+	
+Global & Area Studies
+	
+2026-06-09 15:47
+	
+修改
+删除
+
+
+	
+2092902800000000203
+	
+Division of Civic Education
+	
+	
+Division of Civic Education
+	
+3
+	
+开启
+	
+warning
+	
+	
+	
+2026-08-28 09:44
+	
+修改
+删除
+
+
+	
+80001029
+	
+Division of Development & Governance
+	
+	
+Division of Development & Governance
+	
+2
+	
+开启
+	
+success
+	
+	
+Development & Governance
+	
+2026-06-09 15:47
+	
+修改
+删除
+
+
+	
+2092902800000000202
+	
+Division of Chinese Studies
+	
+	
+Division of Chinese Studies
+	
+2
+	
+开启
+	
+success
+	
+	
+	
+2026-08-28 09:44
+	
+修改
+删除
+
+
+	
+80001028
+	
+Division of Applied Psychology
+	
+	
+Division of Applied Psychology
+	
+1
+	
+开启
+	
+primary
+	
+	
+Applied Psychology
+	
+2026-06-09 15:47
+	
+修改
+删除
+共 10 条
+10条/页
+1
+前往
+页

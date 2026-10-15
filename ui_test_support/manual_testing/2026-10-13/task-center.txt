@@ -1,0 +1,83 @@
+- link "CUHK-SZ HSS Teacher Teaching Hours Management System":
+  - /url: /
+  - generic: CUHK-SZ HSS Teacher Teaching Hours Management System
+- menubar:
+  - menuitem "首页":
+    - generic: 首页
+  - menuitem "教学计划管理":
+    - generic: 教学计划管理
+  - menuitem "结算管理":
+    - generic: 结算管理
+  - menuitem "待办任务":
+    - generic: 待办任务
+  - menuitem "系统消息":
+    - generic: 系统消息
+  - menuitem "系统配置管理":
+    - generic: 系统配置管理
+  - menuitem "系统管理":
+    - generic: 系统管理
+- navigation "面包屑":
+  - link "待办任务"
+  - text: /
+  - link "待办任务"
+- generic: En
+- button:
+- button "首页":
+  - text: 首页
+- button "待办任务":
+  - text: 待办任务
+- button:
+- generic: 任务管理
+- tabpanel "全部待办 0"
+- tablist:
+  - tab "全部待办 0" [active] [selected]:
+    - text: 全部待办
+    - superscript: "0"
+  - tab "待学科部主任审批 0":
+    - text: 待学科部主任审批
+    - superscript: "0"
+  - tab "待学院行政审批 0":
+    - text: 待学院行政审批
+    - superscript: "0"
+  - tab "待学院行政主管审批 0":
+    - text: 待学院行政主管审批
+    - superscript: "0"
+  - tab "待主管领导审批 0":
+    - text: 待主管领导审批
+    - superscript: "0"
+- combobox
+- generic: 筛选状态
+- button "重置":
+  - generic: 重置
+- button "刷新":
+  - text: 刷新
+- button "通过 (0)" [disabled]:
+  - text: 通过 (0)
+- button "列筛选":
+  - text: 列筛选
+- button "导出":
+  - text: 导出
+- table:
+  - rowgroup:
+    - row "提交人 层次 学科部 学年学期 课程数 提交时间 审批状态 操作":
+      - columnheader:
+        - checkbox [disabled]
+      - columnheader "提交人":
+        - generic: 提交人
+      - columnheader "层次":
+        - generic: 层次
+      - columnheader "学科部":
+        - generic: 学科部
+      - columnheader "学年学期":
+        - generic: 学年学期
+      - columnheader "课程数":
+        - generic: 课程数
+      - columnheader "提交时间":
+        - generic: 提交时间
+      - columnheader "审批状态":
+        - generic: 审批状态
+      - columnheader "操作":
+        - generic: 操作
+- table:
+  - rowgroup
+- generic: 暂无数据

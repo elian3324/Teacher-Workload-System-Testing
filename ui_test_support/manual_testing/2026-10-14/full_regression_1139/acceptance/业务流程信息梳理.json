@@ -1,0 +1,2978 @@
+{
+  "title": "教师工作量系统业务流程验收报告",
+  "date": "2026年10月14日",
+  "steps": [
+    {
+      "number": 1,
+      "section": "登录与业务基础资料准备",
+      "title": "管理员登录",
+      "records": [
+        "AUTH-ADMIN"
+      ],
+      "how": "登录系统，进入业务工作台。",
+      "result": "管理员账号登录成功，可以进入系统配置管理。",
+      "state": "已完成",
+      "photo": "AUTH-ADMIN",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "AUTH-ADMIN",
+          "module": "角色登录",
+          "flow": "管理员登录",
+          "actual": "提供的管理员账号登录成功，系统管理菜单可见。",
+          "screenshot": "screenshots/AUTH-ADMIN.jpg",
+          "evidence": "evidence/AUTH-ADMIN.txt"
+        }
+      ],
+      "screenshot": "screenshots/AUTH-ADMIN.jpg"
+    },
+    {
+      "number": 2,
+      "section": "登录与业务基础资料准备",
+      "title": "新建测试学年",
+      "records": [
+        "CONFIG-YEAR-01"
+      ],
+      "how": "在学年管理中新建带QA1014_1139标记的草稿学年。",
+      "result": "2027至2028测试学年创建成功，保持草稿状态。",
+      "state": "已完成",
+      "photo": "CONFIG-YEAR-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-YEAR-01",
+          "module": "学年学期",
+          "flow": "新增隔离草稿学年",
+          "actual": "2027-2028草稿学年创建成功，原当前2024-2025仍已启用，新草稿可删除。",
+          "screenshot": "screenshots/CONFIG-YEAR-01.jpg",
+          "evidence": "evidence/CONFIG-YEAR-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-YEAR-01.jpg"
+    },
+    {
+      "number": 3,
+      "section": "登录与业务基础资料准备",
+      "title": "查看自动生成的学期",
+      "records": [
+        "CONFIG-YEAR-02"
+      ],
+      "how": "打开新学年的学期配置，检查Term1、Term2和Summer。",
+      "result": "新学年生成三个学期，可用于隔离的模拟操作。",
+      "state": "已完成",
+      "photo": "CONFIG-YEAR-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-YEAR-02",
+          "module": "学年学期",
+          "flow": "新学年自动生成学期",
+          "actual": "刷新后新学年生成Term1/Term2/Summer三条记录；原当前2410不变。",
+          "screenshot": "screenshots/CONFIG-YEAR-02.jpg",
+          "evidence": "evidence/CONFIG-YEAR-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-YEAR-02.jpg"
+    },
+    {
+      "number": 4,
+      "section": "登录与业务基础资料准备",
+      "title": "维护学期信息",
+      "records": [
+        "CONFIG-TERM-02"
+      ],
+      "how": "编辑测试学期名称和结束日期，保存后重新查看。",
+      "result": "测试学期信息保存并回显。",
+      "state": "已完成",
+      "photo": "CONFIG-TERM-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-TERM-02",
+          "module": "学年学期",
+          "flow": "修改独立测试学期",
+          "actual": "2710名称修改为QA1014_1139 Term1，结束日期2027-12-10，代码学年类别排序为只读。",
+          "screenshot": "screenshots/CONFIG-TERM-02.jpg",
+          "evidence": "evidence/CONFIG-TERM-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-TERM-02.jpg"
+    },
+    {
+      "number": 5,
+      "section": "登录与业务基础资料准备",
+      "title": "查看复制的工作量标准",
+      "records": [
+        "CONFIG-STD-01"
+      ],
+      "how": "切换到测试学年，查看各合同类型标准。",
+      "result": "新学年复制了三类合同标准。",
+      "state": "已完成",
+      "photo": "CONFIG-STD-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-STD-01",
+          "module": "学院工作量标准",
+          "flow": "新学年自动复制标准",
+          "actual": "草稿学年有3种合同标准并注明沿用2026-2027。",
+          "screenshot": "screenshots/CONFIG-STD-01.jpg",
+          "evidence": "evidence/CONFIG-STD-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-STD-01.jpg"
+    },
+    {
+      "number": 6,
+      "section": "登录与业务基础资料准备",
+      "title": "调整测试学年标准",
+      "records": [
+        "CONFIG-STD-02"
+      ],
+      "how": "仅编辑测试学年的工作量标准，保存后回读。",
+      "result": "测试标准修改成功；未改原业务学年的标准。",
+      "state": "已完成",
+      "photo": "CONFIG-STD-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-STD-02",
+          "module": "学院工作量标准",
+          "flow": "编辑隔离学年标准并回读",
+          "actual": "仅2027-2028草稿Teaching-track全年课时由24改26，列表回显26h。",
+          "screenshot": "screenshots/CONFIG-STD-02.jpg",
+          "evidence": "evidence/CONFIG-STD-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-STD-02.jpg"
+    },
+    {
+      "number": 7,
+      "section": "登录与业务基础资料准备",
+      "title": "新增测试规则",
+      "records": [
+        "CONFIG-RULE-01"
+      ],
+      "how": "在草稿版本中添加带唯一条件的频率规则。",
+      "result": "测试规则成功保存。",
+      "state": "已完成",
+      "photo": "CONFIG-RULE-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-RULE-01",
+          "module": "计算规则",
+          "flow": "隔离学年新增规则",
+          "actual": "仅2027-2028草稿新增QA1014_FREQ，值1.25，条件仅匹配唯一测试标记。",
+          "screenshot": "screenshots/CONFIG-RULE-01.jpg",
+          "evidence": "evidence/CONFIG-RULE-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-RULE-01.jpg"
+    },
+    {
+      "number": 8,
+      "section": "登录与业务基础资料准备",
+      "title": "验证规则命中和未命中",
+      "records": [
+        "CONFIG-RULE-02",
+        "CONFIG-RULE-03"
+      ],
+      "how": "分别输入匹配与不匹配的条件，执行条件测试。",
+      "result": "匹配时返回1.25，不匹配时不命中该规则。",
+      "state": "已完成",
+      "photo": "CONFIG-RULE-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-RULE-02",
+          "module": "计算规则",
+          "flow": "条件匹配返回已保存系数",
+          "actual": "weeklyMode=QA1014_1139命中测试规则，条件测试返回1.25。",
+          "screenshot": "screenshots/CONFIG-RULE-02.jpg",
+          "evidence": "evidence/CONFIG-RULE-02.txt"
+        },
+        {
+          "id": "CONFIG-RULE-03",
+          "module": "计算规则",
+          "flow": "条件不匹配分支",
+          "actual": "weeklyMode=每周不满足仅测试标记条件，显示没有匹配规则。",
+          "screenshot": "screenshots/CONFIG-RULE-03.jpg",
+          "evidence": "evidence/CONFIG-RULE-03.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-RULE-02.jpg"
+    },
+    {
+      "number": 9,
+      "section": "登录与业务基础资料准备",
+      "title": "修改规则并回读",
+      "records": [
+        "CONFIG-RULE-05",
+        "CONFIG-RULE-04"
+      ],
+      "how": "把测试系数改为1.5，保存后重新打开编辑。",
+      "result": "编辑中能读回1.50；列表仍显示固定的每周1.0，该列表显示待完善。",
+      "state": "已完成 有显示问题",
+      "photo": "CONFIG-RULE-05",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-RULE-05",
+          "module": "计算规则",
+          "flow": "隔离规则修改后重新打开",
+          "actual": "规则数值由1.25修改为1.5，重新打开显示1.50，说明修改保存成功。",
+          "screenshot": "screenshots/CONFIG-RULE-05.jpg",
+          "evidence": "evidence/CONFIG-RULE-05.txt"
+        },
+        {
+          "id": "CONFIG-RULE-04",
+          "module": "计算规则",
+          "flow": "规则列表显示已保存实际系数",
+          "actual": "条件测试实际返回1.25，而列表值单元格显示“每周1.0”，列表未反映配置值。",
+          "screenshot": "screenshots/CONFIG-RULE-04.jpg",
+          "evidence": "evidence/CONFIG-RULE-04.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-RULE-05.jpg"
+    },
+    {
+      "number": 10,
+      "section": "登录与业务基础资料准备",
+      "title": "查看规则影响范围",
+      "records": [
+        "CONFIG-RULE-06"
+      ],
+      "how": "打开测试规则的影响预览，对照版本及条件。",
+      "result": "预览出现其他学年的课程，影响范围还需修正；未据此更改业务数据。",
+      "state": "此处有待完善项",
+      "photo": "CONFIG-RULE-06",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-RULE-06",
+          "module": "计算规则",
+          "flow": "影响范围按版本及条件筛选",
+          "actual": "2027-2028草稿规则条件weeklyMode唯一测试标记，但影响预览列出了2026-2027的两门测试课程，其weeklyMode为每周；影响范围未正确隔离。",
+          "screenshot": "screenshots/CONFIG-RULE-06.jpg",
+          "evidence": "evidence/CONFIG-RULE-06.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-RULE-06.jpg"
+    },
+    {
+      "number": 11,
+      "section": "登录与业务基础资料准备",
+      "title": "删除自建规则",
+      "records": [
+        "CONFIG-RULE-07"
+      ],
+      "how": "删除本轮新增的测试规则，再检查规则组。",
+      "result": "自建规则已删除。",
+      "state": "已完成",
+      "photo": "CONFIG-RULE-07",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-RULE-07",
+          "module": "计算规则",
+          "flow": "删除本轮模拟规则",
+          "actual": "QA1014_FREQ删除后频率组为空，草稿版本规则总数恢复1。",
+          "screenshot": "screenshots/CONFIG-RULE-07.jpg",
+          "evidence": "evidence/CONFIG-RULE-07.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-RULE-07.jpg"
+    },
+    {
+      "number": 12,
+      "section": "登录与业务基础资料准备",
+      "title": "确认原业务规则版本",
+      "records": [
+        "CONFIG-RULE-BASELINE",
+        "CONFIG-COPY01"
+      ],
+      "how": "返回2024至2025版本，对照规则数量和评分基础权重。",
+      "result": "仍为24条规则，DPF为0.8，P/U与等级制为1；展开说明把P/U写成0.8，说明文字待更正。",
+      "state": "已完成 有说明问题",
+      "photo": "CONFIG-RULE-BASELINE",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-RULE-BASELINE",
+          "module": "计算规则",
+          "flow": "原业务版本规则复核",
+          "actual": "2024-2025当前业务版本仍显示24条规则，页面DPF0.8、P/U1及等级1；本轮规则增改删仅在2027-2028草稿版本执行。",
+          "screenshot": "screenshots/CONFIG-RULE-BASELINE.jpg",
+          "evidence": "evidence/CONFIG-RULE-BASELINE.txt"
+        },
+        {
+          "id": "CONFIG-COPY01",
+          "module": "计算规则",
+          "flow": "评分基础展开说明与配置一致性",
+          "actual": "当前2024-2025共24规则。标题及PU行均为P/U=1，展开说明仍写“DPF/及格不及格/通过 →0.8”。同页还提示SCH跳过，却称评分基础作为工作量权重参与调整；本轮仅确认文案冲突，未断言正式计算因该项错误。",
+          "screenshot": "screenshots/CONFIG-COPY01.jpg",
+          "evidence": "evidence/CONFIG-COPY01.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-RULE-BASELINE.jpg"
+    },
+    {
+      "number": 13,
+      "section": "登录与业务基础资料准备",
+      "title": "新增基础课程",
+      "records": [
+        "CONFIG-COURSE-01"
+      ],
+      "how": "在课程信息维护新增唯一代码的模拟课程，再查询。",
+      "result": "课程新增后可以检索。",
+      "state": "已完成",
+      "photo": "CONFIG-COURSE-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-COURSE-01",
+          "module": "课程信息维护",
+          "flow": "新增查询测试课程",
+          "actual": "QA1014TEST基础课程新增并按编号查询。",
+          "screenshot": "screenshots/CONFIG-COURSE-01.jpg",
+          "evidence": "evidence/CONFIG-COURSE-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-COURSE-01.jpg"
+    },
+    {
+      "number": 14,
+      "section": "登录与业务基础资料准备",
+      "title": "修改基础课程",
+      "records": [
+        "CONFIG-COURSE-02",
+        "CONFIG-COURSE-03",
+        "CONFIG-COURSE-03R"
+      ],
+      "how": "修改名称、课程标记及学分，保存并重新打开核对。",
+      "result": "名称和标记可更新；学分3保存后刷新仍为3，编辑显示3.0。",
+      "state": "已完成",
+      "photo": "CONFIG-COURSE-03R",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-COURSE-02",
+          "module": "课程信息维护",
+          "flow": "修改名称和体育课标记",
+          "actual": "用实际键盘保留学分3，修改名称并切换体育课为是，列表正确回显。",
+          "screenshot": "screenshots/CONFIG-COURSE-02.jpg",
+          "evidence": "evidence/CONFIG-COURSE-02.txt"
+        },
+        {
+          "id": "CONFIG-COURSE-03",
+          "module": "课程信息维护",
+          "flow": "编辑页学分回显",
+          "actual": "复核排除输入工具影响：使用真实键盘录入3并保存、整页刷新，再打开编辑正确显示3.0。先前空白现象未稳定复现，不列产品缺陷。证据见CONFIG-COURSE-03R。",
+          "screenshot": "screenshots/CONFIG-COURSE-03.jpg",
+          "evidence": "evidence/CONFIG-COURSE-03.txt"
+        },
+        {
+          "id": "CONFIG-COURSE-03R",
+          "module": "课程信息维护",
+          "flow": "学分回显排除误报复核",
+          "actual": "QA1014CHECK键盘录入3，刷新后表格3、编辑3.0，回显正常。",
+          "screenshot": "screenshots/CONFIG-COURSE-03R.jpg",
+          "evidence": "evidence/CONFIG-COURSE-03R.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-COURSE-03R.jpg"
+    },
+    {
+      "number": 15,
+      "section": "登录与业务基础资料准备",
+      "title": "导入基础课程",
+      "records": [
+        "CONFIG-IMPORT-01"
+      ],
+      "how": "按页面支持的列名导入单行模拟课程。",
+      "result": "新增1条，课程名称、学部和学分可查询。",
+      "state": "已完成",
+      "photo": "CONFIG-IMPORT-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-IMPORT-01",
+          "module": "课程信息导入",
+          "flow": "新增模拟基础课程",
+          "actual": "按页面支持表头导入QA1014IMP，提示新增1更新0；查询名称、学部、学分2正确。布尔标记另做格式兼容核验。",
+          "screenshot": "screenshots/CONFIG-IMPORT-01.jpg",
+          "evidence": "evidence/CONFIG-IMPORT-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-IMPORT-01.jpg"
+    },
+    {
+      "number": 16,
+      "section": "登录与业务基础资料准备",
+      "title": "重复导入更新基础课程",
+      "records": [
+        "CONFIG-IMPORT-02",
+        "CONFIG-IMPORT-03"
+      ],
+      "how": "以相同课程代码再次导入，更新名称、学分及课程标记。",
+      "result": "仍仅1条，中文是和否可更新；英文Yes的允许格式需要确认。",
+      "state": "已完成 格式需确认",
+      "photo": "CONFIG-IMPORT-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-IMPORT-02",
+          "module": "课程信息导入",
+          "flow": "相同代码更新及中文标记",
+          "actual": "QA1014IMP再次导入后仍仅1条，名称更新、学分2→3、论文指导为是，其余否。",
+          "screenshot": "screenshots/CONFIG-IMPORT-02.jpg",
+          "evidence": "evidence/CONFIG-IMPORT-02.txt"
+        },
+        {
+          "id": "CONFIG-IMPORT-03",
+          "module": "课程信息导入",
+          "flow": "英文Yes标记兼容性",
+          "actual": "英文Is Repeated/Is Physical Education表头下Yes导入为否，而中文是可生效；页面未说明布尔值允许格式，建议补充格式说明。",
+          "screenshot": "screenshots/CONFIG-IMPORT-03.jpg",
+          "evidence": "evidence/CONFIG-IMPORT-03.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-IMPORT-02.jpg"
+    },
+    {
+      "number": 17,
+      "section": "登录与业务基础资料准备",
+      "title": "创建模拟教师并查询",
+      "records": [
+        "TEACHER-01"
+      ],
+      "how": "填写模拟教师资料，由用户完成初始凭据设置与最终创建，再按工号查询。",
+      "result": "QA1014T可查询，姓名、学部和合同类型可见。",
+      "state": "已完成",
+      "photo": "TEACHER-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "TEACHER-01",
+          "module": "教师管理",
+          "flow": "创建后按工号查询",
+          "actual": "用户完成含初始凭据的模拟教师创建；工号QA1014T查询命中，姓名、Applied Psychology、Teaching-track正确，报告不保存密码。",
+          "screenshot": "screenshots/TEACHER-01.jpg",
+          "evidence": "evidence/TEACHER-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/TEACHER-01.jpg"
+    },
+    {
+      "number": 18,
+      "section": "登录与业务基础资料准备",
+      "title": "修改模拟教师",
+      "records": [
+        "TEACHER-02"
+      ],
+      "how": "查询新建教师，只修改姓名并保存。",
+      "result": "此处有阻塞：系统提示教师不存在，姓名修改未完成。",
+      "state": "此处有阻塞",
+      "photo": "TEACHER-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "TEACHER-02",
+          "module": "教师管理",
+          "flow": "编辑新建模拟教师",
+          "actual": "新建后列表按QA1014T可查询，但只修改姓名提交，后端提示教师不存在、页面更新失败；字段未更新。",
+          "screenshot": "screenshots/TEACHER-02.jpg",
+          "evidence": "evidence/TEACHER-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/TEACHER-02.jpg"
+    },
+    {
+      "number": 19,
+      "section": "登录与业务基础资料准备",
+      "title": "批量导入教师并查询",
+      "records": [
+        "TEACHER-IMPORT-01"
+      ],
+      "how": "上传单行模拟教师文件，由用户确认导入，再查询工号。",
+      "result": "QA1014I导入后可查询，资料与文件一致。",
+      "state": "已完成",
+      "photo": "TEACHER-IMPORT-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "TEACHER-IMPORT-01",
+          "module": "教师导入",
+          "flow": "Appointment Type模拟教师导入查询",
+          "actual": "用户确认单行文件导入后，按工号QA1014I查得唯一模拟教师，姓名、Applied Psychology、Teaching-track正确。",
+          "screenshot": "screenshots/TEACHER-IMPORT-01.jpg",
+          "evidence": "evidence/TEACHER-IMPORT-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/TEACHER-IMPORT-01.jpg"
+    },
+    {
+      "number": 20,
+      "section": "登录与业务基础资料准备",
+      "title": "移除模拟教师身份",
+      "records": [
+        "TEACHER-03",
+        "TEACHER-IMPORT-02"
+      ],
+      "how": "分别对手工创建和导入的模拟教师执行移除身份。",
+      "result": "此处有阻塞：两种教师均提示教师不存在；后来通过系统管理辅助清理账号。",
+      "state": "此处有阻塞",
+      "photo": "TEACHER-IMPORT-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "TEACHER-03",
+          "module": "教师管理",
+          "flow": "移除新建模拟教师身份",
+          "actual": "QA1014T列表存在，点击移除教师身份确认后提示教师不存在，无法从教师管理完成清理。",
+          "screenshot": "screenshots/TEACHER-03.jpg",
+          "evidence": "evidence/TEACHER-03.txt"
+        },
+        {
+          "id": "TEACHER-IMPORT-02",
+          "module": "教师导入",
+          "flow": "导入教师移除身份",
+          "actual": "QA1014I导入后可查询，但移除教师身份仍返回教师不存在；与手工新建教师相同。",
+          "screenshot": "screenshots/TEACHER-IMPORT-02.jpg",
+          "evidence": "evidence/TEACHER-IMPORT-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/TEACHER-IMPORT-02.jpg"
+    },
+    {
+      "number": 21,
+      "section": "开课资料维护与计划形成",
+      "title": "本科助理登录",
+      "records": [
+        "AUTH-UG"
+      ],
+      "how": "以本科助理登录，进入开课管理。",
+      "result": "登录成功，显示本科助理角色。",
+      "state": "已完成",
+      "photo": "AUTH-UG",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "AUTH-UG",
+          "module": "角色登录",
+          "flow": "本科助理登录及菜单",
+          "actual": "assistant_ug登录成功，头部显示学科部助理--本科，系统管理菜单不可见。",
+          "screenshot": "screenshots/AUTH-UG.jpg",
+          "evidence": "evidence/AUTH-UG.txt"
+        }
+      ],
+      "screenshot": "screenshots/AUTH-UG.jpg"
+    },
+    {
+      "number": 22,
+      "section": "开课资料维护与计划形成",
+      "title": "选择学年学期",
+      "records": [
+        "FLOW-PG-00",
+        "FLOW-PG-00B",
+        "FLOW-UG-05",
+        "CONFIG-TERM-01",
+        "FLOW-UG-05R"
+      ],
+      "how": "选择开课学年和具体学期；若下拉只显示全年，先访问学年学期管理中的学期页再返回。",
+      "result": "首次进入出现过具体学期缺失；通过访问学期管理恢复后，后续可以继续开课和提交。",
+      "state": "已绕行继续",
+      "photo": "FLOW-UG-05R",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-PG-00",
+          "module": "研究生开课审批",
+          "flow": "选择可提交的具体学期",
+          "actual": "研究生助理在2026-2027学年学期下拉仅有全年，无法选择Term1/Term2/Summer；全年只读，阻断隔离学期创建及提交流程。本科助理同学年可选Summer。",
+          "screenshot": "screenshots/FLOW-PG-00.jpg",
+          "evidence": "evidence/FLOW-PG-00.txt"
+        },
+        {
+          "id": "FLOW-PG-00B",
+          "module": "研究生开课审批",
+          "flow": "其他学年复核学期下拉",
+          "actual": "2025-2026同样仅全年，说明不是2026-2027单个学年无数据。",
+          "screenshot": "screenshots/FLOW-PG-00B.jpg",
+          "evidence": "evidence/FLOW-PG-00B.txt"
+        },
+        {
+          "id": "FLOW-UG-05",
+          "module": "本科开课审批",
+          "flow": "驳回后重新选择学期重提",
+          "actual": "重新登录本科助理并刷新后，具体学期同样消失，只剩全年，阻断重新建课和重提；不是仅研究生账号问题。",
+          "screenshot": "screenshots/FLOW-UG-05.jpg",
+          "evidence": "evidence/FLOW-UG-05.txt"
+        },
+        {
+          "id": "CONFIG-TERM-01",
+          "module": "学年学期",
+          "flow": "对照开课下拉与学期配置",
+          "actual": "本科助理能在学期管理看到全部9个学期，但开课学期下拉仅全年，基础记录存在，具体原因待开发核对。",
+          "screenshot": "screenshots/CONFIG-TERM-01.jpg",
+          "evidence": "evidence/CONFIG-TERM-01.txt"
+        },
+        {
+          "id": "FLOW-UG-05R",
+          "module": "本科开课审批",
+          "flow": "通过先访问学期管理恢复下拉",
+          "actual": "未修改任何配置，仅先打开学年学期管理→学期管理，再返回开课管理，Term1/Term2/Summer恢复。确认存在页面初始化/加载依赖，后续可绕行执行。",
+          "screenshot": "screenshots/FLOW-UG-05R.jpg",
+          "evidence": "evidence/FLOW-UG-05R.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-UG-05R.jpg"
+    },
+    {
+      "number": 23,
+      "section": "开课资料维护与计划形成",
+      "title": "检查新建课程必填项",
+      "records": [
+        "COURSE-001"
+      ],
+      "how": "打开新增课程，保持必填项为空并保存。",
+      "result": "系统拦截空表，提示课程代码和名称必填。",
+      "state": "已完成",
+      "photo": "COURSE-001",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-001",
+          "module": "开课管理",
+          "flow": "新增课程必填校验",
+          "actual": "空表保存被拦截，提示Course Code和Course Title必填。",
+          "screenshot": "screenshots/COURSE-001.jpg",
+          "evidence": "evidence/COURSE-001.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-001.jpg"
+    },
+    {
+      "number": 24,
+      "section": "开课资料维护与计划形成",
+      "title": "新增本科开课安排",
+      "records": [
+        "COURSE-002",
+        "COURSE-003"
+      ],
+      "how": "填写课程、教师、学分、时间及课时，保存后再打开。",
+      "result": "模拟课程新增成功，编辑页保留2小时及Mon10:30至12:20安排。",
+      "state": "已完成",
+      "photo": "COURSE-003",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-002",
+          "module": "开课管理",
+          "flow": "本科助理新增课程并回读列表",
+          "actual": "模拟课程PSY1020新增成功，仅该学部该学期1条。",
+          "screenshot": "screenshots/COURSE-002.jpg",
+          "evidence": "evidence/COURSE-002.txt"
+        },
+        {
+          "id": "COURSE-003",
+          "module": "开课管理",
+          "flow": "保存后回读教学安排",
+          "actual": "编辑页保留QAUG、课时2.0和Mon:10:30-12:20。",
+          "screenshot": "screenshots/COURSE-003.jpg",
+          "evidence": "evidence/COURSE-003.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-003.jpg"
+    },
+    {
+      "number": 25,
+      "section": "开课资料维护与计划形成",
+      "title": "修改开课资料",
+      "records": [
+        "COURSE-004"
+      ],
+      "how": "修改模拟课程标题并保存，再查列表。",
+      "result": "列表显示修改后的标题。",
+      "state": "已完成",
+      "photo": "COURSE-004",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-004",
+          "module": "开课管理",
+          "flow": "编辑课程标题",
+          "actual": "保存后列表显示-修订标题。",
+          "screenshot": "screenshots/COURSE-004.jpg",
+          "evidence": "evidence/COURSE-004.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-004.jpg"
+    },
+    {
+      "number": 26,
+      "section": "开课资料维护与计划形成",
+      "title": "查看课程版本记录",
+      "records": [
+        "COURSE-005"
+      ],
+      "how": "在已新增和修改的课程上打开版本记录。",
+      "result": "此处有待完善项：保存操作已完成，但版本窗口仍无记录。",
+      "state": "此处有待完善项",
+      "photo": "COURSE-005",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-005",
+          "module": "开课管理",
+          "flow": "新增及编辑后的版本历史",
+          "actual": "新增成功且编辑保存成功后，版本弹窗仍显示暂无版本记录（首次保存后会生成）。",
+          "screenshot": "screenshots/COURSE-005.jpg",
+          "evidence": "evidence/COURSE-005.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-005.jpg"
+    },
+    {
+      "number": 27,
+      "section": "开课资料维护与计划形成",
+      "title": "复制一条开课记录",
+      "records": [
+        "COURSE-006"
+      ],
+      "how": "复制本轮模拟课程，回到列表检查。",
+      "result": "模拟课程由1条变2条。",
+      "state": "已完成",
+      "photo": "COURSE-006",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-006",
+          "module": "开课管理",
+          "flow": "复制模拟课程",
+          "actual": "复制后列表由1条变2条，提示已复制PSY1020-QAUG。",
+          "screenshot": "screenshots/COURSE-006.jpg",
+          "evidence": "evidence/COURSE-006.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-006.jpg"
+    },
+    {
+      "number": 28,
+      "section": "开课资料维护与计划形成",
+      "title": "删除复制记录",
+      "records": [
+        "COURSE-007"
+      ],
+      "how": "仅删除本轮复制项，再检查列表。",
+      "result": "复制项删除后保留原模拟课程。",
+      "state": "已完成",
+      "photo": "COURSE-007",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-007",
+          "module": "开课管理",
+          "flow": "删除本轮复制项",
+          "actual": "删除复制项后剩余1条本科模拟课程。",
+          "screenshot": "screenshots/COURSE-007.jpg",
+          "evidence": "evidence/COURSE-007.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-007.jpg"
+    },
+    {
+      "number": 29,
+      "section": "开课资料维护与计划形成",
+      "title": "查看教师计划工作量",
+      "records": [
+        "COURSE-008",
+        "COURSE-009"
+      ],
+      "how": "进入计划版，核对2小时、1门课、3学分和人数。",
+      "result": "计划汇总为2小时、1门课、3学分和30人；开课列表课时列显示为横线，列表回显待完善。",
+      "state": "已完成 有显示问题",
+      "photo": "COURSE-008",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-008",
+          "module": "开课管理",
+          "flow": "计划版按教师汇总",
+          "actual": "单教师每周2小时、1门3学分、名额30，计划版汇总Hours2/课程1/学分3/人数30。",
+          "screenshot": "screenshots/COURSE-008.jpg",
+          "evidence": "evidence/COURSE-008.txt"
+        },
+        {
+          "id": "COURSE-009",
+          "module": "开课管理",
+          "flow": "列表课时与已保存安排一致",
+          "actual": "编辑页课时2.0，计划版Hours2，但开课列表讲座课时/周与辅导课时/周均为“-”。",
+          "screenshot": "screenshots/COURSE-009.jpg",
+          "evidence": "evidence/COURSE-009.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-008.jpg"
+    },
+    {
+      "number": 30,
+      "section": "开课资料维护与计划形成",
+      "title": "获取标准导入模板",
+      "records": [
+        "COURSE-IMPORT-00"
+      ],
+      "how": "点击模板下载，准备标准v005文件。",
+      "result": "下载入口有反馈，但未取得实际下载文件；后由用户提供标准模板，导入流程得以继续。",
+      "state": "已取得替代材料",
+      "photo": "COURSE-IMPORT-00",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-IMPORT-00",
+          "module": "开课导入",
+          "flow": "下载标准开课导入模板",
+          "actual": "点击下载导入模板显示模板已下载，工具未取得实际文件；待提供下载路径后按标准模板执行，避免猜列名造成误报。",
+          "screenshot": "screenshots/COURSE-IMPORT-00.jpg",
+          "evidence": "evidence/COURSE-IMPORT-00.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-IMPORT-00.jpg"
+    },
+    {
+      "number": 31,
+      "section": "开课资料维护与计划形成",
+      "title": "上传标准开课文件并预览",
+      "records": [
+        "COURSE-IMPORT-01"
+      ],
+      "how": "用标准模板填写本科单教师及研究生双教师两行模拟数据，上传查看解析结果。",
+      "result": "解析2条有效记录，0警告、0错误；此图为导入前预览。",
+      "state": "已完成",
+      "photo": "COURSE-IMPORT-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-IMPORT-01",
+          "module": "开课导入",
+          "flow": "v005标准模板解析",
+          "actual": "用户提供的v005模板填入2条隔离模拟行：UG单教师LEC2/TUT2和TPG双教师LEC1.5×2=3，解析2有效0警告0错误。",
+          "screenshot": "screenshots/COURSE-IMPORT-01.jpg",
+          "evidence": "evidence/COURSE-IMPORT-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-IMPORT-01.jpg"
+    },
+    {
+      "number": 32,
+      "section": "开课资料维护与计划形成",
+      "title": "确认开课导入并回读",
+      "records": [
+        "COURSE-IMPORT-02"
+      ],
+      "how": "确认导入，再核对列表中的教师、权重、课时、学分和人数。",
+      "result": "两条课程保存，可读回本科100%和研究生双教师50%加50%的资料。",
+      "state": "已完成",
+      "photo": "COURSE-IMPORT-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-IMPORT-02",
+          "module": "开课导入",
+          "flow": "导入两条课程字段持久化",
+          "actual": "隔离2027-2028 Term1保存2条：UG单教师100，TPG双教师50/50，工号、合同、Units、人数及LEC/TUT课时回读。混合频率准确性另测。",
+          "screenshot": "screenshots/COURSE-IMPORT-02.jpg",
+          "evidence": "evidence/COURSE-IMPORT-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-IMPORT-02.jpg"
+    },
+    {
+      "number": 33,
+      "section": "开课资料维护与计划形成",
+      "title": "核对混合频率及多教师分配",
+      "records": [
+        "COURSE-PLAN-02"
+      ],
+      "how": "进入计划版，对照每周讲座、隔周辅导和双教师分配。",
+      "result": "本科每周2加隔周2折算3小时；双教师3小时各分1.5，教师合计4.5与1.5，总计6小时。",
+      "state": "已完成",
+      "photo": "COURSE-PLAN-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-PLAN-02",
+          "module": "开课计划版",
+          "flow": "混合频率与双教师分配",
+          "actual": "本科LEC每周2+TUT隔周2正确折算周课时3；双教师LEC3按0.5/0.5分配各1.5，教师汇总陈纯4.5、王立弟1.5、总6。列表隔周标签未导致计算整门减半。",
+          "screenshot": "screenshots/COURSE-PLAN-02.jpg",
+          "evidence": "evidence/COURSE-PLAN-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-PLAN-02.jpg"
+    },
+    {
+      "number": 34,
+      "section": "开课资料维护与计划形成",
+      "title": "复制开课计划到下一学期",
+      "records": [
+        "COURSE-COPY-02",
+        "COURSE-COPY-03"
+      ],
+      "how": "将测试Term1的两门课复制到Term2，再切换目标学期查看。",
+      "result": "目标出现两条课程，教师和课时保留；学科部变为横线，归属字段待完善。",
+      "state": "已完成 有字段问题",
+      "photo": "COURSE-COPY-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-COPY-02",
+          "module": "开课复制",
+          "flow": "跨学期复制后目标读取",
+          "actual": "将隔离2027-2028 Term1的2条模拟课程复制到Term2，切换目标Term2后显示2条相同标记课程及教师/课时字段。",
+          "screenshot": "screenshots/COURSE-COPY-02.jpg",
+          "evidence": "evidence/COURSE-COPY-02.txt"
+        },
+        {
+          "id": "COURSE-COPY-03",
+          "module": "开课复制",
+          "flow": "复制保留学科部归属",
+          "actual": "源Term1两条模拟课程Division为Applied Psychology；复制到Term2后两条学科部均显示“-”，教师、课时仍在。复制未完整保留学科部字段。",
+          "screenshot": "screenshots/COURSE-COPY-03.jpg",
+          "evidence": "evidence/COURSE-COPY-03.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-COPY-02.jpg"
+    },
+    {
+      "number": 35,
+      "section": "开课资料维护与计划形成",
+      "title": "历史开课文件导入",
+      "records": [
+        "COURSE-HISTORY-01"
+      ],
+      "how": "在历史导入入口上传同一标准文件，预览后确认，再查看导入记录。",
+      "result": "此处有阻塞：未出现本次文件和导入结果，无法确认历史导入已完成。",
+      "state": "此处有阻塞",
+      "photo": "COURSE-HISTORY-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-HISTORY-01",
+          "module": "历史开课导入",
+          "flow": "提交历史导入后的审计记录",
+          "actual": "v005模拟文件解析2有效0错误，确认导入后弹窗关闭，但历史记录仍仅2024/2023两条旧记录，无本次文件、时间及成功/失败结果。未能证明历史数据已实际落库。",
+          "screenshot": "screenshots/COURSE-HISTORY-01.jpg",
+          "evidence": "evidence/COURSE-HISTORY-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-HISTORY-01.jpg"
+    },
+    {
+      "number": 36,
+      "section": "本科开课计划提交与四级审批",
+      "title": "助理提交本科计划",
+      "records": [
+        "FLOW-UG-01"
+      ],
+      "how": "本科助理确认学年学期后提交开课计划。",
+      "result": "计划进入待审批，助理页面转为只读。",
+      "state": "已完成",
+      "photo": "FLOW-UG-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-UG-01",
+          "module": "本科开课审批",
+          "flow": "助理提交并进入只读",
+          "actual": "2026-2027 Summer本科模拟计划已提交，页面状态待审批，新增编辑删除入口收起，仅保留版本只读模式。",
+          "screenshot": "screenshots/FLOW-UG-01.jpg",
+          "evidence": "evidence/FLOW-UG-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-UG-01.jpg"
+    },
+    {
+      "number": 37,
+      "section": "本科开课计划提交与四级审批",
+      "title": "主任登录并接收本科待办",
+      "records": [
+        "AUTH-HEAD",
+        "FLOW-UG-02"
+      ],
+      "how": "切换学科部主任账号，查看待办中的本科计划。",
+      "result": "本轮本科Summer计划出现在主任待办，课程数为1。",
+      "state": "已完成",
+      "photo": "FLOW-UG-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "AUTH-HEAD",
+          "module": "角色登录",
+          "flow": "学科部主任登录及菜单",
+          "actual": "dept_head成功登录，头部角色正确。",
+          "screenshot": "screenshots/AUTH-HEAD.jpg",
+          "evidence": "evidence/AUTH-HEAD.txt"
+        },
+        {
+          "id": "FLOW-UG-02",
+          "module": "本科开课审批",
+          "flow": "主任接收计划与节点进度",
+          "actual": "主任待办出现本科2026-2027SUMMER1门，四级审批流程待处理。",
+          "screenshot": "screenshots/FLOW-UG-02.jpg",
+          "evidence": "evidence/FLOW-UG-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-UG-02.jpg"
+    },
+    {
+      "number": 38,
+      "section": "本科开课计划提交与四级审批",
+      "title": "校验驳回原因",
+      "records": [
+        "FLOW-UG-03"
+      ],
+      "how": "打开驳回，不填写原因就提交。",
+      "result": "系统提示必须填写驳回原因，计划保持待审。",
+      "state": "已完成",
+      "photo": "FLOW-UG-03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-UG-03",
+          "module": "本科开课审批",
+          "flow": "驳回原因必填",
+          "actual": "空原因点击确认驳回提示请输入驳回原因，未改变待审状态。",
+          "screenshot": "screenshots/FLOW-UG-03.jpg",
+          "evidence": "evidence/FLOW-UG-03.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-UG-03.jpg"
+    },
+    {
+      "number": 39,
+      "section": "本科开课计划提交与四级审批",
+      "title": "主任驳回计划",
+      "records": [
+        "FLOW-UG-04"
+      ],
+      "how": "填写模拟原因，确认驳回本轮计划。",
+      "result": "计划变为已驳回并记录处理人及时间；系统按提示清空该提交人本学期课程。",
+      "state": "已完成",
+      "photo": "FLOW-UG-04",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-UG-04",
+          "module": "本科开课审批",
+          "flow": "主任驳回模拟计划",
+          "actual": "模拟计划变已驳回，流程记录主任及时间；提示会清空该提交人当前学期课程，待回助理核对。",
+          "screenshot": "screenshots/FLOW-UG-04.jpg",
+          "evidence": "evidence/FLOW-UG-04.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-UG-04.jpg"
+    },
+    {
+      "number": 40,
+      "section": "本科开课计划提交与四级审批",
+      "title": "助理重建课程后重新提交",
+      "records": [
+        "FLOW-UG-06"
+      ],
+      "how": "返回助理账号，重建模拟课程并提交；具体学期已按前述方式恢复。",
+      "result": "重提成功，计划重新进入审批。",
+      "state": "已完成",
+      "photo": "FLOW-UG-06",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-UG-06",
+          "module": "本科开课审批",
+          "flow": "驳回后重新建课并重提",
+          "actual": "恢复学期选项后重建PSY1020 QAUGR，重新提交成功，待审批只读。",
+          "screenshot": "screenshots/FLOW-UG-06.jpg",
+          "evidence": "evidence/FLOW-UG-06.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-UG-06.jpg"
+    },
+    {
+      "number": 41,
+      "section": "本科开课计划提交与四级审批",
+      "title": "主任初审通过",
+      "records": [
+        "FLOW-UG-07"
+      ],
+      "how": "主任核对重提计划后点击通过。",
+      "result": "本科计划进入学院行政审批。",
+      "state": "已完成",
+      "photo": "FLOW-UG-07",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-UG-07",
+          "module": "本科开课审批",
+          "flow": "主任初审通过",
+          "actual": "本科模拟计划转为待学院行政审批。",
+          "screenshot": "screenshots/FLOW-UG-07.jpg",
+          "evidence": "evidence/FLOW-UG-07.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-UG-07.jpg"
+    },
+    {
+      "number": 42,
+      "section": "本科开课计划提交与四级审批",
+      "title": "本科行政登录核对待办和计划",
+      "records": [
+        "AUTH-ADMINUG",
+        "PERM-ADMINUG",
+        "FLOW-UG-08A"
+      ],
+      "how": "本科行政登录，只查看本科计划，并从审批入口打开达标情况。",
+      "result": "本科待办可见；跳转保留2026至2027、Summer和本科条件。",
+      "state": "已完成",
+      "photo": "FLOW-UG-08A",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "AUTH-ADMINUG",
+          "module": "角色登录",
+          "flow": "本科行政登录",
+          "actual": "admin_ug登录成功。",
+          "screenshot": "screenshots/AUTH-ADMINUG.jpg",
+          "evidence": "evidence/AUTH-ADMINUG.txt"
+        },
+        {
+          "id": "PERM-ADMINUG",
+          "module": "角色范围",
+          "flow": "本科行政待办按层次隔离",
+          "actual": "待办仅本科模拟计划1条，同学部同学期研究生模拟计划不可见。",
+          "screenshot": "screenshots/PERM-ADMINUG.jpg",
+          "evidence": "evidence/PERM-ADMINUG.txt"
+        },
+        {
+          "id": "FLOW-UG-08A",
+          "module": "本科开课审批",
+          "flow": "审批行跳转达标情况上下文",
+          "actual": "页面加载完成后正确应用URL参数：2026-2027/Summer/本科，显示模拟课程Hours2/课程1/学分3。初始加载瞬间为默认值，未判为Bug。",
+          "screenshot": "screenshots/FLOW-UG-08A.jpg",
+          "evidence": "evidence/FLOW-UG-08A.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-UG-08A.jpg"
+    },
+    {
+      "number": 43,
+      "section": "本科开课计划提交与四级审批",
+      "title": "本科行政复审通过",
+      "records": [
+        "FLOW-UG-08"
+      ],
+      "how": "本科行政确认计划后提交通过。",
+      "result": "流程进入学院行政主管审批，已完成节点有记录。",
+      "state": "已完成",
+      "photo": "FLOW-UG-08",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-UG-08",
+          "module": "本科开课审批",
+          "flow": "本科行政复审通过",
+          "actual": "本科行政待办清空，流程转待学院行政主管审批，保留主任与本科行政通过记录。",
+          "screenshot": "screenshots/FLOW-UG-08.jpg",
+          "evidence": "evidence/FLOW-UG-08.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-UG-08.jpg"
+    },
+    {
+      "number": 44,
+      "section": "本科开课计划提交与四级审批",
+      "title": "行政主管接收并通过本科计划",
+      "records": [
+        "AUTH-SUP",
+        "FLOW-SUP-01",
+        "FLOW-UG-09"
+      ],
+      "how": "行政主管登录，在本科与研究生两类待办中处理本科计划。",
+      "result": "本科计划进入主管领导终审。",
+      "state": "已完成",
+      "photo": "FLOW-UG-09",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "AUTH-SUP",
+          "module": "角色登录",
+          "flow": "学院行政主管登录",
+          "actual": "admin_sup成功登录。",
+          "screenshot": "screenshots/AUTH-SUP.jpg",
+          "evidence": "evidence/AUTH-SUP.txt"
+        },
+        {
+          "id": "FLOW-SUP-01",
+          "module": "开课审批",
+          "flow": "行政主管接收两类计划",
+          "actual": "行政主管待办同时出现本科、研究生两条模拟计划，均待主管审批。",
+          "screenshot": "screenshots/FLOW-SUP-01.jpg",
+          "evidence": "evidence/FLOW-SUP-01.txt"
+        },
+        {
+          "id": "FLOW-UG-09",
+          "module": "本科开课审批",
+          "flow": "行政主管复审通过",
+          "actual": "本科计划转待主管领导审批。",
+          "screenshot": "screenshots/FLOW-UG-09.jpg",
+          "evidence": "evidence/FLOW-UG-09.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-UG-09.jpg"
+    },
+    {
+      "number": 45,
+      "section": "本科开课计划提交与四级审批",
+      "title": "主管领导终审本科计划",
+      "records": [
+        "AUTH-DEAN",
+        "FLOW-UG-10"
+      ],
+      "how": "主管领导登录，核对本科计划并通过，再查看最终审批记录。",
+      "result": "本科计划最终显示已通过和已处理。终审确认弹窗只是过程留图，最终状态由审批跟踪补证。",
+      "state": "已完成",
+      "photo": "FLOW-FINAL-RECHECK",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "AUTH-DEAN",
+          "module": "角色登录",
+          "flow": "主管领导登录",
+          "actual": "dean成功登录。",
+          "screenshot": "screenshots/AUTH-DEAN.jpg",
+          "evidence": "evidence/AUTH-DEAN.txt"
+        },
+        {
+          "id": "FLOW-UG-10",
+          "module": "本科开课审批",
+          "flow": "主管领导终审通过",
+          "actual": "本科模拟计划完成四级审批，流程显示审批通过，各级通过人和时间完整。 最终状态另见FLOW-FINAL-RECHECK；原操作截图可能仍在确认弹窗，不单独作为最终成功证明。",
+          "screenshot": "screenshots/FLOW-UG-10.jpg",
+          "evidence": "evidence/FLOW-UG-10.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-FINAL-RECHECK.jpg"
+    },
+    {
+      "number": 46,
+      "section": "研究生开课计划提交与四级审批",
+      "title": "研究生助理登录选择学期",
+      "records": [
+        "AUTH-PG",
+        "FLOW-PG-01"
+      ],
+      "how": "研究生助理登录，选择Summer；若学期缺失先访问学期管理再返回。",
+      "result": "具体学期恢复可选，本科模拟记录在研究生列表不可见。",
+      "state": "已绕行继续",
+      "photo": "FLOW-PG-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "AUTH-PG",
+          "module": "角色登录",
+          "flow": "研究生助理登录及菜单",
+          "actual": "assistant_pg成功登录，头部显示研究生助理。",
+          "screenshot": "screenshots/AUTH-PG.jpg",
+          "evidence": "evidence/AUTH-PG.txt"
+        },
+        {
+          "id": "FLOW-PG-01",
+          "module": "研究生开课审批",
+          "flow": "绕行恢复学期并核对本科隔离",
+          "actual": "访问学期管理后Summer可选；研究生Summer列表为空，本科模拟UG记录不可见。",
+          "screenshot": "screenshots/FLOW-PG-01.jpg",
+          "evidence": "evidence/FLOW-PG-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-PG-01.jpg"
+    },
+    {
+      "number": 47,
+      "section": "研究生开课计划提交与四级审批",
+      "title": "新增研究生开课安排",
+      "records": [
+        "FLOW-PG-02"
+      ],
+      "how": "录入TPG模拟课程、教师和每周3小时安排。",
+      "result": "研究生模拟课程保存，列表中不混入本科模拟课程。",
+      "state": "已完成",
+      "photo": "FLOW-PG-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-PG-02",
+          "module": "研究生开课审批",
+          "flow": "研究生模拟课程新增",
+          "actual": "TPG模拟课程新增，QAPG每周3小时；本科UG模拟课程在研究生列表不可见。",
+          "screenshot": "screenshots/FLOW-PG-02.jpg",
+          "evidence": "evidence/FLOW-PG-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-PG-02.jpg"
+    },
+    {
+      "number": 48,
+      "section": "研究生开课计划提交与四级审批",
+      "title": "研究生助理提交计划",
+      "records": [
+        "FLOW-PG-03"
+      ],
+      "how": "核对研究生计划后提交。",
+      "result": "计划进入审批，助理页面只读。",
+      "state": "已完成",
+      "photo": "FLOW-PG-03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-PG-03",
+          "module": "研究生开课审批",
+          "flow": "研究生助理提交",
+          "actual": "模拟TPG计划提交成功，进入审批中只读。",
+          "screenshot": "screenshots/FLOW-PG-03.jpg",
+          "evidence": "evidence/FLOW-PG-03.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-PG-03.jpg"
+    },
+    {
+      "number": 49,
+      "section": "研究生开课计划提交与四级审批",
+      "title": "主任通过研究生计划",
+      "records": [
+        "FLOW-PG-04"
+      ],
+      "how": "主任核对研究生计划后点击通过。",
+      "result": "研究生计划进入对应学院行政审批。",
+      "state": "已完成",
+      "photo": "FLOW-PG-04",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-PG-04",
+          "module": "研究生开课审批",
+          "flow": "主任初审通过",
+          "actual": "研究生模拟计划转为待学院行政审批。",
+          "screenshot": "screenshots/FLOW-PG-04.jpg",
+          "evidence": "evidence/FLOW-PG-04.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-PG-04.jpg"
+    },
+    {
+      "number": 50,
+      "section": "研究生开课计划提交与四级审批",
+      "title": "研究生行政登录并核对范围",
+      "records": [
+        "AUTH-ADMINPG",
+        "PERM-ADMINPG"
+      ],
+      "how": "研究生行政登录，检查自己的待办。",
+      "result": "本轮研究生计划可见，没有可处理的本科模拟计划。",
+      "state": "已完成",
+      "photo": "PERM-ADMINPG",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "AUTH-ADMINPG",
+          "module": "角色登录",
+          "flow": "研究生行政登录",
+          "actual": "admin_pg成功登录。",
+          "screenshot": "screenshots/AUTH-ADMINPG.jpg",
+          "evidence": "evidence/AUTH-ADMINPG.txt"
+        },
+        {
+          "id": "PERM-ADMINPG",
+          "module": "角色范围",
+          "flow": "研究生行政待办按层次隔离",
+          "actual": "待办仅研究生模拟计划，本科计划已在主管节点，不出现可处理本科计划。",
+          "screenshot": "screenshots/PERM-ADMINPG.jpg",
+          "evidence": "evidence/PERM-ADMINPG.txt"
+        }
+      ],
+      "screenshot": "screenshots/PERM-ADMINPG.jpg"
+    },
+    {
+      "number": 51,
+      "section": "研究生开课计划提交与四级审批",
+      "title": "研究生行政复审通过",
+      "records": [
+        "FLOW-PG-05"
+      ],
+      "how": "研究生行政核对后通过。",
+      "result": "计划进入学院行政主管审批。",
+      "state": "已完成",
+      "photo": "FLOW-PG-05",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-PG-05",
+          "module": "研究生开课审批",
+          "flow": "研究生行政复审通过",
+          "actual": "研究生行政处理后流程转待学院行政主管审批。",
+          "screenshot": "screenshots/FLOW-PG-05.jpg",
+          "evidence": "evidence/FLOW-PG-05.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-PG-05.jpg"
+    },
+    {
+      "number": 52,
+      "section": "研究生开课计划提交与四级审批",
+      "title": "行政主管复审研究生计划",
+      "records": [
+        "FLOW-PG-06"
+      ],
+      "how": "行政主管处理研究生计划并通过。",
+      "result": "计划进入主管领导终审。",
+      "state": "已完成",
+      "photo": "FLOW-PG-06",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-PG-06",
+          "module": "研究生开课审批",
+          "flow": "行政主管复审通过",
+          "actual": "研究生计划转待主管领导审批。",
+          "screenshot": "screenshots/FLOW-PG-06.jpg",
+          "evidence": "evidence/FLOW-PG-06.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-PG-06.jpg"
+    },
+    {
+      "number": 53,
+      "section": "研究生开课计划提交与四级审批",
+      "title": "主管领导终审研究生计划",
+      "records": [
+        "FLOW-PG-07"
+      ],
+      "how": "主管领导核对研究生计划并通过，再查最终状态。",
+      "result": "研究生计划最终显示已通过和已处理。",
+      "state": "已完成",
+      "photo": "FLOW-FINAL-RECHECK",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-PG-07",
+          "module": "研究生开课审批",
+          "flow": "主管领导终审通过",
+          "actual": "研究生模拟计划完成四级审批，流程显示审批通过，各级通过人和时间完整。 最终状态另见FLOW-FINAL-RECHECK；原操作截图可能仍在确认弹窗，不单独作为最终成功证明。",
+          "screenshot": "screenshots/FLOW-PG-07.jpg",
+          "evidence": "evidence/FLOW-PG-07.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-FINAL-RECHECK.jpg"
+    },
+    {
+      "number": 54,
+      "section": "研究生开课计划提交与四级审批",
+      "title": "审批跟踪核对两条已完成计划",
+      "records": [
+        "FLOW-FINAL-RECHECK",
+        "TRACK-COPY01"
+      ],
+      "how": "按学年、Summer和已通过状态查询，核对本科与研究生各一条。",
+      "result": "两条均已通过、已处理；下方流程图仅三层且角色标签不完整，展示待完善，不影响这两条记录的最终状态。",
+      "state": "已完成 有展示问题",
+      "photo": "FLOW-FINAL-RECHECK",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "FLOW-FINAL-RECHECK",
+          "module": "审批跟踪",
+          "flow": "终审记录最终状态复核",
+          "actual": "管理员审批跟踪筛选2026-2027 Summer 已通过，返回本轮本科和研究生各1条，当前节点第5步，均已通过、已处理。此截图为最终状态证据，替代早期终审按钮确认弹窗截图作为报告证明。",
+          "screenshot": "screenshots/FLOW-FINAL-RECHECK.jpg",
+          "evidence": "evidence/FLOW-FINAL-RECHECK.txt"
+        },
+        {
+          "id": "TRACK-COPY01",
+          "module": "审批跟踪",
+          "flow": "流程图节点与本轮四级审批一致性",
+          "actual": "本轮实际经过主任、对应学院行政、学院行政主管、主管领导四级审批，跟踪列表已通过且第5步；下方流程图却只有3节点，把学院行政主管显示在“主管领导终审”下，缺少实际主管领导dean终审记录。",
+          "screenshot": "screenshots/TRACK-COPY01.jpg",
+          "evidence": "evidence/TRACK-COPY01.txt"
+        }
+      ],
+      "screenshot": "screenshots/FLOW-FINAL-RECHECK.jpg"
+    },
+    {
+      "number": 55,
+      "section": "SIS数据与课时导入",
+      "title": "校验SIS文件关键列",
+      "records": [
+        "SET-SIS-01"
+      ],
+      "how": "上传缺少课程教师列的模拟文件，查看解析提示。",
+      "result": "缺少关键列的数据被识别并跳过。",
+      "state": "已完成",
+      "photo": "SET-SIS-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-SIS-01",
+          "module": "结算SIS导入",
+          "flow": "缺少课程教师列时校验跳过",
+          "actual": "上传3条模拟行，预览逐行提示Course Instructor缺少课程教师，3条均跳过，未写入。",
+          "screenshot": "screenshots/SET-SIS-01.jpg",
+          "evidence": "evidence/SET-SIS-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-SIS-01.jpg"
+    },
+    {
+      "number": 56,
+      "section": "SIS数据与课时导入",
+      "title": "导入SIS课程数据",
+      "records": [
+        "SET-SIS-02",
+        "SET-SIS-03"
+      ],
+      "how": "补齐Course Instructor列，预览后确认分学期导入。",
+      "result": "隔离Term1保存三条模拟课程；本次输入的学分列格式随后按下一步修正。",
+      "state": "已完成",
+      "photo": "SET-SIS-03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-SIS-02",
+          "module": "结算SIS导入",
+          "flow": "解析预览与输入值核对",
+          "actual": "后续按引擎提示改用标准Course Units列，预览正确识别3/3/0，确认此前Units列不属于标准导入列，不计产品缺陷。",
+          "screenshot": "screenshots/SET-SIS-02.jpg",
+          "evidence": "evidence/SET-SIS-02.txt"
+        },
+        {
+          "id": "SET-SIS-03",
+          "module": "结算SIS导入",
+          "flow": "分学期确认后持久化",
+          "actual": "隔离2027-2028 Term1预估版成功导入3条QATEST模拟数据，列表显示文件名、导入时间及教师、人数。",
+          "screenshot": "screenshots/SET-SIS-03.jpg",
+          "evidence": "evidence/SET-SIS-03.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-SIS-03.jpg"
+    },
+    {
+      "number": 57,
+      "section": "SIS数据与课时导入",
+      "title": "补齐标准学分列并重复导入",
+      "records": [
+        "SET-SIS-04",
+        "SET-SIS-05"
+      ],
+      "how": "使用Course Units列重新导入相同Class编号。",
+      "result": "预览识别3、3、0学分；新增0、更新3，原课时信息保留。",
+      "state": "已完成",
+      "photo": "SET-SIS-05",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-SIS-04",
+          "module": "结算SIS导入",
+          "flow": "标准Course Units列解析",
+          "actual": "Course Units列3/3/0正确识别，3行均可导入，0错误。",
+          "screenshot": "screenshots/SET-SIS-04.jpg",
+          "evidence": "evidence/SET-SIS-04.txt"
+        },
+        {
+          "id": "SET-SIS-05",
+          "module": "结算SIS导入",
+          "flow": "相同Class重复导入更新",
+          "actual": "同3条再次导入显示新建0更新3，列表仍3条，Course Units更新3/3/0，之前导入的Days&Time保留。",
+          "screenshot": "screenshots/SET-SIS-05.jpg",
+          "evidence": "evidence/SET-SIS-05.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-SIS-05.jpg"
+    },
+    {
+      "number": 58,
+      "section": "SIS数据与课时导入",
+      "title": "检查课时文件格式",
+      "records": [
+        "SET-HOURS-01",
+        "SET-HOURS-02"
+      ],
+      "how": "上传课时文件，按页面要求检查Class及Days与Time格式。",
+      "result": "不支持的初始格式未导入；Class格式错误被标出，确认导入按钮受控。正确格式在下一步使用。",
+      "state": "格式调整后继续",
+      "photo": "SET-HOURS-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-HOURS-01",
+          "module": "SIS课时导入",
+          "flow": "课时文件格式识别",
+          "actual": "含Class Nbr/Class Date/Start Time/End Time的模拟TIME_INSTRUCTOR文件解析为0行且错误数0。页面缺少可下载模板；需按预览所示Class/Days&Time等字段补齐后复测。",
+          "screenshot": "screenshots/SET-HOURS-01.jpg",
+          "evidence": "evidence/SET-HOURS-01.txt"
+        },
+        {
+          "id": "SET-HOURS-02",
+          "module": "SIS课时导入",
+          "flow": "Class格式校验与课时预览",
+          "actual": "Class不符合CEC 1010-L01(5287)格式时2行明确报错，禁止确认；Mon10:30-12:20解析周课时2，Tue14:00-14:50解析周课时1。",
+          "screenshot": "screenshots/SET-HOURS-02.jpg",
+          "evidence": "evidence/SET-HOURS-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-HOURS-02.jpg"
+    },
+    {
+      "number": 59,
+      "section": "SIS数据与课时导入",
+      "title": "导入正确的上课时间",
+      "records": [
+        "SET-HOURS-03"
+      ],
+      "how": "按Class编号上传正确课时文件，检查更新结果。",
+      "result": "两条课时更新为2小时和1小时，另一条保留缺课时作为异常样本。",
+      "state": "已完成",
+      "photo": "SET-HOURS-03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-HOURS-03",
+          "module": "SIS课时导入",
+          "flow": "按Class编号更新模拟课时",
+          "actual": "两条有效课时按Class Nbr991401/991403更新，列表显示Mon10:30-12:20和Tue14:00-14:50，Section更新L01/T01。",
+          "screenshot": "screenshots/SET-HOURS-03.jpg",
+          "evidence": "evidence/SET-HOURS-03.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-HOURS-03.jpg"
+    },
+    {
+      "number": 60,
+      "section": "结算生成计算与结果保存",
+      "title": "从开课资料生成结算计划",
+      "records": [
+        "SET-PLAN-01",
+        "SET-PLAN-02"
+      ],
+      "how": "在隔离批次重新生成开课计划数据，查看双教师拆分。",
+      "result": "两门课程拆为三条教师记录；计划学时和工作量显示横线，完整数值承接仍需完善。",
+      "state": "已生成 结果待完善",
+      "photo": "SET-PLAN-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-PLAN-01",
+          "module": "结算计划生成",
+          "flow": "双教师拆分条数",
+          "actual": "2条开课计划重新生成3条对比记录，TPG双教师分别拆为陈纯/王立弟，UG单教师1条。",
+          "screenshot": "screenshots/SET-PLAN-01.jpg",
+          "evidence": "evidence/SET-PLAN-01.txt"
+        },
+        {
+          "id": "SET-PLAN-02",
+          "module": "结算计划生成",
+          "flow": "已生成计划的课时与状态",
+          "actual": "成功从开课列表生成3条计划数据，但计划学时和计划工作量均显示--，而开课计划版为3/1.5/1.5；三条缺上课时间却显示NORMAL无需填写。",
+          "screenshot": "screenshots/SET-PLAN-02.jpg",
+          "evidence": "evidence/SET-PLAN-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-PLAN-01.jpg"
+    },
+    {
+      "number": 61,
+      "section": "结算生成计算与结果保存",
+      "title": "识别缺少时间的记录",
+      "records": [
+        "SET-ENGINE-01"
+      ],
+      "how": "对未提供上课时间的模拟数据执行计算，查看日志。",
+      "result": "缺时间记录被跳过并记录异常，不作为正常完成计算。",
+      "state": "已完成",
+      "photo": "SET-ENGINE-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-ENGINE-01",
+          "module": "结算引擎",
+          "flow": "缺上课时间异常归类",
+          "actual": "3条模拟数据均归入ERROR缺上课时间，原始课时与最终工作量为0，明确提示需补TIME_INSTRUCTOR。",
+          "screenshot": "screenshots/SET-ENGINE-01.jpg",
+          "evidence": "evidence/SET-ENGINE-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-ENGINE-01.jpg"
+    },
+    {
+      "number": 62,
+      "section": "结算生成计算与结果保存",
+      "title": "查看零学分异常及筛选",
+      "records": [
+        "SET-ENGINE-02",
+        "SET-ENGINE-03",
+        "SET-ENGINE-04"
+      ],
+      "how": "对有课时但零学分的样本计算，查看最终日志并筛选未通过记录。",
+      "result": "筛选可以找到未通过记录；但行上仍显示NORMAL和工作量，此处结果一致性有阻塞。",
+      "state": "此处有阻塞",
+      "photo": "SET-ENGINE-03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-ENGINE-02",
+          "module": "结算引擎",
+          "flow": "有效课时与缺课时混合计算",
+          "actual": "原始课时解析2/1已出现，但最终完成状态与失败提示矛盾，见SET-ENGINE-03；不能视为正常计算通过。",
+          "screenshot": "screenshots/SET-ENGINE-02.jpg",
+          "evidence": "evidence/SET-ENGINE-02.txt"
+        },
+        {
+          "id": "SET-ENGINE-03",
+          "module": "结算引擎",
+          "flow": "失败记录状态与工作量一致性",
+          "actual": "计算完成提示成功0、未通过2、缺上课时间1，日志明确零学分无法运算；但QATEST101/QATEST103行状态NORMAL且最终工作量2/1，说明同列提示无法运算，结果互相矛盾。",
+          "screenshot": "screenshots/SET-ENGINE-03.jpg",
+          "evidence": "evidence/SET-ENGINE-03.txt"
+        },
+        {
+          "id": "SET-ENGINE-04",
+          "module": "结算对比",
+          "flow": "运算未通过筛选",
+          "actual": "选择运算未通过显示2条零学分记录，排除1条缺课时记录；但两条仍显示NORMAL，状态矛盾与SET-ENGINE-03同因。",
+          "screenshot": "screenshots/SET-ENGINE-04.jpg",
+          "evidence": "evidence/SET-ENGINE-04.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-ENGINE-03.jpg"
+    },
+    {
+      "number": 63,
+      "section": "结算生成计算与结果保存",
+      "title": "验证有效学分与课时计算",
+      "records": [
+        "SET-ENGINE-05"
+      ],
+      "how": "用已补齐3学分、2小时的有效记录再次计算。",
+      "result": "有效样本原始课时2、最终工作量2，显示正常。该批次中的其他异常样本不因此算作通过。",
+      "state": "已完成",
+      "photo": "SET-ENGINE-05",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-ENGINE-05",
+          "module": "结算引擎",
+          "flow": "有效学分有效课时计算",
+          "actual": "QATEST101为3学分、Mon10:30-12:20，原始课时2、最终2、NORMAL；同批缺课时与零学分不阻塞有效行。零学分行状态矛盾另见缺陷。",
+          "screenshot": "screenshots/SET-ENGINE-05.jpg",
+          "evidence": "evidence/SET-ENGINE-05.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-ENGINE-05.jpg"
+    },
+    {
+      "number": 64,
+      "section": "结算生成计算与结果保存",
+      "title": "保存结算结果及偏差说明",
+      "records": [
+        "SET-COMPARE-01"
+      ],
+      "how": "保存结算结果；为缺课时行填写说明，保存后刷新回读。",
+      "result": "结果和行级说明可以保存并回读。",
+      "state": "已完成",
+      "photo": "SET-COMPARE-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-COMPARE-01",
+          "module": "结算对比",
+          "flow": "保存结果与偏差说明刷新回读",
+          "actual": "全局保存提示3条成功，刷新后三条仍存在；缺课时QATEST102的模拟偏差说明保留。",
+          "screenshot": "screenshots/SET-COMPARE-01.jpg",
+          "evidence": "evidence/SET-COMPARE-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-COMPARE-01.jpg"
+    },
+    {
+      "number": 65,
+      "section": "结算生成计算与结果保存",
+      "title": "重新计算后再次保存",
+      "records": [
+        "SET-COMPARE-02"
+      ],
+      "how": "对已有说明的数据重新计算，再执行全局保存。",
+      "result": "此处有阻塞：重新计算时说明尚在，全局保存后说明变空。",
+      "state": "此处有阻塞",
+      "photo": "SET-COMPARE-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-COMPARE-02",
+          "module": "结算对比",
+          "flow": "重新计算保存保留已有偏差说明",
+          "actual": "QATEST102已有行级保存并刷新回读的模拟偏差说明，重新计算时仍回显，但再次全局保存后字段变空。",
+          "screenshot": "screenshots/SET-COMPARE-02.jpg",
+          "evidence": "evidence/SET-COMPARE-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-COMPARE-02.jpg"
+    },
+    {
+      "number": 66,
+      "section": "结算生成计算与结果保存",
+      "title": "查看课程处理记录",
+      "records": [
+        "SET-DETAIL-01"
+      ],
+      "how": "打开当天新导入课程的详情，检查处理时间线。",
+      "result": "此处有待完善项：出现本轮未发生的6月同步、计算和核实历史，不能用该时间线证明已核实。",
+      "state": "此处有待完善项",
+      "photo": "SET-DETAIL-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-DETAIL-01",
+          "module": "结算详情",
+          "flow": "模拟记录处理时间线",
+          "actual": "今日2026-10-14新导入的2027-2028模拟课程详情，却显示2026-06-01同步、06-05计算、06-10学部核实通过；本次未执行核实通过。存在非本记录的固定历史信息。",
+          "screenshot": "screenshots/SET-DETAIL-01.jpg",
+          "evidence": "evidence/SET-DETAIL-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-DETAIL-01.jpg"
+    },
+    {
+      "number": 67,
+      "section": "结算生成计算与结果保存",
+      "title": "人工调整工作量与课程数",
+      "records": [
+        "SET-ADJUST-01",
+        "SET-ADJUST-02"
+      ],
+      "how": "把模拟最终工作量由2改4、课程数改0.5，填写原因后保存。",
+      "result": "调整结果及前后记录可查看；原始课时也被改成4，原始值保留仍需完善。",
+      "state": "已调整 原始值待完善",
+      "photo": "SET-ADJUST-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-ADJUST-01",
+          "module": "结算调整",
+          "flow": "模拟最终工作量与课程数人工调整",
+          "actual": "QATEST101最终工作量2→4、课程数1→0.5，显示人工调整原因、操作账号及前后值。",
+          "screenshot": "screenshots/SET-ADJUST-01.jpg",
+          "evidence": "evidence/SET-ADJUST-01.txt"
+        },
+        {
+          "id": "SET-ADJUST-02",
+          "module": "结算调整",
+          "flow": "人工调整是否保留原始课时",
+          "actual": "仅修改最终工作量2→4与课程数0.5，上课时间仍Mon10:30-12:20，但表中原始课时也由2改成4，原始时间解析值被覆盖。",
+          "screenshot": "screenshots/SET-ADJUST-02.jpg",
+          "evidence": "evidence/SET-ADJUST-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-ADJUST-01.jpg"
+    },
+    {
+      "number": 68,
+      "section": "结算生成计算与结果保存",
+      "title": "核对教师汇总",
+      "records": [
+        "SET-SUMMARY-01"
+      ],
+      "how": "进入教师汇总，对照各行人工调整后的值。",
+      "result": "测试教师汇总显示1.5门、5小时，与该批次行值合计一致；异常行仍需按前述步骤处理。",
+      "state": "已完成",
+      "photo": "SET-SUMMARY-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-SUMMARY-01",
+          "module": "结算汇总",
+          "flow": "人工课程数同步教师汇总",
+          "actual": "模拟教师汇总课程数1.5，工作量5.0h，与QATEST101人工0.5门/4h和QATEST103的1门/1h一致；失败结果混入汇总的问题见SET-ENGINE-03。",
+          "screenshot": "screenshots/SET-SUMMARY-01.jpg",
+          "evidence": "evidence/SET-SUMMARY-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-SUMMARY-01.jpg"
+    },
+    {
+      "number": 69,
+      "section": "结算生成计算与结果保存",
+      "title": "查看保存后的工作量明细",
+      "records": [
+        "SET-WORKLOAD-01"
+      ],
+      "how": "保存后打开工作量明细，对照结算对比表。",
+      "result": "三条隔离记录可见，行值同步；异常状态也同步，不代表异常数据已通过验收。",
+      "state": "已完成",
+      "photo": "SET-WORKLOAD-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-WORKLOAD-01",
+          "module": "工作量明细",
+          "flow": "保存结果同步到明细表",
+          "actual": "工作量明细显示3条隔离模拟记录，与已保存对比表2/0/1h一致；零学分正常状态问题也同步到此表。",
+          "screenshot": "screenshots/SET-WORKLOAD-01.jpg",
+          "evidence": "evidence/SET-WORKLOAD-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-WORKLOAD-01.jpg"
+    },
+    {
+      "number": 70,
+      "section": "合教规则与权重维护",
+      "title": "新增合教课程代码",
+      "records": [
+        "SET-COLIST-01"
+      ],
+      "how": "新增本轮模拟合教课程代码并查询。",
+      "result": "模拟代码创建成功。",
+      "state": "已完成",
+      "photo": "SET-COLIST-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-COLIST-01",
+          "module": "co-list",
+          "flow": "新增模拟课程代码",
+          "actual": "隔离2027-2028 Term1新增QATEST101，列表回读成功。",
+          "screenshot": "screenshots/SET-COLIST-01.jpg",
+          "evidence": "evidence/SET-COLIST-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-COLIST-01.jpg"
+    },
+    {
+      "number": 71,
+      "section": "合教规则与权重维护",
+      "title": "修改合教课程代码",
+      "records": [
+        "SET-COLIST-02"
+      ],
+      "how": "把本轮代码改为另一模拟代码，再查看。",
+      "result": "修改后的代码保存成功。",
+      "state": "已完成",
+      "photo": "SET-COLIST-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-COLIST-02",
+          "module": "co-list",
+          "flow": "修改模拟课程代码",
+          "actual": "QATEST101修改为QATEST103后列表只显示新代码。",
+          "screenshot": "screenshots/SET-COLIST-02.jpg",
+          "evidence": "evidence/SET-COLIST-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-COLIST-02.jpg"
+    },
+    {
+      "number": 72,
+      "section": "合教规则与权重维护",
+      "title": "删除合教课程代码",
+      "records": [
+        "SET-COLIST-03"
+      ],
+      "how": "删除本轮模拟合教配置。",
+      "result": "模拟配置已删除。",
+      "state": "已完成",
+      "photo": "SET-COLIST-03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-COLIST-03",
+          "module": "co-list",
+          "flow": "删除模拟课程代码",
+          "actual": "本轮唯一co-list删除后列表为空。",
+          "screenshot": "screenshots/SET-COLIST-03.jpg",
+          "evidence": "evidence/SET-COLIST-03.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-COLIST-03.jpg"
+    },
+    {
+      "number": 73,
+      "section": "合教规则与权重维护",
+      "title": "检查授课比例合计",
+      "records": [
+        "SET-WEIGHT-01"
+      ],
+      "how": "将两位教师比例从50加50改为70加50。",
+      "result": "合计120%时保存按钮禁用。",
+      "state": "已完成",
+      "photo": "SET-WEIGHT-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-WEIGHT-01",
+          "module": "合教权重",
+          "flow": "占比合计超过100%限制",
+          "actual": "原50+50回显正确；第一位改70后合计120%，保存权重禁用。",
+          "screenshot": "screenshots/SET-WEIGHT-01.jpg",
+          "evidence": "evidence/SET-WEIGHT-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-WEIGHT-01.jpg"
+    },
+    {
+      "number": 74,
+      "section": "合教规则与权重维护",
+      "title": "保存合法授课比例",
+      "records": [
+        "SET-WEIGHT-02"
+      ],
+      "how": "平均分配为50%加50%，合计100%后保存。",
+      "result": "此处有阻塞：提示成功0条、失败1条；该样本缺课时、全额为0，页面未解释原因。",
+      "state": "此处有阻塞",
+      "photo": "SET-WEIGHT-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-WEIGHT-02",
+          "module": "合教权重",
+          "flow": "合法50%加50%保存",
+          "actual": "平均分配后恢复50/50、合计100%，点击保存权重提示更新完成成功0条失败1条，未给出失败原因。当前课程全额为0，需核查对缺课时记录的保存处理。",
+          "screenshot": "screenshots/SET-WEIGHT-02.jpg",
+          "evidence": "evidence/SET-WEIGHT-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-WEIGHT-02.jpg"
+    },
+    {
+      "number": 75,
+      "section": "导出快照与归档",
+      "title": "导出教师明细",
+      "records": [
+        "SET-EXPORT-01"
+      ],
+      "how": "选择教师明细报表并导出。",
+      "result": "页面提示导出成功，但未取得实际文件；文件生成、可打开性和内容仍需补证。",
+      "state": "需补充文件证据",
+      "photo": "SET-EXPORT-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-EXPORT-01",
+          "module": "结算报告",
+          "flow": "教师明细表导出文件",
+          "actual": "点击教师明细表导出，页面提示导出成功；浏览器未返回下载文件，默认Downloads无文件，不能确认实际文件生成及内容。",
+          "screenshot": "screenshots/SET-EXPORT-01.jpg",
+          "evidence": "evidence/SET-EXPORT-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-EXPORT-01.jpg"
+    },
+    {
+      "number": 76,
+      "section": "导出快照与归档",
+      "title": "导出学部汇总",
+      "records": [
+        "SET-EXPORT-02"
+      ],
+      "how": "选择学部汇总报表并导出。",
+      "result": "页面有导出反馈，实际文件未确认。",
+      "state": "需补充文件证据",
+      "photo": "SET-EXPORT-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-EXPORT-02",
+          "module": "结算报告",
+          "flow": "学部汇总导出反馈",
+          "actual": "点击学部汇总表导出提示成功，实际下载文件未确认。",
+          "screenshot": "screenshots/SET-EXPORT-02.jpg",
+          "evidence": "evidence/SET-EXPORT-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-EXPORT-02.jpg"
+    },
+    {
+      "number": 77,
+      "section": "导出快照与归档",
+      "title": "导出差异汇总",
+      "records": [
+        "SET-EXPORT-03"
+      ],
+      "how": "选择差异汇总报表并导出。",
+      "result": "页面有导出反馈，实际文件未确认。",
+      "state": "需补充文件证据",
+      "photo": "SET-EXPORT-03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-EXPORT-03",
+          "module": "结算报告",
+          "flow": "差异汇总导出反馈",
+          "actual": "点击差异汇总表导出提示成功，实际下载文件未确认。",
+          "screenshot": "screenshots/SET-EXPORT-03.jpg",
+          "evidence": "evidence/SET-EXPORT-03.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-EXPORT-03.jpg"
+    },
+    {
+      "number": 78,
+      "section": "导出快照与归档",
+      "title": "导出空的特殊审批报表",
+      "records": [
+        "SET-EXPORT-04"
+      ],
+      "how": "在无特殊审批数据的批次尝试导出。",
+      "result": "系统提示暂无数据，没有生成空业务结果。",
+      "state": "已完成",
+      "photo": "SET-EXPORT-04",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-EXPORT-04",
+          "module": "结算报告",
+          "flow": "无特殊审批数据导出提示",
+          "actual": "无特殊审批数据时明确提示暂无特殊审批数据可导出。",
+          "screenshot": "screenshots/SET-EXPORT-04.jpg",
+          "evidence": "evidence/SET-EXPORT-04.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-EXPORT-04.jpg"
+    },
+    {
+      "number": 79,
+      "section": "导出快照与归档",
+      "title": "创建结算快照",
+      "records": [
+        "SET-SNAPSHOT-01"
+      ],
+      "how": "选中有保存记录的结算批次，输入名称并创建快照。",
+      "result": "此处有阻塞：提示缺少sourceBatchId，快照未创建。",
+      "state": "此处有阻塞",
+      "photo": "SET-SNAPSHOT-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-SNAPSHOT-01",
+          "module": "结算快照",
+          "flow": "已选批次创建快照",
+          "actual": "已选2027-2028 Term1预估版且有3条保存记录，输入模拟名称创建，后端提示请求参数缺失:sourceBatchId，页面创建快照失败。",
+          "screenshot": "screenshots/SET-SNAPSHOT-01.jpg",
+          "evidence": "evidence/SET-SNAPSHOT-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-SNAPSHOT-01.jpg"
+    },
+    {
+      "number": 80,
+      "section": "导出快照与归档",
+      "title": "查看和使用新建快照",
+      "records": [],
+      "how": "快照创建成功后应继续检查后续查看和使用。",
+      "result": "此处有上游阻塞：本轮快照未创建，后续流程未执行。截图为创建失败的上游证据。",
+      "state": "上游阻塞 未执行",
+      "photo": "SET-SNAPSHOT-01",
+      "photo_note": "本图是上游阻塞或前置页面，不是本步骤执行成功的证据。",
+      "sources": [],
+      "screenshot": "screenshots/SET-SNAPSHOT-01.jpg"
+    },
+    {
+      "number": 81,
+      "section": "导出快照与归档",
+      "title": "归档结算批次并检查写保护",
+      "records": [
+        "SET-ARCHIVE-01",
+        "SET-ARCHIVE-02"
+      ],
+      "how": "归档隔离批次，检查全局控件及行级说明能否修改。",
+      "result": "归档后显示只读，全局保存禁用；行级说明仍可写入，此处写保护有阻塞。",
+      "state": "已归档 写保护有阻塞",
+      "photo": "SET-ARCHIVE-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-ARCHIVE-01",
+          "module": "结算归档",
+          "flow": "隔离批次归档只读",
+          "actual": "确认归档后出现只读模式、已归档历史副本，创建快照/导出报告禁用，并有取消归档按钮。",
+          "screenshot": "screenshots/SET-ARCHIVE-01.jpg",
+          "evidence": "evidence/SET-ARCHIVE-01.txt"
+        },
+        {
+          "id": "SET-ARCHIVE-02",
+          "module": "结算归档",
+          "flow": "归档只读拦截行级保存",
+          "actual": "归档显示只读模式且全局保存禁用，但缺课时行的偏差说明可编辑保存，刷新仍回显QA1014_1139归档只读验证，归档只读未覆盖行级操作。",
+          "screenshot": "screenshots/SET-ARCHIVE-02.jpg",
+          "evidence": "evidence/SET-ARCHIVE-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-ARCHIVE-02.jpg"
+    },
+    {
+      "number": 82,
+      "section": "导出快照与归档",
+      "title": "取消归档继续维护",
+      "records": [
+        "SET-ARCHIVE-03",
+        "SET-ARCHIVE-04"
+      ],
+      "how": "取消本轮归档，核对恢复编辑后的批次信息。",
+      "result": "编辑操作恢复；顶部变为期末实际但页签仍为预估版，模式标签待统一。",
+      "state": "已恢复 有显示问题",
+      "photo": "SET-ARCHIVE-03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-ARCHIVE-03",
+          "module": "结算归档",
+          "flow": "取消归档恢复编辑",
+          "actual": "取消归档成功，退出只读模式，重新生成、保存、调整操作恢复。",
+          "screenshot": "screenshots/SET-ARCHIVE-03.jpg",
+          "evidence": "evidence/SET-ARCHIVE-03.txt"
+        },
+        {
+          "id": "SET-ARCHIVE-04",
+          "module": "结算归档",
+          "flow": "批次模式文案一致性",
+          "actual": "取消归档后同一预估版批次顶部标签变为期末实际，但批次名称、页签标签及提示均为预估版，模式信息矛盾。",
+          "screenshot": "screenshots/SET-ARCHIVE-04.jpg",
+          "evidence": "evidence/SET-ARCHIVE-04.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-ARCHIVE-03.jpg"
+    },
+    {
+      "number": 83,
+      "section": "达标情况与工作量查询",
+      "title": "查询实际版达标情况",
+      "records": [
+        "COMPLIANCE01"
+      ],
+      "how": "打开实际版，按工号002272查询，对照实际值与标准。",
+      "result": "仅返回陈纯；12比12小时、4比4门、9比12学分，显示不达标，与学分不足一致。",
+      "state": "已完成",
+      "photo": "COMPLIANCE01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COMPLIANCE01",
+          "module": "达标情况对比",
+          "flow": "实际版工号过滤及达标判定",
+          "actual": "筛选002272仅陈纯，12/12小时、4/4课程、9/12学分、123/0人数，学分不足显示不达标；汇总3类教师数分别10、122、26，与各自达标+不达标之和一致。",
+          "screenshot": "screenshots/COMPLIANCE01.jpg",
+          "evidence": "evidence/COMPLIANCE01.txt"
+        }
+      ],
+      "screenshot": "screenshots/COMPLIANCE01.jpg"
+    },
+    {
+      "number": 84,
+      "section": "达标情况与工作量查询",
+      "title": "按具体学期查看达标情况",
+      "records": [
+        "COMPLIANCE02"
+      ],
+      "how": "切换Term1，观察实际值和全年标准的变化。",
+      "result": "实际值随学期变为6小时、2门、6学分；表头明确比较全年标准，该业务判定口径仍需确认。",
+      "state": "已查询 口径需确认",
+      "photo": "COMPLIANCE02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COMPLIANCE02",
+          "module": "达标情况对比",
+          "flow": "Term1筛选与全年标准显示",
+          "actual": "切换Term1后陈纯实际值由12/4/9/123变为6/2/6/89，标准仍12/4/12/0且表头明确全年标准；仅验证筛选及标签，学期达标采用全年标准的业务口径未独立确认。",
+          "screenshot": "screenshots/COMPLIANCE02.jpg",
+          "evidence": "evidence/COMPLIANCE02.txt"
+        }
+      ],
+      "screenshot": "screenshots/COMPLIANCE02.jpg"
+    },
+    {
+      "number": 85,
+      "section": "达标情况与工作量查询",
+      "title": "切换预估版达标情况",
+      "records": [
+        "COMPLIANCE03"
+      ],
+      "how": "保持教师筛选，切换预估版。",
+      "result": "预估版加载，工号筛选保留。",
+      "state": "已完成",
+      "photo": "COMPLIANCE03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COMPLIANCE03",
+          "module": "达标情况对比",
+          "flow": "预估版切换",
+          "actual": "预估版正常加载Term1统计，工号过滤保留002272；仅验证页面切换和数据显示，不替代计算规则全分支验证。",
+          "screenshot": "screenshots/COMPLIANCE03.jpg",
+          "evidence": "evidence/COMPLIANCE03.txt"
+        }
+      ],
+      "screenshot": "screenshots/COMPLIANCE03.jpg"
+    },
+    {
+      "number": 86,
+      "section": "达标情况与工作量查询",
+      "title": "按工号查询工作量",
+      "records": [
+        "QUERY01"
+      ],
+      "how": "在管理查询中输入002272。",
+      "result": "仅显示陈纯，教学18、特殊调整0、总量18。",
+      "state": "已完成",
+      "photo": "QUERY01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "QUERY01",
+          "module": "工作量查询",
+          "flow": "按教师工号筛选",
+          "actual": "2024-2025 管理查询输入002272，仅返回陈纯；教学18、特殊调整0、总量18。",
+          "screenshot": "screenshots/QUERY01.jpg",
+          "evidence": "evidence/QUERY01.txt"
+        }
+      ],
+      "screenshot": "screenshots/QUERY01.jpg"
+    },
+    {
+      "number": 87,
+      "section": "达标情况与工作量查询",
+      "title": "打开教师课程明细",
+      "records": [
+        "QUERY02"
+      ],
+      "how": "点击详情，逐项核对课程工作量合计。",
+      "result": "7条明细中6条3学时、1条0学时，合计18，与汇总一致。",
+      "state": "已完成",
+      "photo": "QUERY02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "QUERY02",
+          "module": "工作量查询",
+          "flow": "教师详情与明细汇总核对",
+          "actual": "陈纯详情列出7条课程明细，6条3学时、1条0学时，合计18，与管理查询汇总18一致；未核验重复课程是否属于不同班级。",
+          "screenshot": "screenshots/QUERY02.jpg",
+          "evidence": "evidence/QUERY02.txt"
+        }
+      ],
+      "screenshot": "screenshots/QUERY02.jpg"
+    },
+    {
+      "number": 88,
+      "section": "达标情况与工作量查询",
+      "title": "按课程代码筛选明细",
+      "records": [
+        "QUERY03"
+      ],
+      "how": "在详情中输入PSY5310。",
+      "result": "仅保留该课程，显示Term2、3学时。",
+      "state": "已完成",
+      "photo": "QUERY03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "QUERY03",
+          "module": "工作量查询",
+          "flow": "详情课程代码筛选",
+          "actual": "详情输入PSY5310后只保留该课程TERM_2、3学时；总量仍显示该教师完整汇总18。",
+          "screenshot": "screenshots/QUERY03.jpg",
+          "evidence": "evidence/QUERY03.txt"
+        }
+      ],
+      "screenshot": "screenshots/QUERY03.jpg"
+    },
+    {
+      "number": 89,
+      "section": "特殊审批减免与结转",
+      "title": "检查特殊申请必填项",
+      "records": [
+        "SPECIAL-001"
+      ],
+      "how": "新建特殊审批申请，空表提交。",
+      "result": "必填项校验可以拦截未填写的申请。",
+      "state": "已完成",
+      "photo": "SPECIAL-001",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SPECIAL-001",
+          "module": "特殊审批",
+          "flow": "申请必填校验",
+          "actual": "空表提交未通过，申请人/所属学部/案例类型等必填被校验。",
+          "screenshot": "screenshots/SPECIAL-001.jpg",
+          "evidence": "evidence/SPECIAL-001.txt"
+        }
+      ],
+      "screenshot": "screenshots/SPECIAL-001.jpg"
+    },
+    {
+      "number": 90,
+      "section": "特殊审批减免与结转",
+      "title": "填写申请并选择模拟附件",
+      "records": [
+        "SPECIAL-002",
+        "SPECIAL-002R"
+      ],
+      "how": "填写申请资料，选择模拟证明文件；用户开启文件URL权限后继续。",
+      "result": "初始上传权限限制已解除，文件选择完成；尚不代表附件随申请成功保存。",
+      "state": "已解除工具限制",
+      "photo": "SPECIAL-002R",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SPECIAL-002",
+          "module": "特殊审批",
+          "flow": "上传模拟证明附件",
+          "actual": "Edge工具要求ChatGPT扩展开启允许访问文件URL，目前工具拦截上传；已询问用户开启，非系统功能Bug。",
+          "screenshot": "screenshots/SPECIAL-002.jpg",
+          "evidence": "evidence/SPECIAL-002.txt"
+        },
+        {
+          "id": "SPECIAL-002R",
+          "module": "特殊审批",
+          "flow": "权限开启后上传模拟附件",
+          "actual": "模拟证明.txt成功出现在附件列表，原工具权限阻塞已解除。",
+          "screenshot": "screenshots/SPECIAL-002R.jpg",
+          "evidence": "evidence/SPECIAL-002R.txt"
+        }
+      ],
+      "screenshot": "screenshots/SPECIAL-002R.jpg"
+    },
+    {
+      "number": 91,
+      "section": "特殊审批减免与结转",
+      "title": "提交特殊申请",
+      "records": [
+        "SPECIAL-003",
+        "SPECIAL-003R"
+      ],
+      "how": "填写所有可见项后提交，再用已存在的模拟教师复核。",
+      "result": "此处有阻塞：仍提示教师用户ID不能为空，申请未创建。",
+      "state": "此处有阻塞",
+      "photo": "SPECIAL-003R",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SPECIAL-003",
+          "module": "特殊审批",
+          "flow": "提交完整可见字段的模拟申请",
+          "actual": "填写申请人、学部、2026、科研转换、1小时、描述及附件后，服务器报“请求参数不正确:教师用户ID不能为空”，同时页面提示提交失败:未知错误；表单没有教师用户ID选择控件。",
+          "screenshot": "screenshots/SPECIAL-003.jpg",
+          "evidence": "evidence/SPECIAL-003.txt"
+        },
+        {
+          "id": "SPECIAL-003R",
+          "module": "特殊审批",
+          "flow": "已存在模拟教师提交复核",
+          "actual": "使用刚创建并能查询的QA1014T教师姓名发起申请，仍提示教师用户ID不能为空、未知错误，排除单纯教师姓名不存在的解释。",
+          "screenshot": "screenshots/SPECIAL-003R.jpg",
+          "evidence": "evidence/SPECIAL-003R.txt"
+        }
+      ],
+      "screenshot": "screenshots/SPECIAL-003R.jpg"
+    },
+    {
+      "number": 92,
+      "section": "特殊审批减免与结转",
+      "title": "审核特殊申请并回写调整",
+      "records": [],
+      "how": "申请成功后应继续验证审核、驳回及调整结果回写。",
+      "result": "此处有上游阻塞：没有创建成功的申请，这些后续操作未执行。截图为上游提交失败证据。",
+      "state": "上游阻塞 未执行",
+      "photo": "SPECIAL-003R",
+      "photo_note": "本图是上游阻塞或前置页面，不是本步骤执行成功的证据。",
+      "sources": [],
+      "screenshot": "screenshots/SPECIAL-003R.jpg"
+    },
+    {
+      "number": 93,
+      "section": "特殊审批减免与结转",
+      "title": "进入课时减免页面",
+      "records": [
+        "COURSE-REDUCTION-01",
+        "COURSE-REDUCTION02"
+      ],
+      "how": "分别以管理员及学院行政主管进入测试学年的减免页面。",
+      "result": "页面可打开但均为只读，无新增、编辑或导入入口。",
+      "state": "写权限受限",
+      "photo": "COURSE-REDUCTION02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-REDUCTION-01",
+          "module": "课时减免",
+          "flow": "管理员隔离学年减免页面",
+          "actual": "页面可打开、查询及导出，标记只读，无新增/导入/编辑入口；当前账号无法完成减免增改，需要确认有写权限的角色。",
+          "screenshot": "screenshots/COURSE-REDUCTION-01.jpg",
+          "evidence": "evidence/COURSE-REDUCTION-01.txt"
+        },
+        {
+          "id": "COURSE-REDUCTION02",
+          "module": "课时减免",
+          "flow": "学院行政主管查看减免写权限",
+          "actual": "admin_sup 在隔离测试学年仍显示“只读”，无新增、编辑、导入入口；本账号不能执行减免增删改，未更改权限绕过。",
+          "screenshot": "screenshots/COURSE-REDUCTION02.jpg",
+          "evidence": "evidence/COURSE-REDUCTION02.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-REDUCTION02.jpg"
+    },
+    {
+      "number": 94,
+      "section": "特殊审批减免与结转",
+      "title": "维护减免并检查联动",
+      "records": [],
+      "how": "按原验收目标继续新增、修改、导入、删除减免，并核对达标及结转。",
+      "result": "此处有权限阻塞：现有已核对账号无写入口，以上维护和联动未执行。截图为只读页面证据。",
+      "state": "权限阻塞 未执行",
+      "photo": "COURSE-REDUCTION02",
+      "photo_note": "本图是上游阻塞或前置页面，不是本步骤执行成功的证据。",
+      "sources": [],
+      "screenshot": "screenshots/COURSE-REDUCTION02.jpg"
+    },
+    {
+      "number": 95,
+      "section": "特殊审批减免与结转",
+      "title": "查询具体学期结转差额",
+      "records": [
+        "COURSE-CARRY-01",
+        "COURSE-CARRY-02"
+      ],
+      "how": "按Term1与工号查询结转，打开差额明细。",
+      "result": "标准6、减免0、结算0，差额为负6，算式一致；说明把学期标准称为全年，文字待更正。",
+      "state": "已查询 有说明问题",
+      "photo": "COURSE-CARRY-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-CARRY-01",
+          "module": "跨学年结转",
+          "flow": "具体学期查询与差额明细",
+          "actual": "隔离2027-2028 Term1按工号002272筛选，详情合同标准6、减免0、结算0，有效标准6、结转-6与公式一致。",
+          "screenshot": "screenshots/COURSE-CARRY-01.jpg",
+          "evidence": "evidence/COURSE-CARRY-01.txt"
+        },
+        {
+          "id": "COURSE-CARRY-02",
+          "module": "跨学年结转",
+          "flow": "具体学期标准说明",
+          "actual": "来源筛选Term1，但详情②仍写合同全年课时标准6、来源全年课时；该教师隔离学年全年标准12，显示值6为学期标准，标签误导。",
+          "screenshot": "screenshots/COURSE-CARRY-02.jpg",
+          "evidence": "evidence/COURSE-CARRY-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-CARRY-01.jpg"
+    },
+    {
+      "number": 96,
+      "section": "特殊审批减免与结转",
+      "title": "验证全年结转入账",
+      "records": [],
+      "how": "具体学期查询后，原目标还包括全年结转写入及后续联动。",
+      "result": "本轮未执行全年账本写入，只有具体学期查询证据；不能将此步写为已通过。",
+      "state": "未执行 需补验",
+      "photo": "COURSE-CARRY-01",
+      "photo_note": "本图是上游阻塞或前置页面，不是本步骤执行成功的证据。",
+      "sources": [],
+      "screenshot": "screenshots/COURSE-CARRY-01.jpg"
+    },
+    {
+      "number": 97,
+      "section": "待办通知与首页查看",
+      "title": "刷新当前待办",
+      "records": [
+        "TASK01"
+      ],
+      "how": "主管刷新待办，检查空列表下的提交操作。",
+      "result": "本轮审批结束后当前待办0条，提交0项按钮禁用。",
+      "state": "已完成",
+      "photo": "TASK01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "TASK01",
+          "module": "待办任务",
+          "flow": "主管待办刷新与空列表控制",
+          "actual": "admin_sup 待办刷新后0条，提交(0)及表头复选框禁用；本轮自身两条开课审批已完成，审批操作证据见FLOW系列。",
+          "screenshot": "screenshots/TASK01.jpg",
+          "evidence": "evidence/TASK01.txt"
+        }
+      ],
+      "screenshot": "screenshots/TASK01.jpg"
+    },
+    {
+      "number": 98,
+      "section": "待办通知与首页查看",
+      "title": "查看提交计划生成的通知",
+      "records": [
+        "MESSAGE01"
+      ],
+      "how": "在系统消息中打开本轮研究生计划通知。",
+      "result": "通知包含正确的学年、Summer、研究生及1门课程。",
+      "state": "已完成",
+      "photo": "MESSAGE01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "MESSAGE01",
+          "module": "系统消息",
+          "flow": "开课提交生成通知并查看详情",
+          "actual": "本轮本科/研究生提交各生成1条通知，研究生通知详情含2026-2027 SUMMER、研究生、1门，与本轮提交一致。",
+          "screenshot": "screenshots/MESSAGE01.jpg",
+          "evidence": "evidence/MESSAGE01.txt"
+        }
+      ],
+      "screenshot": "screenshots/MESSAGE01.jpg"
+    },
+    {
+      "number": 99,
+      "section": "待办通知与首页查看",
+      "title": "标记本轮通知已读",
+      "records": [
+        "MESSAGE02"
+      ],
+      "how": "仅选中本轮本科模拟通知标记已读，再打开详情。",
+      "result": "显示已读及阅读时间。",
+      "state": "已完成",
+      "photo": "MESSAGE02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "MESSAGE02",
+          "module": "系统消息",
+          "flow": "本轮通知标记已读后查看",
+          "actual": "仅选择本轮本科模拟通知标记已读，重新打开详情显示“是否已读 是”，阅读时间2026-10-14 15:00；未操作历史通知全部已读。",
+          "screenshot": "screenshots/MESSAGE02.jpg",
+          "evidence": "evidence/MESSAGE02.txt"
+        }
+      ],
+      "screenshot": "screenshots/MESSAGE02.jpg"
+    },
+    {
+      "number": 100,
+      "section": "待办通知与首页查看",
+      "title": "从通知进入待办",
+      "records": [
+        "MESSAGE03"
+      ],
+      "how": "在通知详情点击去处理。",
+      "result": "正确跳到待办页，弹窗关闭。",
+      "state": "已完成",
+      "photo": "MESSAGE03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "MESSAGE03",
+          "module": "系统消息",
+          "flow": "通知去处理跳转",
+          "actual": "本轮已完成通知点击去处理可跳转待办任务，弹窗正常关闭；当前待办0，未重复审批已完成记录。",
+          "screenshot": "screenshots/MESSAGE03.jpg",
+          "evidence": "evidence/MESSAGE03.txt"
+        }
+      ],
+      "screenshot": "screenshots/MESSAGE03.jpg"
+    },
+    {
+      "number": 101,
+      "section": "待办通知与首页查看",
+      "title": "切换首页学年并查看快捷入口",
+      "records": [
+        "HOME01",
+        "HOME02"
+      ],
+      "how": "首页选择隔离测试学年，等待汇总更新，再打开更多待办。",
+      "result": "隔离学年的SIS和汇总均为0；首页待办2项、当前主管待办0条，展示范围口径需要确认。",
+      "state": "已查看 口径需确认",
+      "photo": "HOME01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "HOME01",
+          "module": "首页",
+          "flow": "隔离学年切换与清理后汇总",
+          "actual": "选择QA1014_1139测试学年，异步加载完成后差异0、实际0、预算0、SIS课程0、年度概览0条；待办卡显示跨学年2项，未将其当作本学年统计。",
+          "screenshot": "screenshots/HOME01.jpg",
+          "evidence": "evidence/HOME01.txt"
+        },
+        {
+          "id": "HOME02",
+          "module": "首页",
+          "flow": "首页待办数量与快捷入口一致性",
+          "actual": "同一admin_sup会话，首页待处理2项且列出2025-2026两项预算任务；点击查看更多待办后全部待办0。需确认首页是否故意展示全院跨角色任务；若应为个人待办则数量/数据范围不一致。",
+          "screenshot": "screenshots/HOME02.jpg",
+          "evidence": "evidence/HOME02.txt"
+        }
+      ],
+      "screenshot": "screenshots/HOME01.jpg"
+    },
+    {
+      "number": 102,
+      "section": "测试数据收尾与验收边界",
+      "title": "清理复制到Term2的模拟课程",
+      "records": [
+        "COURSE-CLEAR-01"
+      ],
+      "how": "只在隔离测试学年的Term2清除本轮复制课程。",
+      "result": "两条模拟课程清除后列表为空。",
+      "state": "已完成",
+      "photo": "COURSE-CLEAR-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-CLEAR-01",
+          "module": "开课管理",
+          "flow": "清除隔离学期开课列表",
+          "actual": "明确确认2027-2028 Term2，清除后列表为空，删除2条复制模拟数据。",
+          "screenshot": "screenshots/COURSE-CLEAR-01.jpg",
+          "evidence": "evidence/COURSE-CLEAR-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-CLEAR-01.jpg"
+    },
+    {
+      "number": 103,
+      "section": "测试数据收尾与验收边界",
+      "title": "清理Term1导入课程",
+      "records": [
+        "COURSE-CLEAN-02"
+      ],
+      "how": "清除隔离Term1中的两条本轮导入课程。",
+      "result": "该隔离开课列表为空。",
+      "state": "已完成",
+      "photo": "COURSE-CLEAN-02",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-CLEAN-02",
+          "module": "开课管理",
+          "flow": "清理隔离Term1导入记录",
+          "actual": "清除2027-2028 Term1的两条导入模拟课程，列表为空。",
+          "screenshot": "screenshots/COURSE-CLEAN-02.jpg",
+          "evidence": "evidence/COURSE-CLEAN-02.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-CLEAN-02.jpg"
+    },
+    {
+      "number": 104,
+      "section": "测试数据收尾与验收边界",
+      "title": "清理生成的结算计划",
+      "records": [
+        "SET-REGEN-01",
+        "SET-PLAN-CLEAN"
+      ],
+      "how": "隔离开课清空后重新生成结算计划。",
+      "result": "无开课时给出先维护课程的提示；旧的模拟对比记录和教师汇总为空。",
+      "state": "已完成",
+      "photo": "SET-PLAN-CLEAN",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-REGEN-01",
+          "module": "结算对比",
+          "flow": "空开课计划重新生成",
+          "actual": "仅有模拟SIS记录的隔离学期确认重新生成后旧对比数据清空，提示先维护该学年学期课程。",
+          "screenshot": "screenshots/SET-REGEN-01.jpg",
+          "evidence": "evidence/SET-REGEN-01.txt"
+        },
+        {
+          "id": "SET-PLAN-CLEAN",
+          "module": "结算计划生成",
+          "flow": "清理模拟计划拆分记录",
+          "actual": "清除隔离Term1开课后重新生成，对比与教师汇总均为空。",
+          "screenshot": "screenshots/SET-PLAN-CLEAN.jpg",
+          "evidence": "evidence/SET-PLAN-CLEAN.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-PLAN-CLEAN.jpg"
+    },
+    {
+      "number": 105,
+      "section": "测试数据收尾与验收边界",
+      "title": "清理模拟SIS课程与课时",
+      "records": [
+        "SET-CLEAN-01"
+      ],
+      "how": "仅清空2027测试Term1的三条模拟SIS课程和课时。",
+      "result": "清空后该隔离列表为空。",
+      "state": "已完成",
+      "photo": "SET-CLEAN-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "SET-CLEAN-01",
+          "module": "结算SIS导入",
+          "flow": "清理隔离模拟SIS数据",
+          "actual": "隔离2027-2028 Term12710清空3条Summary及课时数据，列表为空；此前重新生成已清空结算明细。",
+          "screenshot": "screenshots/SET-CLEAN-01.jpg",
+          "evidence": "evidence/SET-CLEAN-01.txt"
+        }
+      ],
+      "screenshot": "screenshots/SET-CLEAN-01.jpg"
+    },
+    {
+      "number": 106,
+      "section": "测试数据收尾与验收边界",
+      "title": "删除模拟基础课程",
+      "records": [
+        "CONFIG-COURSE-04",
+        "CONFIG-COURSE-CLEAN",
+        "CONFIG-IMPORT-CLEAN"
+      ],
+      "how": "分别删除手工、学分复核及导入的模拟基础课程，再搜索唯一代码。",
+      "result": "相关模拟课程查询为空。",
+      "state": "已完成",
+      "photo": "CONFIG-IMPORT-CLEAN",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-COURSE-04",
+          "module": "课程信息维护",
+          "flow": "删除测试基础课程",
+          "actual": "QA1014TEST删除，按编号查询无数据。",
+          "screenshot": "screenshots/CONFIG-COURSE-04.jpg",
+          "evidence": "evidence/CONFIG-COURSE-04.txt"
+        },
+        {
+          "id": "CONFIG-COURSE-CLEAN",
+          "module": "课程信息维护",
+          "flow": "清理学分复核数据",
+          "actual": "QA1014CHECK删除后搜索0条。",
+          "screenshot": "screenshots/CONFIG-COURSE-CLEAN.jpg",
+          "evidence": "evidence/CONFIG-COURSE-CLEAN.txt"
+        },
+        {
+          "id": "CONFIG-IMPORT-CLEAN",
+          "module": "课程信息导入",
+          "flow": "清理模拟基础课程",
+          "actual": "QA1014IMP删除后过滤列表无数据。",
+          "screenshot": "screenshots/CONFIG-IMPORT-CLEAN.jpg",
+          "evidence": "evidence/CONFIG-IMPORT-CLEAN.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-IMPORT-CLEAN.jpg"
+    },
+    {
+      "number": 107,
+      "section": "测试数据收尾与验收边界",
+      "title": "清理模拟教师及账号",
+      "records": [
+        "TEACHER-CLEAN-01",
+        "TEACHER-IMPORT-CLEAN"
+      ],
+      "how": "教师身份移除受阻后，通过系统管理辅助删除两个测试账号并回查。",
+      "result": "测试账号已清理；手工教师关联列表也复查为空。系统管理本身不纳入验收。",
+      "state": "已完成",
+      "photo": "TEACHER-CLEAN-01",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "TEACHER-CLEAN-01",
+          "module": "教师管理",
+          "flow": "用户侧删除后关联教师清理",
+          "actual": "用户管理删除QA1014T后，教师管理重新搜索QA1014T也为空。",
+          "screenshot": "screenshots/TEACHER-CLEAN-01.jpg",
+          "evidence": "evidence/TEACHER-CLEAN-01.txt"
+        },
+        {
+          "id": "TEACHER-IMPORT-CLEAN",
+          "module": "教师导入",
+          "flow": "清理导入测试账号",
+          "actual": "用户管理删除QA1014I后工号过滤无结果。",
+          "screenshot": "screenshots/TEACHER-IMPORT-CLEAN.jpg",
+          "evidence": "evidence/TEACHER-IMPORT-CLEAN.txt"
+        }
+      ],
+      "screenshot": "screenshots/TEACHER-CLEAN-01.jpg"
+    },
+    {
+      "number": 108,
+      "section": "测试数据收尾与验收边界",
+      "title": "单条清理已审批的模拟课程",
+      "records": [
+        "COURSE-LOCK01",
+        "COURSE-CLEAN03"
+      ],
+      "how": "主管按唯一标题及行标识逐条删除本科和研究生两条模拟课程。",
+      "result": "两条本轮课程已删除，审批记录保留；锁定后主管是否允许删除，需要产品确认。",
+      "state": "已清理 权限口径需确认",
+      "photo": "COURSE-CLEAN03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "COURSE-LOCK01",
+          "module": "开课管理",
+          "flow": "审批通过锁定状态下主管单条删除",
+          "actual": "界面显示“已锁定（审批已通过）”，admin_sup仍可确认删除本轮QAPG模拟课程，删除成功且过滤结果2→1。需确认学院行政主管是否有审批后维护特权；若锁定适用于主管则为权限漏洞。",
+          "screenshot": "screenshots/COURSE-LOCK01.jpg",
+          "evidence": "evidence/COURSE-LOCK01.txt"
+        },
+        {
+          "id": "COURSE-CLEAN03",
+          "module": "开课管理",
+          "flow": "单条删除本轮已审批本科和研究生课程",
+          "actual": "按唯一标题与行标识QAPG、QAUGR分别删除，仅点击这两行删除；当前admin_sup列表已无本轮课程。审批及消息审计记录保留。未使用整学期清除。",
+          "screenshot": "screenshots/COURSE-CLEAN03.jpg",
+          "evidence": "evidence/COURSE-CLEAN03.txt"
+        }
+      ],
+      "screenshot": "screenshots/COURSE-CLEAN03.jpg"
+    },
+    {
+      "number": 109,
+      "section": "测试数据收尾与验收边界",
+      "title": "删除测试草稿学年",
+      "records": [
+        "CONFIG-YEAR03"
+      ],
+      "how": "尝试删除本轮自建草稿学年，确认后刷新。",
+      "result": "此处有阻塞：草稿仍在，清理未完成；其关联测试数据需开发协助核查。",
+      "state": "此处有阻塞",
+      "photo": "CONFIG-YEAR03",
+      "photo_note": "已有操作截图；预览或确认弹窗表示当时操作阶段，保存结果需结合本步回读说明。",
+      "sources": [
+        {
+          "id": "CONFIG-YEAR03",
+          "module": "学年学期管理",
+          "flow": "删除自建草稿学年并刷新确认",
+          "actual": "删除QA1014_1139草稿后弹窗关闭，列表仍在；整页刷新后仍在。控制台记录删除版本失败、系统异常及使用Mock回退。自建学年无法通过该入口清理；不得将关闭弹窗视为删除成功。",
+          "screenshot": "screenshots/CONFIG-YEAR03.jpg",
+          "evidence": "evidence/CONFIG-YEAR03.txt"
+        }
+      ],
+      "screenshot": "screenshots/CONFIG-YEAR03.jpg"
+    },
+    {
+      "number": 110,
+      "section": "测试数据收尾与验收边界",
+      "title": "学年启用及当前版本切换",
+      "records": [],
+      "how": "在独立且可恢复的验收环境，应补充学年启用和当前版本切换。",
+      "result": "本轮未执行。启用会使原当前学年归档且不可再次启用，因此保留原状态；截图仅证明草稿及原学年现状。",
+      "state": "未执行 需补验",
+      "photo": "CONFIG-YEAR03",
+      "photo_note": "本图是上游阻塞或前置页面，不是本步骤执行成功的证据。",
+      "sources": [],
+      "screenshot": "screenshots/CONFIG-YEAR03.jpg"
+    }
+  ],
+  "covered_source_records": 147,
+  "excluded_records": 23,
+  "boundaries": [
+    "按已有操作重排为业务顺序，并非新增执行；没有重新操作浏览器。",
+    "开课审批使用2026至2027 Summer，SIS与结算主要使用2027至2028隔离草稿，查询使用2024至2025资料。阶段使用不同数据，不代表同一批次从开课到结算归档全程贯通。",
+    "截图保留原始内容；确认弹窗、导入预览和上游阻塞图均按实际阶段标注，不能单独作为最终成功证明。",
+    "系统管理六个模块不在验收范围；只在准备及收尾时辅助使用。",
+    "未完成处按阻塞或需补验标明，已观察到的显示或数据问题放在对应步骤中说明，不用缺陷数量组织正文。"
+  ]
+}

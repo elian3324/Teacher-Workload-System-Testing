@@ -1,0 +1,177 @@
+- link "CUHK-SZ HSS Teacher Teaching Hours Management System":
+  - /url: /
+  - generic: CUHK-SZ HSS Teacher Teaching Hours Management System
+- menubar:
+  - menuitem "首页":
+    - generic: 首页
+  - menuitem "教学计划管理":
+    - generic: 教学计划管理
+  - menuitem "结算管理":
+    - generic: 结算管理
+  - menuitem "待办任务":
+    - generic: 待办任务
+  - menuitem "系统消息":
+    - generic: 系统消息
+  - menuitem "系统配置管理":
+    - generic: 系统配置管理
+  - menuitem "系统管理" [expanded]:
+    - generic: 系统管理
+    - menu:
+      - menuitem "用户管理":
+        - generic: 用户管理
+      - menuitem "角色管理":
+        - generic: 角色管理
+      - menuitem "菜单管理":
+        - generic: 菜单管理
+      - menuitem "部门管理":
+        - generic: 部门管理
+      - menuitem "岗位管理":
+        - generic: 岗位管理
+      - menuitem "字典管理":
+        - generic: 字典管理
+- navigation "面包屑"
+- generic: En
+- button:
+- button "首页":
+  - text: 首页
+- button "字典管理":
+  - text: 字典管理
+- button "字典数据":
+  - generic: 字典数据
+- button:
+- generic: 字典名称
+- combobox "字典名称"
+- generic: 评分基础
+- generic: 字典标签
+- textbox "字典标签":
+  - /placeholder: 请输入字典标签
+- generic: 状态
+- combobox "状态"
+- generic: 数据状态
+- button "搜索" [active]:
+  - text: 搜索
+- button "重置":
+  - text: 重置
+- button "新增":
+  - text: 新增
+- button "导出":
+  - text: 导出
+- button "批量删除" [disabled]:
+  - text: 批量删除
+- table:
+  - rowgroup:
+    - row "字典编码 字典标签 英文标签 字典键值 字典排序 状态 颜色类型 CSS Class 备注 创建时间 操作":
+      - columnheader:
+        - checkbox
+      - columnheader "字典编码":
+        - generic: 字典编码
+      - columnheader "字典标签":
+        - generic: 字典标签
+      - columnheader "英文标签":
+        - generic: 英文标签
+      - columnheader "字典键值":
+        - generic: 字典键值
+      - columnheader "字典排序":
+        - generic: 字典排序
+      - columnheader "状态":
+        - generic: 状态
+      - columnheader "颜色类型":
+        - generic: 颜色类型
+      - columnheader "CSS Class":
+        - generic: CSS Class
+      - columnheader "备注":
+        - generic: 备注
+      - columnheader "创建时间":
+        - generic: 创建时间
+      - columnheader "操作":
+        - generic: 操作
+- table:
+  - rowgroup:
+    - row "80001027 P-U (及格/不及格) P-U 3 开启 warning Pass/Unsatisfactory 2026-06-09 15:47 修改 删除":
+      - cell:
+        - checkbox
+      - cell "80001027":
+        - generic: "80001027"
+      - cell "P-U (及格/不及格)":
+        - generic: P-U (及格/不及格)
+      - cell
+      - cell "P-U":
+        - generic: P-U
+      - cell "3":
+        - generic: "3"
+      - cell "开启":
+        - generic: 开启
+      - cell "warning":
+        - generic: warning
+      - cell
+      - cell "Pass/Unsatisfactory":
+        - generic: Pass/Unsatisfactory
+      - cell "2026-06-09 15:47":
+        - generic: 2026-06-09 15:47
+      - cell "修改 删除":
+        - button "修改":
+          - generic: 修改
+        - button "删除":
+          - generic: 删除
+    - row "80001026 A-D, F A-D, F 2 开启 success 等级制A到F 2026-06-09 15:47 修改 删除":
+      - cell:
+        - checkbox
+      - cell "80001026":
+        - generic: "80001026"
+      - cell "A-D, F":
+        - generic: A-D, F
+      - cell
+      - cell "A-D, F":
+        - generic: A-D, F
+      - cell "2":
+        - generic: "2"
+      - cell "开启":
+        - generic: 开启
+      - cell "success":
+        - generic: success
+      - cell
+      - cell "等级制A到F":
+        - generic: 等级制A到F
+      - cell "2026-06-09 15:47":
+        - generic: 2026-06-09 15:47
+      - cell "修改 删除":
+        - button "修改":
+          - generic: 修改
+        - button "删除":
+          - generic: 删除
+    - row "80001025 DPF DPF 1 开启 primary D/F及格制 2026-06-09 15:47 修改 删除":
+      - cell:
+        - checkbox
+      - cell "80001025":
+        - generic: "80001025"
+      - cell "DPF":
+        - generic: DPF
+      - cell
+      - cell "DPF":
+        - generic: DPF
+      - cell "1":
+        - generic: "1"
+      - cell "开启":
+        - generic: 开启
+      - cell "primary":
+        - generic: primary
+      - cell
+      - cell "D/F及格制":
+        - generic: D/F及格制
+      - cell "2026-06-09 15:47":
+        - generic: 2026-06-09 15:47
+      - cell "修改 删除":
+        - button "修改":
+          - generic: 修改
+        - button "删除":
+          - generic: 删除
+- generic: 共 3 条
+- combobox
+- generic: 10条/页
+- button "上一页" [disabled]:
+- list:
+  - listitem "第 1 页": "1"
+- button "下一页" [disabled]:
+- generic: 前往
+- spinbutton "页": "1"
+- generic: 页

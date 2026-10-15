@@ -1,0 +1,18 @@
+{
+  "pages": 60,
+  "steps": 110,
+  "four_field_counts": {
+    "验收场景": 110,
+    "预期结果": 110,
+    "实际结果": 110,
+    "结论": 110
+  },
+  "original_image_bytes_preserved": true,
+  "removed_repeated_caption_material": true,
+  "navigation_heading_levels": [
+    1,
+    2,
+    3
+  ],
+  "blank_pages": []
+}

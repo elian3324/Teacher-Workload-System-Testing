@@ -1,0 +1,72 @@
+[
+  {
+    "module": "开课管理",
+    "key": "2026-2027 Summer / Applied Psychology / UG / PSY1020 / QAUG",
+    "action": "新增",
+    "marker": "QA1014_1139",
+    "title": "QA1014_1139 本科审批模拟课程",
+    "cleanup": "原课程已在模拟驳回时自动清空"
+  },
+  {
+    "module": "开课管理",
+    "key": "2026-2027 Summer / UG / PSY1020复制项",
+    "action": "复制新增",
+    "marker": "QA1014_1139",
+    "cleanup": "已删除"
+  },
+  {
+    "module": "开课管理",
+    "key": "2026-2027 Summer / UG / PSY1020 / QAUGR",
+    "action": "驳回后重建提交",
+    "marker": "QA1014_1139",
+    "cleanup": "已通过admin_sup按唯一标题及行标识单条删除；审批审计记录保留"
+  },
+  {
+    "module": "开课管理",
+    "key": "2026-2027 Summer / TPG / PSY1020 / QAPG",
+    "action": "新增",
+    "marker": "QA1014_1139",
+    "cleanup": "已通过admin_sup按唯一标题及行标识单条删除；审批审计记录保留"
+  },
+  {
+    "module": "学年学期",
+    "key": "2027-2028 / QA1014_1139测试学年",
+    "action": "新增草稿学年",
+    "marker": "QA1014_1139",
+    "cleanup": "删除失败：CONFIG-YEAR03；草稿及其复制学期/标准/版本仍留存，未启用"
+  },
+  {
+    "type": "SIS模拟数据",
+    "year": "2027-2028",
+    "term": "2710",
+    "marker": "QATEST101/QATEST102/QATEST103",
+    "status": "已清理",
+    "count": 3
+  },
+  {
+    "type": "开课模拟数据",
+    "year": "2027-2028",
+    "term": "Term1",
+    "marker": "QA1014_1139导入本科模拟/导入多教师模拟",
+    "status": "已清理",
+    "count": 2
+  },
+  {
+    "type": "开课模拟数据",
+    "year": "2027-2028",
+    "term": "Term2",
+    "marker": "QA1014_1139导入本科模拟/导入多教师模拟",
+    "status": "已清理",
+    "count": 2
+  },
+  {
+    "type": "教师及关联测试账号",
+    "marker": "QA1014T",
+    "status": "已清理，通过用户管理删除，教师管理复查为空"
+  },
+  {
+    "type": "教师及关联测试账号",
+    "marker": "QA1014I",
+    "status": "已通过用户管理删除"
+  }
+]

@@ -1,0 +1,6 @@
+SIS 课时导入 (Days&Time 替换)
+步骤 1：上传课时 Excel 文件
+说明：支持 TIME_INSTRUCTOR / View Course Time Instructor 格式。可无 Term 列：按 Class Date 上课月份划分（9–12→Term1、1–5→Term2、6–7→Summer/2450）。整学年混排与多工作表均可，导入时按识别到的学期逐一确认。
+将文件拖到此处，或 点击上传
+仅支持 .xlsx 或 .xls 格式
+取消

@@ -1,0 +1,3299 @@
+编辑规则
+规则分组
+论文指导人数系数
+规则名称
+课程代码
+人数
+选课/指导人数 ≥ 该值时命中本规则
+课时
+匹配条件：enrolled >= 6 && courseLevel == 'PG'
+说明
+状态
+生效中
+已停用
+影响范围预览
+修改此规则将影响以下课程（共 327 门）
+列筛选
+导出
+刷新预览
+课程代码
+	
+课程名称
+	
+Section
+	
+Component
+	
+教师
+TRA3430
+	
+Introduction to Game and Website Localization
+	
+111
+	
+LEC
+	
+
+
+URM2030
+	
+Statistical Analysis and Application
+	
+111-copy
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+A
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+B
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+C
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+D
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+E
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+F
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+G
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+H
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+I
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+J
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+K
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+L
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+M
+	
+LEC
+	
+
+
+GFH1000
+	
+In Dialogue with Humanity
+	
+N
+	
+LEC
+	
+
+
+GFN1000
+	
+In Dialogue with Nature
+	
+A
+	
+LEC
+	
+
+
+GFN1000
+	
+In Dialogue with Nature
+	
+B
+	
+LEC
+	
+
+
+GFN1000
+	
+In Dialogue with Nature
+	
+C
+	
+LEC
+	
+
+
+GFN1000
+	
+In DIalogue with Nature
+	
+D
+	
+LEC
+	
+
+
+GFN1000
+	
+In Dialogue with Nature
+	
+E
+	
+LEC
+	
+
+
+GFN1000
+	
+In Dialogue with Nature
+	
+F
+	
+LEC
+	
+
+
+GFN1000
+	
+In Dialogue with Nature
+	
+G
+	
+LEC
+	
+
+
+GFN1001
+	
+In Dialogue with Nature
+	
+A
+	
+LEC
+	
+
+
+GFN1000
+	
+In Dialogue with Nature
+	
+H
+	
+LEC
+	
+
+
+GFN1000
+	
+In Dialogue with Nature
+	
+I
+	
+LEC
+	
+
+
+GEA2000
+	
+Modern Chinese History & Culture
+	
+A
+	
+LEC
+	
+
+
+GEA2000
+	
+Modern Chinese History & Culture
+	
+B
+	
+LEC
+	
+
+
+GEA2000
+	
+Modern Chinese History & Culture
+	
+C
+	
+LEC
+	
+
+
+GEA2000
+	
+Modern Chinese History & Culture
+	
+D
+	
+LEC
+	
+
+
+GEA2000
+	
+Modern Chinese History & Culture
+	
+E
+	
+LEC
+	
+
+
+GEA2000
+	
+Modern Chinese History & Culture
+	
+F
+	
+LEC
+	
+
+
+GEA2000
+	
+Modern Chinese History & Culture
+	
+G
+	
+LEC
+	
+
+
+GEA2000
+	
+Modern Chinese History & Culture
+	
+H
+	
+LEC
+	
+
+
+GEA2000
+	
+Modern Chinese History & Culture
+	
+I
+	
+LEC
+	
+
+
+GEB2005
+	
+Science in Ancient China
+	
+A
+	
+LEC
+	
+
+
+GEB2110
+	
+A Glimpse into the Nano-world
+	
+A
+	
+LEC
+	
+
+
+GEB2109/PHIL2109
+	
+History and Philosophy of Science
+	
+A
+	
+LEC
+	
+
+
+GEB2404
+	
+Logic
+	
+A
+	
+LEC
+	
+
+
+GEB3302
+	
+Quantum Mysteries
+	
+A
+	
+LEC
+	
+
+
+GEB2509
+	
+AI-Powered Creativity: From Idea to Application
+	
+A
+	
+LEC
+	
+
+
+GEB2207
+	
+Decoding the past: Natural Science in Archaeology
+	
+A
+	
+LEC
+	
+
+
+GEB2602
+	
+Amazing Material World
+	
+A
+	
+LEC
+	
+
+
+GEB2508
+	
+AI and Society
+	
+A
+	
+LEC
+	
+
+
+GEB2402
+	
+A Journey to Mathematics
+	
+A
+	
+LEC
+	
+
+
+GEB3401
+	
+History of Mathematics
+	
+A
+	
+LEC
+	
+
+
+GEB2112/PHI2112
+	
+Theory of Knowledge
+	
+A
+	
+LEC
+	
+
+
+GEC3402
+	
+Visualizing China: Culture Modernity and Social Transformation
+	
+A
+	
+LEC
+	
+
+
+GEC2002
+	
+Living Sociology
+	
+A
+	
+LEC
+	
+
+
+GEC3102
+	
+The History of Consumer Culture
+	
+A
+	
+LEC
+	
+
+
+GEC3112
+	
+Law, Society and Family Life in Modern China
+	
+A
+	
+LEC
+	
+
+
+GEC2108
+	
+The Historian's Craft
+	
+A
+	
+LEC
+	
+
+
+GEC3407
+	
+The World as a shopping Mall
+	
+A
+	
+LEC
+	
+
+
+GEC3111
+	
+An Introduction to Records of the Three Kingdoms
+	
+A
+	
+LEC
+	
+
+
+GEC2112
+	
+Designed Desire: Daily Life in Early Modern China
+	
+A
+	
+LEC
+	
+
+
+GEC2116
+	
+History of Material Culture in Modern China
+	
+A
+	
+LEC
+	
+
+
+GEC2102
+	
+Modern and Contemporary Sport History
+	
+A
+	
+LEC
+	
+
+
+GEC3401
+	
+Society Development and Inequalities
+	
+A
+	
+LEC
+	
+
+
+GEC3406
+	
+Women in 20th Century China
+	
+A
+	
+LEC
+	
+
+
+GEC2110
+	
+Traditions and Transformations in Western History
+	
+A
+	
+LEC
+	
+
+
+GEC2208
+	
+Being Idealistic or Pragmatic: Government from a Comparative Perspective
+	
+A
+	
+LEC
+	
+
+
+GEC2118
+	
+Healing Empires: Medicine, Power, and Colonialism (1600–1914)
+	
+A
+	
+LEC
+	
+
+
+GEC2119
+	
+The Formation of Chinese Civilization
+	
+A
+	
+LEC
+	
+
+
+GEC2120
+	
+Dystopia
+	
+A
+	
+LEC
+	
+
+
+GEC3501
+	
+Landmark Cases that Changed Society
+	
+A
+	
+LEC
+	
+
+
+GED2122
+	
+History of Western Philosophy
+	
+A
+	
+LEC
+	
+
+
+GED2003
+	
+Gender Matters
+	
+A
+	
+LEC
+	
+
+
+GED2124
+	
+Race in the Western World
+	
+A
+	
+LEC
+	
+
+
+GED2113/PHI2113
+	
+Topics in the History of Philosophy
+	
+A
+	
+LEC
+	
+
+
+GED2303
+	
+Revisiting Tang Poetry: Nova et Vetera
+	
+A
+	
+LEC
+	
+
+
+GED2119
+	
+Environmental Humanities
+	
+A
+	
+LEC
+	
+
+
+GED2126
+	
+Conceptions of Love: A Philosophical Inquiry
+	
+A
+	
+LEC
+	
+
+
+GED3308
+	
+Man and Society in Western and Chinese Science Fiction
+	
+A
+	
+LEC
+	
+
+
+GED2123/PHI 1103
+	
+History of Chinese Philosophy
+	
+A
+	
+LEC
+	
+
+
+GED2121
+	
+Introduction to Philosophy
+	
+A
+	
+LEC
+	
+
+
+GED2101
+	
+Logic and Argumentation
+	
+A
+	
+LEC
+	
+
+
+GED2005
+	
+Where Does Time Go? Time, Technology, and the Human Condition
+	
+A
+	
+LEC
+	
+
+
+GED2502
+	
+Thriving in Emerging Adulthood: A Developmental Perspective on Mental Health
+	
+A
+	
+LEC
+	
+
+
+GED2302
+	
+Hamlet: Questions of Interpretation
+	
+A
+	
+LEC
+	
+
+
+GED2404
+	
+Century of Dreams: Musicals on Stage and Screen 1925-2025
+	
+A
+	
+LEC
+	
+
+
+DAI1000
+	
+Digital and AI Literacy
+	
+A
+	
+LEC
+	
+
+
+DAI1000
+	
+Digital and AI Literacy
+	
+B
+	
+LEC
+	
+
+
+ITE1000
+	
+Information Technology
+	
+A
+	
+LEC
+	
+
+
+CEC1000
+	
+Ethics and the Rule of Law
+	
+A
+	
+LEC
+	
+
+
+CEC1000
+	
+Ethics and the Rule of Law
+	
+B
+	
+LEC
+	
+
+
+CEC1000
+	
+Ethics and the Rule of Law
+	
+C
+	
+LEC
+	
+
+
+CEC1000
+	
+Ethics and the Rule of Law
+	
+D
+	
+LEC
+	
+
+
+CEC1000
+	
+Ethics and the Rule of Law
+	
+E
+	
+LEC
+	
+
+
+CEC1000
+	
+Ethics and the Rule of Law
+	
+F
+	
+LEC
+	
+
+
+CEC1000
+	
+Ethics and the Rule of Law
+	
+G
+	
+LEC
+	
+
+
+CEC2000
+	
+Introduction to Marxism
+	
+A
+	
+LEC
+	
+
+
+CEC2000
+	
+Introduction to Marxism
+	
+B
+	
+LEC
+	
+
+
+CEC2000
+	
+Introduction to Marxism
+	
+C
+	
+LEC
+	
+
+
+CEC3000
+	
+Thoughts of Modern China
+	
+A
+	
+LEC
+	
+
+
+CEC3000
+	
+Thoughts of Modern China
+	
+B
+	
+LEC
+	
+
+
+CEC3000
+	
+Thoughts of Modern China
+	
+C
+	
+LEC
+	
+
+
+CEC4000
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+A
+	
+LEC
+	
+
+
+CEC4000
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+B
+	
+LEC
+	
+
+
+CEC4000
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+C
+	
+LEC
+	
+
+
+CEC4000
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+D
+	
+LEC
+	
+
+
+CEC4000
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+E
+	
+LEC
+	
+
+
+CEC4000
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+F
+	
+LEC
+	
+
+
+CEC5000
+	
+Theory and Practice of State-building in Contemporary China
+	
+A
+	
+LEC
+	
+
+
+CEC5000
+	
+Theory and Practice of State-building in Contemporary China
+	
+B
+	
+LEC
+	
+
+
+CEC5000
+	
+Theory and Practice of State-building in Contemporary China
+	
+C
+	
+LEC
+	
+
+
+CEC5000
+	
+Theory and Practice of State-building in Contemporary China
+	
+D
+	
+LEC
+	
+
+
+CEC5000
+	
+Theory and Practice of State-building in Contemporary China
+	
+E
+	
+LEC
+	
+
+
+CEC5000
+	
+Theory and Practice of State-building in Contemporary China
+	
+F
+	
+LEC
+	
+
+
+CEC5000
+	
+Theory and Practice of State-building in Contemporary China
+	
+G
+	
+LEC
+	
+
+
+CEC5000
+	
+Theory and Practice of State-building in Contemporary China
+	
+H
+	
+LEC
+	
+
+
+CEC5000
+	
+Theory and Practice of State-building in Contemporary China
+	
+I
+	
+LEC
+	
+
+
+CEC5010
+	
+Dialectics of Nature
+	
+A
+	
+LEC
+	
+
+
+CEC5010
+	
+Dialectics of Nature
+	
+B
+	
+LEC
+	
+
+
+CEC5010
+	
+Dialectics of Nature
+	
+C
+	
+LEC
+	
+
+
+CEC5010
+	
+Dialectics of Nature
+	
+D
+	
+LEC
+	
+
+
+CEC5010
+	
+Dialectics of Nature
+	
+E
+	
+LEC
+	
+
+
+CEC5010
+	
+Dialectics of Nature
+	
+F
+	
+LEC
+	
+
+
+CEC5010
+	
+Dialectics of Nature
+	
+G
+	
+LEC
+	
+
+
+CEC5020
+	
+Marxism and Methodology of Social Science
+	
+A
+	
+LEC
+	
+
+
+CEC5020
+	
+Marxism and Methodology of Social Science
+	
+B
+	
+LEC
+	
+
+
+GLB1010
+	
+Globalization and China
+	
+A
+	
+LEC
+	
+
+
+GLB2020
+	
+Introduction to International Organization
+	
+A
+	
+LEC
+	
+
+
+GLB2040
+	
+Introduction to Comparative Politics
+	
+A
+	
+LEC
+	
+
+
+GLB3110
+	
+International Economics and Business
+	
+A
+	
+LEC
+	
+
+
+GLB3020
+	
+Global Political Economy
+	
+A
+	
+LEC
+	
+
+
+GLB3030
+	
+Chinese Foreign Policy
+	
+A
+	
+LEC
+	
+
+
+PSY1020
+	
+Quantitative Methods I
+	
+A
+	
+LEC
+	
+
+
+PSY2020
+	
+Cognitive Psychology
+	
+A
+	
+LEC
+	
+
+
+PSY2030
+	
+Life span
+	
+A
+	
+LEC
+	
+
+
+PSY2110
+	
+Emotion and Motivation
+	
+A
+	
+LEC
+	
+
+
+PSY2120
+	
+Learning and Behavior
+	
+A
+	
+LEC
+	
+
+
+PSY4150
+	
+Child and Adolescent Development
+	
+A
+	
+LEC
+	
+
+
+PSY3010
+	
+Social Psychology
+	
+A
+	
+LEC
+	
+
+
+PSY3130
+	
+Psychology of Leadership
+	
+A
+	
+LEC
+	
+
+
+PSY3140
+	
+Cross-cultural Psychology
+	
+A
+	
+LEC
+	
+
+
+PSY4020
+	
+Research Method and Writing (ED)
+	
+A
+	
+LEC
+	
+
+
+PSY4020
+	
+Research method and Writing (IO)
+	
+B
+	
+LEC
+	
+
+
+PSY2040
+	
+Sensation and Perception
+	
+A
+	
+LEC
+	
+
+
+PSY4010
+	
+Abnormal Psychology
+	
+A
+	
+LEC
+	
+
+
+PSY4160
+	
+Clinical and Counseling Psychology
+	
+A
+	
+LEC
+	
+
+
+PSY4180
+	
+Cognitive Neuroscience
+	
+A
+	
+LEC
+	
+
+
+PSY4210
+	
+Introduction to Machine Learning
+	
+A
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+A
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+B
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+C
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+D
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+E
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+F
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+G
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+H
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+I
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+J
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+K
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+L
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+M
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+N
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+O
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+P
+	
+LEC
+	
+
+
+ENG1001
+	
+English Bridge Program (EBP)
+	
+Q
+	
+LEC
+	
+
+
+ENG1001M
+	
+English for Medical Professionals I
+	
+A
+	
+LEC
+	
+
+
+ENG1001M
+	
+English for Medical Professionals I
+	
+B
+	
+LEC
+	
+
+
+ENG1001K
+	
+English for Music Professionals I
+	
+A
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+A
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+B
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+C
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+D
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+E
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+F
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+G
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+H
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+I
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+J
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+K
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+L
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+M
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+N
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+O
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+P
+	
+LEC
+	
+
+
+ENG2001
+	
+English for Academic Purposes II
+	
+Q
+	
+LEC
+	
+
+
+ENG2001M
+	
+English for Medical Professionals III
+	
+A
+	
+LEC
+	
+
+
+ENG2001K
+	
+English for Music Professionals III
+	
+A
+	
+LEC
+	
+
+
+CLC1101
+	
+Introductory Chinese
+	
+A
+	
+LEC
+	
+
+
+CLC1201
+	
+Basic Chinese
+	
+A
+	
+LEC
+	
+
+
+CLC1301
+	
+Intermediate Chinese
+	
+A
+	
+LEC
+	
+
+
+CLC1401
+	
+Advanced Chinese
+	
+A
+	
+LEC
+	
+
+
+FRN1001
+	
+French I
+	
+A
+	
+LEC
+	
+
+
+JPN1001
+	
+Japanese I
+	
+A
+	
+LEC
+	
+
+
+KOR1001
+	
+Korean I
+	
+A
+	
+LEC
+	
+
+
+SPN1001
+	
+Spanish I
+	
+A
+	
+LEC
+	
+
+
+ENG3101
+	
+Interactive Narrative Design for Video Games
+	
+A
+	
+LEC
+	
+
+
+LIT2100
+	
+Introduction to Literature
+	
+A
+	
+LEC
+	
+
+
+LIT3011
+	
+Forms and Functions of Contemporary Short Fiction
+	
+A
+	
+LEC
+	
+
+
+LAW2101
+	
+Principles of Contract Law
+	
+A
+	
+LEC
+	
+
+
+LIN1002
+	
+Sound in Language (Phonetics and Phonology)
+	
+A
+	
+LEC
+	
+
+
+HSS1004
+	
+Advanced Academic Writing
+	
+A
+	
+LEC
+	
+
+
+HSS1006
+	
+Introduction to Sociology
+	
+A
+	
+LEC
+	
+
+
+HSS1010
+	
+Principles of Political Science
+	
+A
+	
+LEC
+	
+
+
+HSS1011
+	
+Introduction to Social Science Research
+	
+A
+	
+LEC
+	
+
+
+CSS3410
+	
+Selected Topics on Computational Communication
+	
+A
+	
+LEC
+	
+
+
+TRA1010
+	
+Principles of Translation
+	
+A
+	
+LEC
+	
+
+
+TRA 2130
+	
+Language Studies for Translation
+	
+A
+	
+LEC
+	
+
+
+TRA 2320
+	
+Consecutive Interpreting II
+	
+A
+	
+LEC
+	
+
+
+TRA 3010
+	
+Theory of Translation
+	
+A
+	
+LEC
+	
+
+
+TRA 3220
+	
+Legal Translation
+	
+A
+	
+LEC
+	
+
+
+TRA 3240
+	
+Film and Television Subtitles
+	
+A
+	
+LEC
+	
+
+
+TRA 3250
+	
+News Translation
+	
+A
+	
+LEC
+	
+
+
+TRA 3280
+	
+Arts Translation
+	
+A
+	
+LEC
+	
+
+
+TRA 3310
+	
+Simultaneous Interpreting I
+	
+A
+	
+LEC
+	
+
+
+TRA 4030
+	
+Capstone Translation Project
+	
+A
+	
+LEC
+	
+
+
+ENB 2006
+	
+Translation and Intercultural
+	
+A
+	
+LEC
+	
+
+
+ENB 3002
+	
+Language and Society
+	
+A
+	
+LEC
+	
+
+
+ENB 3005
+	
+Language and Media
+	
+A
+	
+LEC
+	
+
+
+ENB 4201
+	
+Introduction to Western Legal
+	
+A
+	
+LEC
+	
+
+
+ENB 4202
+	
+Legal English
+	
+A
+	
+LEC
+	
+
+
+ENB 4208
+	
+Commercial and Corporate Law
+	
+A
+	
+LEC
+	
+
+
+ENB 4308
+	
+Computer Programing for Natura
+	
+A
+	
+LEC
+	
+
+
+URM 2010
+	
+Cities, Society and Environmen
+	
+A
+	
+LEC
+	
+
+
+URM 2020
+	
+Urban Economics
+	
+A
+	
+LEC
+	
+
+
+URM 2040
+	
+Principles and Application of GIS in Urban Management
+	
+A
+	
+LEC
+	
+
+
+URM 3050
+	
+Urban Form, Design and Place M
+	
+A
+	
+LEC
+	
+
+
+URM 3110
+	
+Urban History and Culture
+	
+A
+	
+LEC
+	
+
+
+URM 3140
+	
+Urban Transportation System
+	
+A
+	
+LEC
+	
+
+
+URM 4010
+	
+Smart Cities and Management
+	
+A
+	
+LEC
+	
+
+
+URM 4030
+	
+Urban Management and Public Policy
+	
+A
+	
+LEC
+	
+
+
+CHI 1000
+	
+Chinese
+	
+A
+	
+LEC
+	
+
+
+CHI 1000
+	
+Chinese
+	
+B
+	
+LEC
+	
+
+
+CHI 1000
+	
+Chinese
+	
+C
+	
+LEC
+	
+
+
+CHI 1000
+	
+Chinese
+	
+D
+	
+LEC
+	
+
+
+CHI 1000
+	
+Chinese
+	
+E
+	
+LEC
+	
+
+
+CHI 1000
+	
+Chinese
+	
+F
+	
+LEC
+	
+
+
+CHI 1000
+	
+Chinese
+	
+G
+	
+LEC
+	
+
+
+CHI 1000
+	
+Chinese
+	
+H
+	
+LEC
+	
+
+
+CHI 1000
+	
+Chinese
+	
+I
+	
+LEC
+	
+
+
+CHI 1000
+	
+Chinese
+	
+J
+	
+LEC
+	
+
+
+CHI 1000
+	
+Chinese
+	
+K
+	
+LEC
+	
+
+
+CHI 1000
+	
+Chinese
+	
+L
+	
+LEC
+	
+
+
+CHI 2008
+	
+Chinese
+	
+A
+	
+LEC
+	
+
+
+CHI 4006
+	
+Chinese
+	
+A
+	
+LEC
+	
+
+
+PED 1101
+	
+Badminton
+	
+A
+	
+LEC
+	
+
+
+PED 1102
+	
+Barre Training
+	
+A
+	
+LEC
+	
+
+
+PED 1103
+	
+Basketball
+	
+A
+	
+LEC
+	
+
+
+PED 1104
+	
+Floor Curling
+	
+A
+	
+LEC
+	
+
+
+PED 1105
+	
+Frisbee
+	
+A
+	
+LEC
+	
+
+
+PED 1106
+	
+Golf
+	
+A
+	
+LEC
+	
+
+
+PED 1109
+	
+Orienteering
+	
+A
+	
+LEC
+	
+
+
+PED 1110
+	
+Pickleball
+	
+A
+	
+LEC
+	
+
+
+PED 1113
+	
+Soccer
+	
+A
+	
+LEC
+	
+
+
+PED 1116
+	
+Table Tennis
+	
+A
+	
+LEC
+	
+
+
+PED 1117
+	
+Taekwondo
+	
+A
+	
+LEC
+	
+
+
+PED 1118
+	
+Tai Chi
+	
+A
+	
+LEC
+	
+
+
+PED 1119
+	
+Tennis
+	
+A
+	
+LEC
+	
+
+
+PED 1121
+	
+Volleyball
+	
+A
+	
+LEC
+	
+
+
+PED 1122
+	
+Wushu Sanda
+	
+A
+	
+LEC
+	
+
+
+PED 1123
+	
+Yoga
+	
+A
+	
+LEC
+	
+
+
+CSS5010
+	
+Social Science Research Methods
+	
+A
+	
+LEC
+	
+
+
+CSS5020
+	
+Statistics for Social Science
+	
+A
+	
+LEC
+	
+
+
+CSS5120
+	
+Computational Linguistics
+	
+A
+	
+LEC
+	
+
+
+CSS5150
+	
+Advanced Topics in Regional and Urban Development
+	
+A
+	
+LEC
+	
+
+
+CSS5170
+	
+Advanced Topics in Globalization
+	
+A
+	
+LEC
+	
+
+
+CSS5190
+	
+Game Your Psychology: AI, Creativity & Mental Health
+	
+A
+	
+LEC
+	
+
+
+CSS5230
+	
+Introduction to Machine Learning for Social Science
+	
+A
+	
+LEC
+	
+
+
+CSS5240
+	
+Data Visualization for Social Science
+	
+A
+	
+LEC
+	
+
+
+CSS5280
+	
+Modelling and Analysis of Complex System
+	
+A
+	
+LEC
+	
+
+
+CSS5320
+	
+Data Science for Sustainable Development
+	
+A
+	
+LEC
+	
+
+
+CSS5340
+	
+Computational Psychology
+	
+A
+	
+LEC
+	
+
+
+CSS5370
+	
+Topics in Computational Social Science
+	
+A
+	
+LEC
+	
+
+
+CSS6010
+	
+Survey Experiment
+	
+A
+	
+LEC
+	
+
+
+CSS7030
+	
+Thesis Writing and Presentation
+	
+A
+	
+LEC
+	
+
+
+PSY5010
+	
+Research Methods in Psychology and Social Sciences
+	
+A
+	
+LEC
+	
+
+
+PSY5120
+	
+Child and Adolescent Development
+	
+A
+	
+LEC
+	
+
+
+PSY5140
+	
+Learning and Cognition
+	
+A
+	
+LEC
+	
+
+
+PSY5150
+	
+Advanced Topics in Educational Psychology
+	
+A
+	
+LEC
+	
+
+
+PSY5160
+	
+Machine Learning in Psychology
+	
+A
+	
+LEC
+	
+
+
+PSY5210
+	
+Organizational Behavior
+	
+A
+	
+LEC
+	
+
+
+PSY5240
+	
+Organizations and Group Processes
+	
+A
+	
+LEC
+	
+
+
+PSY5340
+	
+Health Psychology
+	
+A
+	
+LEC
+	
+
+
+PSY5410
+	
+Code of Ethics in Counseling and Clinical Psychology
+	
+A
+	
+LEC
+	
+
+
+PSY6130
+	
+Topics in Educational/School Psychology
+	
+A
+	
+LEC
+	
+
+
+PSY6140
+	
+Topics in Cognitive Neuroscience
+	
+A
+	
+LEC
+	
+
+
+TRA5100
+	
+Translation and Generative AI
+	
+A
+	
+LEC
+	
+
+
+TRA5101
+	
+Advanced Chinese to English Translation
+	
+A
+	
+LEC
+	
+
+
+TRA5113
+	
+Translation of Texts for the Media
+	
+A
+	
+LEC
+	
+
+
+TRA5200
+	
+Human-AI Collaboration in Interpreting
+	
+A
+	
+LEC
+	
+
+
+TRA5201
+	
+Advanced Chinese to English Consecutive Interpreting
+	
+A
+	
+LEC
+	
+
+
+TRA5202
+	
+Advanced English to Chinese Consecutive Interpreting
+	
+A
+	
+LEC
+	
+
+
+TRA5317
+	
+Applications of Large Language Models
+	
+A
+	
+LEC
+	
+
+
+TRA5400
+	
+Advanced Language Technologies
+	
+A
+	
+LEC
+	
+
+
+TRA5703
+	
+Computer Programming for Language Studies
+	
+A
+	
+LEC
+	
+
+
+TRA5401
+	
+Foundation in Chinese to English Simultaneous Interpreting
+	
+A
+	
+LEC
+	
+
+
+TRA5402
+	
+Foundation in English to Chinese Simultaneous Interpreting
+	
+A
+	
+LEC
+	
+
+
+TRA5513
+	
+Simultaneous Interpreting for Contemporary Issues
+	
+A
+	
+LEC
+	
+
+
+CHI5020
+	
+Advanced Seminar on Methodology and Academic Writing
+	
+A
+	
+LEC
+	
+
+
+CHI5130
+	
+Study of Chinese Morphology and Syntax
+	
+A
+	
+LEC
+	
+
+
+CHI5140
+	
+History of Buddhism and Language
+	
+A
+	
+LEC
+	
+
+
+CHI5150
+	
+Chinese Dialectology
+	
+A
+	
+LEC
+	
+
+
+CHI5210
+	
+Special Topics in Classical Chinese Literature: Fiction
+	
+A
+	
+LEC
+	
+
+
+CHI5220
+	
+Special Topics in Classical Chinese Literature: Drama
+	
+A
+	
+LEC
+	
+
+
+CHI5310
+	
+Special Topics in Modern Chinese Literature
+	
+A
+	
+LEC
+	
+
+
+GLB5010
+	
+Theories of Global Studies
+	
+A
+	
+LEC
+	
+
+
+GLB5020
+	
+Social Science Research Methods
+	
+A
+	
+LEC
+	
+
+
+GLB5070
+	
+Game Theory for Social Science
+	
+A
+	
+LEC
+	
+
+
+GLB5110
+	
+Foundation of International Relations
+	
+A
+	
+LEC
+	
+
+
+GLB5210
+	
+Foundation of Global Political Economy
+	
+A
+	
+LEC
+	
+
+
+GLB5330
+	
+Comparative Politics
+	
+A
+	
+LEC
+	
+
+
+GLB5430
+	
+International Conflict and Security Affairs
+	
+A
+	
+LEC
+	
+
+
+GLB5590
+	
+East Asian Politics and Economics
+	
+A
+	
+LEC
+	
+
+
+GLB5910
+	
+Seminar on Selected Topics of Comparative Area Studies II
+	
+A
+	
+LEC
+	
+
+
+GLB6020
+	
+Social Science Research Methods
+	
+A
+	
+LEC
+	
+
+
+GLB6030
+	
+Advanced Seminar on the Theories of Global Studies
+	
+A
+	
+LEC
+	
+
+
+GLB6050
+	
+Advanced Seminar on Theories of Comparative Area Studies
+	
+A
+	
+LEC
+	
+
+
+GLB6070
+	
+Advanced Quantitative Research Methods II
+	
+A
+	
+LEC
+	
+
+
+GLB6080
+	
+Advanced Qualitative Research Methods
+	
+A
+	
+LEC
+	
+
+
+GLB6130
+	
+Thesis Writing and Presentation
+	
+A
+	
+LEC
+	
+
+
+SUD5020
+	
+Social Science Research Methods
+	
+A
+	
+LEC
+	
+
+
+SUD5030
+	
+Contemporary Issues in Sustainability Studies
+	
+A
+	
+LEC
+	
+
+
+SUD5150
+	
+Biodiversity Conservation
+	
+A
+	
+LEC
+	
+
+
+SUD5310
+	
+Economic Development in China
+	
+A
+	
+LEC
+	
+
+
+SUD5320
+	
+Development and the State
+	
+A
+	
+LEC
+	
+
+
+SUD5350
+	
+Sustainable Urban Transport
+	
+A
+	
+LEC
+	
+
+
+URB6020
+	
+Social Science Research Methods and Design
+	
+A
+	
+LEC
+	
+
+
+URB6030
+	
+Urban Economics and Development
+	
+A
+	
+LEC
+	
+
+
+URB6040
+	
+Applied Statistics for Urban Studies
+	
+A
+	
+LEC
+	
+
+
+URB6320
+	
+Land, Housing, and Urban Transition
+	
+A
+	
+LEC
+	
+
+
+URM4030
+	
+Urban Management and Public Policy
+	
+A
+	
+LEC
+	
+
+
+URM4010
+	
+Smart Cities and Management
+	
+A
+	
+LEC
+	
+
+
+APSY9001
+	
+Permission Test: Applied Psychology UG Course
+	
+A
+	
+LEC
+	
+
+
+APSY9002
+	
+Permission Test: Applied Psychology TPG Course
+	
+A
+	
+LEC
+	
+左侧填写课程代码、人数、课时即可；系统自动生成匹配条件。留空课程代码表示适用于全部论文指导课。
+高级：公式条件（可选）
+取消
+保存

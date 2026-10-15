@@ -1,0 +1,14 @@
+[
+  {
+    "level": "error",
+    "message": "[approval] 提交特殊审批申请失败: error",
+    "timestamp": "2026-10-14T06:06:25.461Z",
+    "url": "http://hssload-uat.cuhk.edu.cn/assets/index-JX3wTcHt.js"
+  },
+  {
+    "level": "error",
+    "message": "[approval] 提交特殊审批申请失败: error",
+    "timestamp": "2026-10-14T06:07:06.346Z",
+    "url": "http://hssload-uat.cuhk.edu.cn/assets/index-JX3wTcHt.js"
+  }
+]

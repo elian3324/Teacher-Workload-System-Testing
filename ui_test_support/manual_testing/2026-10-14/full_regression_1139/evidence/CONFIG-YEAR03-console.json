@@ -1,0 +1,26 @@
+[
+  {
+    "level": "error",
+    "message": "TypeError: Cannot read properties of undefined (reading 'offsetLeft')\n    at Nt (http://hssload-uat.cuhk.edu.cn/assets/Layout-jE4VGig2.js:1:10816)\n    at Wt (http://hssload-uat.cuhk.edu.cn/assets/Layout-jE4VGig2.js:1:10212)",
+    "timestamp": "2026-10-14T07:00:50.607Z",
+    "url": "http://hssload-uat.cuhk.edu.cn/assets/Layout-jE4VGig2.js"
+  },
+  {
+    "level": "error",
+    "message": "TypeError: Cannot read properties of undefined (reading 'offsetLeft')\n    at Nt (http://hssload-uat.cuhk.edu.cn/assets/Layout-jE4VGig2.js:1:10816)\n    at Wt (http://hssload-uat.cuhk.edu.cn/assets/Layout-jE4VGig2.js:1:10212)",
+    "timestamp": "2026-10-14T07:01:05.527Z",
+    "url": "http://hssload-uat.cuhk.edu.cn/assets/Layout-jE4VGig2.js"
+  },
+  {
+    "level": "error",
+    "message": "TypeError: Cannot read properties of undefined (reading 'offsetLeft')\n    at Nt (http://hssload-uat.cuhk.edu.cn/assets/Layout-jE4VGig2.js:1:10816)\n    at Wt (http://hssload-uat.cuhk.edu.cn/assets/Layout-jE4VGig2.js:1:10212)",
+    "timestamp": "2026-10-14T07:01:21.024Z",
+    "url": "http://hssload-uat.cuhk.edu.cn/assets/Layout-jE4VGig2.js"
+  },
+  {
+    "level": "error",
+    "message": "[FactorRuleVersionApi] 删除版本失败，使用Mock: Error: 系统异常\n    at http://hssload-uat.cuhk.edu.cn/assets/index-DNdO4cw7.js:123:200739\n    at async Vf.request (http://hssload-uat.cuhk.edu.cn/assets/index-DNdO4cw7.js:119:1981)\n    at async Object.delete (http://hssload-uat.cuhk.edu.cn/assets/index-DNdO4cw7.js:123:202378)\n    at async Object.remove (http://hssload-uat.cuhk.edu.cn/assets/index-CZFi0eOa.js:1:99651)\n    at async ye (http://hssload-uat.cuhk.edu.cn/assets/academic-term-xfAp81sJ.js:1:4171)",
+    "timestamp": "2026-10-14T07:01:32.333Z",
+    "url": "http://hssload-uat.cuhk.edu.cn/assets/index-CZFi0eOa.js"
+  }
+]

@@ -1,0 +1,1698 @@
+SIS 数据同步状态
+全量同步
+SIS数据导入
+SIS课时导入
+清空数据
+教学环节
+列筛选
+导出
+Course Code
+	
+Instructor
+	
+Section
+	
+Class Nbr
+	
+Course Title
+	
+Employee ID
+	
+Units
+	
+Course Component
+	
+Medium of Instruction
+	
+Days&Time
+	
+Term
+	
+Graded Component
+	
+Total Enroll
+	
+Actual Enrol
+	
+导入时间
+	
+文件名
+CEC1000
+	
+TAO,Zhen
+	
+L01
+	
+4134
+	
+Ethics and the Rule of Law
+	
+002349
+	
+0
+	
+LEC
+Lecture
+	
+	
+Tues 18:00-20:50
+	
+2410
+	
+Y
+	
+48
+	
+48
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+TAO,Zhen
+	
+L02
+	
+4135
+	
+Ethics and the Rule of Law
+	
+002349
+	
+0
+	
+LEC
+Lecture
+	
+	
+Thur 18:00-20:50
+	
+2410
+	
+Y
+	
+41
+	
+41
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+TAO,Zhen
+	
+L03
+	
+4136
+	
+Ethics and the Rule of Law
+	
+002349
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 08:30-11:20
+	
+2410
+	
+Y
+	
+41
+	
+41
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+TAO,Zhen
+	
+L04
+	
+4137
+	
+Ethics and the Rule of Law
+	
+002349
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 14:30-17:20
+	
+2410
+	
+Y
+	
+45
+	
+45
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+WANG,Xueshi
+	
+L05
+	
+4138
+	
+Ethics and the Rule of Law
+	
+002151
+	
+0
+	
+LEC
+Lecture
+	
+	
+Thur 18:00-20:50
+	
+2410
+	
+Y
+	
+46
+	
+46
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+WANG,Xueshi
+	
+L06
+	
+4139
+	
+Ethics and the Rule of Law
+	
+002151
+	
+0
+	
+LEC
+Lecture
+	
+	
+Wed 18:00-20:50
+	
+2410
+	
+Y
+	
+51
+	
+51
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+WANG,Xueshi
+	
+L07
+	
+4140
+	
+Ethics and the Rule of Law
+	
+002151
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 18:00-20:50
+	
+2410
+	
+Y
+	
+55
+	
+55
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+WANG,Xueshi
+	
+L08
+	
+4141
+	
+Ethics and the Rule of Law
+	
+002151
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 14:30-17:20
+	
+2410
+	
+Y
+	
+42
+	
+42
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+JIANG,Wen
+	
+L09
+	
+4142
+	
+Ethics and the Rule of Law
+	
+002781
+	
+0
+	
+LEC
+Lecture
+	
+	
+Mon 18:00-20:50
+	
+2410
+	
+Y
+	
+31
+	
+31
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+JIANG,Wen
+	
+L10
+	
+4143
+	
+Ethics and the Rule of Law
+	
+002781
+	
+0
+	
+LEC
+Lecture
+	
+	
+Thur 18:00-20:50
+	
+2410
+	
+Y
+	
+31
+	
+31
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+MO,Guangming
+	
+L11
+	
+4144
+	
+Ethics and the Rule of Law
+	
+002518
+	
+0
+	
+LEC
+Lecture
+	
+	
+Wed 18:00-20:50
+	
+2410
+	
+Y
+	
+49
+	
+49
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+MO,Guangming
+	
+L12
+	
+4145
+	
+Ethics and the Rule of Law
+	
+002518
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 18:00-20:50
+	
+2410
+	
+Y
+	
+29
+	
+29
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+YANG,Jie
+	
+L13
+	
+4146
+	
+Ethics and the Rule of Law
+	
+002780
+	
+0
+	
+LEC
+Lecture
+	
+	
+Wed 18:00-20:50
+	
+2410
+	
+Y
+	
+54
+	
+54
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+YANG,Jie
+	
+L14
+	
+4147
+	
+Ethics and the Rule of Law
+	
+002780
+	
+0
+	
+LEC
+Lecture
+	
+	
+Thur 18:00-20:50
+	
+2410
+	
+Y
+	
+50
+	
+50
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+WANG,Hongmei
+	
+L15
+	
+4148
+	
+Ethics and the Rule of Law
+	
+002350
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 09:00-11:50
+	
+2410
+	
+Y
+	
+49
+	
+49
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1000
+	
+WANG,Hongmei
+	
+L16
+	
+4149
+	
+Ethics and the Rule of Law
+	
+002350
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 14:30-17:20
+	
+2410
+	
+Y
+	
+46
+	
+46
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1001
+	
+WU,Yiyang
+	
+L01
+	
+4961
+	
+Ethics and the Rule of Law
+	
+002273
+	
+0
+	
+LEC
+Lecture
+	
+	
+-
+	
+2410
+	
+Y
+	
+5
+	
+5
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC1011
+	
+WU,Yiyang
+	
+L01
+	
+4962
+	
+Society and Public Policy in Contemporary China
+	
+002273
+	
+0
+	
+LEC
+Lecture
+	
+	
+-
+	
+2410
+	
+Y
+	
+8
+	
+8
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC2000
+	
+ZHANG,Junfu
+	
+L01
+	
+4251
+	
+Introduction to Marxism
+	
+002796
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 09:00-11:50
+	
+2410
+	
+Y
+	
+37
+	
+37
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC2000
+	
+ZHANG,Junfu
+	
+L02
+	
+4252
+	
+Introduction to Marxism
+	
+002796
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 14:30-17:20
+	
+2410
+	
+Y
+	
+41
+	
+41
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC2000
+	
+WU,Yiyang
+	
+L03
+	
+4253
+	
+Introduction to Marxism
+	
+002273
+	
+0
+	
+LEC
+Lecture
+	
+	
+Thur 18:00-20:50
+	
+2410
+	
+Y
+	
+28
+	
+28
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC2001
+	
+WU,Yiyang
+	
+L01
+	
+4963
+	
+Introduction to Marxism
+	
+002273
+	
+0
+	
+LEC
+Lecture
+	
+	
+-
+	
+2410
+	
+Y
+	
+9
+	
+9
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC3000
+	
+YANG,Jie
+	
+L01
+	
+4275
+	
+Thoughts of Modern China
+	
+002780
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 18:00-20:50
+	
+2410
+	
+Y
+	
+100
+	
+100
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC3000
+	
+YANG,Jie
+	
+L02
+	
+4276
+	
+Thoughts of Modern China
+	
+002780
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 14:30-17:20
+	
+2410
+	
+Y
+	
+95
+	
+95
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC3000
+	
+WU,Yiyang
+	
+L03
+	
+4277
+	
+Thoughts of Modern China
+	
+002273
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 09:00-11:50
+	
+2410
+	
+Y
+	
+99
+	
+99
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC3000
+	
+WU,Yiyang
+	
+L04
+	
+4278
+	
+Thoughts of Modern China
+	
+002273
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 14:30-17:20
+	
+2410
+	
+Y
+	
+101
+	
+101
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC3000
+	
+WU,Yiyang
+	
+L05
+	
+4279
+	
+Thoughts of Modern China
+	
+002273
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 18:00-20:50
+	
+2410
+	
+Y
+	
+98
+	
+98
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC3000
+	
+YI,Shensi
+	
+L06
+	
+4280
+	
+Thoughts of Modern China
+	
+002983
+	
+0
+	
+LEC
+Lecture
+	
+	
+Thur 18:00-20:50
+	
+2410
+	
+Y
+	
+103
+	
+103
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC3000
+	
+WANG,Hongmei
+	
+L07
+	
+4281
+	
+Thoughts of Modern China
+	
+002350
+	
+0
+	
+LEC
+Lecture
+	
+	
+Thur 18:00-20:50
+	
+2410
+	
+Y
+	
+101
+	
+101
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC4000
+	
+JIANG,Wen
+	
+L01
+	
+4265
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+002781
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 14:30-17:20
+	
+2410
+	
+Y
+	
+105
+	
+105
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC4000
+	
+ZHANG,Junfu
+	
+L02
+	
+4266
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+002796
+	
+0
+	
+LEC
+Lecture
+	
+	
+Tues 18:00-20:50
+	
+2410
+	
+Y
+	
+102
+	
+102
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC4000
+	
+YI,Shensi
+	
+L03
+	
+4267
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+002983
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 08:30-11:20
+	
+2410
+	
+Y
+	
+96
+	
+96
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC4000
+	
+FANG,Da
+	
+L04
+	
+4268
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+003015
+	
+0
+	
+LEC
+Lecture
+	
+	
+Wed 18:00-20:50
+	
+2410
+	
+Y
+	
+101
+	
+101
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC4000
+	
+JIANG,Wen
+	
+L05
+	
+4269
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+002781
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 18:00-20:50
+	
+2410
+	
+Y
+	
+100
+	
+100
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC4000
+	
+ZHANG,Junfu
+	
+L06
+	
+4270
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+002796
+	
+0
+	
+LEC
+Lecture
+	
+	
+Wed 18:00-20:50
+	
+2410
+	
+Y
+	
+102
+	
+102
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC4000
+	
+MO,Guangming
+	
+L07
+	
+4271
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+002518
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 08:30-11:20
+	
+2410
+	
+Y
+	
+103
+	
+103
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC4000
+	
+FANG,Da
+	
+L08
+	
+4272
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+003015
+	
+0
+	
+LEC
+Lecture
+	
+	
+Thur 18:00-20:50
+	
+2410
+	
+Y
+	
+104
+	
+104
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC4000
+	
+YI,Shensi
+	
+L09
+	
+4273
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+002983
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 14:30-17:20
+	
+2410
+	
+Y
+	
+100
+	
+100
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC4000
+	
+MO,Guangming
+	
+L10
+	
+4274
+	
+Introduction to Xi Jinping Thought on Socialism with Chinese Characteristics for A New Era
+	
+002518
+	
+0
+	
+LEC
+Lecture
+	
+	
+Fri 14:30-17:20
+	
+2410
+	
+Y
+	
+100
+	
+100
+	
+2026-09-09 09:51:13
+	
+2024-25 AY.xlsx
+
+
+CEC5000
+	
+CHEN,Xiaozhen
+	
+L01
+	
+2696
+	
+Theory and Practice of State-building in Contemporary China
+	
+000346
+	
+2
+	
+LEC
+Lecture
+	
+	
+Fri 18:00-19:50
+	
+2410
+	
+Y
+	
+98
+	
+98
+	
+2026-09-09 09:51:37
+	
+PG-CEC (2024-25 AY to 2025-26 AY).xlsx
+
+
+CEC5000
+	
+CHEN,Xiaozhen
+	
+L02
+	
+2697
+	
+Theory and Practice of State-building in Contemporary China
+	
+000346
+	
+2
+	
+LEC
+Lecture
+	
+	
+Thur 18:00-19:50
+	
+2410
+	
+Y
+	
+93
+	
+93
+	
+2026-09-09 09:51:37
+	
+PG-CEC (2024-25 AY to 2025-26 AY).xlsx
+
+
+CEC5000
+	
+CHEN,Xiaozhen
+	
+L03
+	
+2698
+	
+Theory and Practice of State-building in Contemporary China
+	
+000346
+	
+2
+	
+LEC
+Lecture
+	
+	
+Fri 14:00-15:50
+	
+2410
+	
+Y
+	
+83
+	
+83
+	
+2026-09-09 09:51:37
+	
+PG-CEC (2024-25 AY to 2025-26 AY).xlsx
+
+
+CEC5000
+	
+YIN,Mengjie
+	
+L04
+	
+2699
+	
+Theory and Practice of State-building in Contemporary China
+	
+002777
+	
+2
+	
+LEC
+Lecture
+	
+	
+Mon 18:00-19:50
+	
+2410
+	
+Y
+	
+100
+	
+100
+	
+2026-09-09 09:51:37
+	
+PG-CEC (2024-25 AY to 2025-26 AY).xlsx
+
+
+CEC5000
+	
+YIN,Mengjie
+	
+L05
+	
+2700
+	
+Theory and Practice of State-building in Contemporary China
+	
+002777
+	
+2
+	
+LEC
+Lecture
+	
+	
+Thur 18:00-19:50
+	
+2410
+	
+Y
+	
+78
+	
+78
+	
+2026-09-09 09:51:37
+	
+PG-CEC (2024-25 AY to 2025-26 AY).xlsx
+
+
+CEC5000
+	
+YIN,Mengjie
+	
+L06
+	
+2701
+	
+Theory and Practice of State-building in Contemporary China
+	
+002777
+	
+2
+	
+LEC
+Lecture
+	
+	
+Fri 14:00-15:50
+	
+2410
+	
+Y
+	
+84
+	
+84
+	
+2026-09-09 09:51:37
+	
+PG-CEC (2024-25 AY to 2025-26 AY).xlsx
+
+
+CEC5000
+	
+YIN,Mengjie
+	
+L07
+	
+2702
+	
+Theory and Practice of State-building in Contemporary China
+	
+002777
+	
+2
+	
+LEC
+Lecture
+	
+	
+Fri 18:00-19:50
+	
+2410
+	
+Y
+	
+99
+	
+99
+	
+2026-09-09 09:51:37
+	
+PG-CEC (2024-25 AY to 2025-26 AY).xlsx
+
+
+CEC5000
+	
+LIN,Baoyi
+	
+L08
+	
+2703
+	
+Theory and Practice of State-building in Contemporary China
+	
+002315
+	
+2
+	
+LEC
+Lecture
+	
+	
+Mon 18:00-19:50
+	
+2410
+	
+Y
+	
+84
+	
+84
+	
+2026-09-09 09:51:37
+	
+PG-CEC (2024-25 AY to 2025-26 AY).xlsx
+
+
+CEC5000
+	
+LIN,Baoyi
+	
+L09
+	
+2704
+	
+Theory and Practice of State-building in Contemporary China
+	
+002315
+	
+2
+	
+LEC
+Lecture
+	
+	
+Thur 18:00-19:50
+	
+2410
+	
+Y
+	
+97
+	
+97
+	
+2026-09-09 09:51:37
+	
+PG-CEC (2024-25 AY to 2025-26 AY).xlsx
+
+
+CEC5000
+	
+LIN,Baoyi
+	
+L10
+	
+2705
+	
+Theory and Practice of State-building in Contemporary China
+	
+002315
+	
+2
+	
+LEC
+Lecture
+	
+	
+Fri 14:00-15:50
+	
+2410
+	
+Y
+	
+93
+	
+93
+	
+2026-09-09 09:51:37
+	
+PG-CEC (2024-25 AY to 2025-26 AY).xlsx
+
+
+CEC5000
+	
+LIN,Baoyi
+	
+L11
+	
+2706
+	
+Theory and Practice of State-building in Contemporary China
+	
+002315
+	
+2
+	
+LEC
+Lecture
+	
+	
+Fri 18:00-19:50
+	
+2410
+	
+Y
+	
+92
+	
+92
+	
+2026-09-09 09:51:37
+	
+PG-CEC (2024-25 AY to 2025-26 AY).xlsx
+共 771 条
+50条/页
+1
+2
+3
+4
+5
+6
+16
+前往
+页

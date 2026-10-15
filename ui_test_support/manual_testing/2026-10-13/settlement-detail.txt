@@ -1,0 +1,22 @@
+结算详情
+学年	2024-2025	教师	CHEN,Xiaozhen	Staff ID	000346
+合同类型	Teaching-track	课程代码	CEC5000	课程名称	Theory and Practice of State-building in Contemporary China
+Section	L01	教学环节	LEC	Units	2
+选课人数	98	上课时间	Fri 18:00-19:50	settlement.studentNo	196
+原始课时	2（Days&Time 取整原值）	上课频率系数	1	教学环节系数	1
+TermFactor	1	授课权重	1	调整后工作量	2
+最终工作量	2（规则计算后）	计划学时	0	偏差%	0%
+差异状态	
+	SIS状态	
+待处理
+	结算状态	
+待确认
+计算步骤
+暂无落库计算步骤。若刚完成结算，请以引擎运行日志中的步骤卡片为准。
+ 审计追溯
+2026-06-01
+SIS数据自动同步完成
+2026-06-05
+工作量系统计算完成
+2026-06-10
+学部行政核实通过

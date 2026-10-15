@@ -1,0 +1,12 @@
+{
+  "word_pages": 7,
+  "word_visual_review": "7页逐页查看，无裁切、重叠或标题装饰线；截图保留原始文件",
+  "renderer": "render_docx.py因缺少LibreOffice未成功，改用已安装Word的原生PDF导出及pypdfium2逐页渲染检查",
+  "in_scope_records": 147,
+  "excluded_system_management_records": 23,
+  "defects": 22,
+  "screenshot_links_resolve": true,
+  "zip_integrity": "passed",
+  "archive_files": 304,
+  "archive_bytes": 10508934
+}

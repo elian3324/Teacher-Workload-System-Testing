@@ -1,0 +1,169 @@
+- link "CUHK-SZ HSS Teacher Teaching Hours Management System":
+  - /url: /
+  - generic: CUHK-SZ HSS Teacher Teaching Hours Management System
+- menubar:
+  - menuitem "首页":
+    - generic: 首页
+  - menuitem "教学计划管理" [expanded]:
+    - generic: 教学计划管理
+    - menu:
+      - menuitem "学院工作量标准":
+        - generic: 学院工作量标准
+      - menuitem "开课管理":
+        - generic: 开课管理
+      - menuitem "审批跟踪":
+        - generic: 审批跟踪
+  - menuitem "结算管理":
+    - generic: 结算管理
+  - menuitem "待办任务":
+    - generic: 待办任务
+  - menuitem "系统消息":
+    - generic: 系统消息
+  - menuitem "系统配置管理":
+    - generic: 系统配置管理
+  - menuitem "系统管理":
+    - generic: 系统管理
+- navigation "面包屑":
+  - link "教学计划管理"
+  - text: /
+  - link "审批跟踪"
+- generic: En
+- button:
+- button "首页":
+  - text: 首页
+- button "审批跟踪":
+  - text: 审批跟踪
+- button:
+- generic: 审批跟踪
+- generic: 学年：
+- combobox
+- generic: 2024-2025学年
+- generic: 学期：
+- combobox
+- generic: Term 1
+- generic: 状态：
+- combobox [active]
+- generic: 请选择
+- button "列筛选":
+  - text: 列筛选
+- button "导出":
+  - text: 导出
+- generic: 当前查看：2024-2025 Term 1 全部状态
+- table:
+  - rowgroup:
+    - row "# 学年 学期 学科部 课程数 提交人 提交时间 当前节点 状态 操作":
+      - columnheader "#":
+        - generic: "#"
+      - columnheader "学年":
+        - generic: 学年
+      - columnheader "学期":
+        - generic: 学期
+      - columnheader "学科部":
+        - generic: 学科部
+      - columnheader "课程数":
+        - generic: 课程数
+      - columnheader "提交人":
+        - generic: 提交人
+      - columnheader "提交时间":
+        - generic: 提交时间
+      - columnheader "当前节点":
+        - generic: 当前节点
+      - columnheader "状态":
+        - generic: 状态
+      - columnheader "操作":
+        - generic: 操作
+- table:
+  - rowgroup:
+    - row "1 2024-2025 TERM_1 Division of Development & Governance 2 测试_学科部助理--研究生 2026-10-10 11:14:35 学科部主任初审 已驳回 已处理":
+      - cell "1":
+        - generic: "1"
+      - cell "2024-2025":
+        - generic: 2024-2025
+      - cell "TERM_1":
+        - generic: TERM_1
+      - cell "Division of Development & Governance":
+        - generic: Division of Development & Governance
+      - cell "2":
+        - generic: "2"
+      - cell "测试_学科部助理--研究生":
+        - generic: 测试_学科部助理--研究生
+      - cell "2026-10-10 11:14:35":
+        - generic: 2026-10-10 11:14:35
+      - cell "学科部主任初审":
+        - generic: 学科部主任初审
+      - cell "已驳回":
+        - generic: 已驳回
+      - cell "已处理":
+        - generic: 已处理
+    - row "2 2024-2025 TERM_1 Division of Applied Psychology 1 sysopliwy7HkP 2026-10-08 14:01:42 学科部主任初审 已驳回 已处理":
+      - cell "2":
+        - generic: "2"
+      - cell "2024-2025":
+        - generic: 2024-2025
+      - cell "TERM_1":
+        - generic: TERM_1
+      - cell "Division of Applied Psychology":
+        - generic: Division of Applied Psychology
+      - cell "1":
+        - generic: "1"
+      - cell "sysopliwy7HkP":
+        - generic: sysopliwy7HkP
+      - cell "2026-10-08 14:01:42":
+        - generic: 2026-10-08 14:01:42
+      - cell "学科部主任初审":
+        - generic: 学科部主任初审
+      - cell "已驳回":
+        - generic: 已驳回
+      - cell "已处理":
+        - generic: 已处理
+    - row "3 2024-2025 TERM_1 Division of Development & Governance 2 测试_学科部助理--本科 2026-09-30 16:49:20 学科部主任初审 已驳回 已处理":
+      - cell "3":
+        - generic: "3"
+      - cell "2024-2025":
+        - generic: 2024-2025
+      - cell "TERM_1":
+        - generic: TERM_1
+      - cell "Division of Development & Governance":
+        - generic: Division of Development & Governance
+      - cell "2":
+        - generic: "2"
+      - cell "测试_学科部助理--本科":
+        - generic: 测试_学科部助理--本科
+      - cell "2026-09-30 16:49:20":
+        - generic: 2026-09-30 16:49:20
+      - cell "学科部主任初审":
+        - generic: 学科部主任初审
+      - cell "已驳回":
+        - generic: 已驳回
+      - cell "已处理":
+        - generic: 已处理
+    - row "4 2024-2025 TERM_1 Division of Development & Governance 0 测试_学科部助理--本科 2026-09-30 16:42:33 学科部主任初审 已驳回 已处理":
+      - cell "4":
+        - generic: "4"
+      - cell "2024-2025":
+        - generic: 2024-2025
+      - cell "TERM_1":
+        - generic: TERM_1
+      - cell "Division of Development & Governance":
+        - generic: Division of Development & Governance
+      - cell "0":
+        - generic: "0"
+      - cell "测试_学科部助理--本科":
+        - generic: 测试_学科部助理--本科
+      - cell "2026-09-30 16:42:33":
+        - generic: 2026-09-30 16:42:33
+      - cell "学科部主任初审":
+        - generic: 学科部主任初审
+      - cell "已驳回":
+        - generic: 已驳回
+      - cell "已处理":
+        - generic: 已处理
+- generic: 审批流程：Division of Development & Governance - 2024-2025 TERM_1
+- generic: 学科部主任初审
+- generic: 测试_学科部主任 驳回 (2026-10-10 11:14:54)
+- generic: "2"
+- generic: 学院行政复审
+- generic: 已处理
+- generic: "3"
+- generic: 主管领导终审
+- generic: 已处理

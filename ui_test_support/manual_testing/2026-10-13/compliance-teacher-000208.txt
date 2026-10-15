@@ -1,0 +1,199 @@
+- link "CUHK-SZ HSS Teacher Teaching Hours Management System":
+  - /url: /
+  - generic: CUHK-SZ HSS Teacher Teaching Hours Management System
+- menubar:
+  - menuitem "首页":
+    - generic: 首页
+  - menuitem "教学计划管理":
+    - generic: 教学计划管理
+  - menuitem "结算管理" [expanded]:
+    - generic: 结算管理
+    - menu:
+      - menuitem "工作量结算管理":
+        - generic: 工作量结算管理
+      - menuitem "达标情况对比":
+        - generic: 达标情况对比
+      - menuitem "特殊审批":
+        - generic: 特殊审批
+      - menuitem "工作量查询":
+        - generic: 工作量查询
+  - menuitem "待办任务":
+    - generic: 待办任务
+  - menuitem "系统消息":
+    - generic: 系统消息
+  - menuitem "系统配置管理":
+    - generic: 系统配置管理
+  - menuitem "系统管理":
+    - generic: 系统管理
+- navigation "面包屑":
+  - link "结算管理"
+  - text: /
+  - link "达标情况对比"
+- generic: En
+- button:
+- button "首页":
+  - text: 首页
+- button "达标情况对比":
+  - text: 达标情况对比
+- button:
+- generic: 达标情况对比
+- generic: 学年：
+- combobox
+- generic: 2024-2025学年
+- generic: 学期：
+- combobox
+- generic: 全年
+- generic: 实际学科部：
+- combobox
+- generic: 请选择实际学科部
+- generic: 层次：
+- combobox
+- generic: 全部
+- generic: 当前学年：2024-2025
+- generic: 当前学期：全年
+- generic: 当前层次：全部
+- tabpanel "实际版"
+- tablist:
+  - tab "计划版":
+    - text: 计划版
+  - tab "预估版":
+    - text: 预估版
+  - tab "实际版" [selected]:
+    - text: 实际版
+- button "导出汇总":
+  - text: 导出汇总
+- table:
+  - rowgroup:
+    - row "合同类型 教师数 达标 不达标 Hours/w/t (avg / max / min) Courses/t (avg / max / min) Credits/y (avg / max / min) studentNo (avg / max / min)":
+      - columnheader "合同类型":
+        - generic: 合同类型
+      - columnheader "教师数":
+        - generic: 教师数
+      - columnheader "达标":
+        - generic: 达标
+      - columnheader "不达标":
+        - generic: 不达标
+      - columnheader "Hours/w/t (avg / max / min)":
+        - generic: Hours/w/t (avg / max / min)
+      - columnheader "Courses/t (avg / max / min)":
+        - generic: Courses/t (avg / max / min)
+      - columnheader "Credits/y (avg / max / min)":
+        - generic: Credits/y (avg / max / min)
+      - columnheader "studentNo (avg / max / min)":
+        - generic: studentNo (avg / max / min)
+- table:
+  - rowgroup:
+    - row "Contractually Limited 10 1 9 12.7 / 21 / 3 3.4 / 6 / 1 8.6 / 18 / 3 52 / 94 / 17":
+      - cell "Contractually Limited":
+        - generic: Contractually Limited
+      - cell "10":
+        - generic: "10"
+      - cell "1":
+        - generic: "1"
+      - cell "9":
+        - generic: "9"
+      - cell "12.7 / 21 / 3":
+        - generic: 12.7 / 21 / 3
+      - cell "3.4 / 6 / 1":
+        - generic: 3.4 / 6 / 1
+      - cell "8.6 / 18 / 3":
+        - generic: 8.6 / 18 / 3
+      - cell "52 / 94 / 17":
+        - generic: 52 / 94 / 17
+    - row "Teaching-track 122 0 122 21.4 / 30.5 / 0 2.7 / 8 / 1 7.1 / 18 / 0 118 / 452 / 0":
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "122":
+        - generic: "122"
+      - cell "0":
+        - generic: "0"
+      - cell "122":
+        - generic: "122"
+      - cell "21.4 / 30.5 / 0":
+        - generic: 21.4 / 30.5 / 0
+      - cell "2.7 / 8 / 1":
+        - generic: 2.7 / 8 / 1
+      - cell "7.1 / 18 / 0":
+        - generic: 7.1 / 18 / 0
+      - cell "118 / 452 / 0":
+        - generic: 118 / 452 / 0
+    - row "Tenure-track 26 11 15 8.7 / 13 / 3 3.4 / 9 / 1 7.7 / 12 / 3 75 / 154 / 24":
+      - cell "Tenure-track":
+        - generic: Tenure-track
+      - cell "26":
+        - generic: "26"
+      - cell "11":
+        - generic: "11"
+      - cell "15":
+        - generic: "15"
+      - cell "8.7 / 13 / 3":
+        - generic: 8.7 / 13 / 3
+      - cell "3.4 / 9 / 1":
+        - generic: 3.4 / 9 / 1
+      - cell "7.7 / 12 / 3":
+        - generic: 7.7 / 12 / 3
+      - cell "75 / 154 / 24":
+        - generic: 75 / 154 / 24
+- combobox
+- generic: 筛选合同类型
+- combobox
+- generic: 减免状态
+- combobox
+- generic: 筛选状态
+- textbox "模糊查询：教师 / 工号 / 学部"
+- textbox "工号 (如 ID3058)" [active]: "000208"
+- textbox "课程代码"
+- button "导出明细":
+  - text: 导出明细
+- button "列筛选":
+  - text: 列筛选
+- table:
+  - rowgroup:
+    - row "# 教师 工号 学部 合同类型 Hours(实际/全年标准) Courses(实际/全年标准) Credits(实际/全年标准) studentNo(实际/全年标准) 判定":
+      - columnheader
+      - columnheader "#":
+        - generic: "#"
+      - columnheader "教师":
+        - generic: 教师
+      - columnheader "工号":
+        - generic: 工号
+      - columnheader "学部":
+        - generic: 学部
+      - columnheader "合同类型":
+        - generic: 合同类型
+      - columnheader "Hours(实际/全年标准)":
+        - generic: Hours(实际/全年标准)
+      - columnheader "Courses(实际/全年标准)":
+        - generic: Courses(实际/全年标准)
+      - columnheader "Credits(实际/全年标准)":
+        - generic: Credits(实际/全年标准)
+      - columnheader "studentNo(实际/全年标准)":
+        - generic: studentNo(实际/全年标准)
+      - columnheader "判定":
+        - generic: 判定
+- table:
+  - rowgroup:
+    - row "1 王立弟 000208 Division of Intercultural Communication Contractually Limited 6 / 12 减免详情 3 / 4 减免详情 6 / 0 21 / 0 不达标":
+      - cell:
+      - cell "1":
+        - generic: "1"
+      - cell "王立弟":
+        - generic: 王立弟
+      - cell "000208":
+        - generic: "000208"
+      - cell "Division of Intercultural Communication":
+        - generic: Division of Intercultural Communication
+      - cell "Contractually Limited":
+        - generic: Contractually Limited
+      - cell "6 / 12 减免详情":
+        - generic: 6 / 12
+        - button "减免详情"
+      - cell "3 / 4 减免详情":
+        - generic: 3 / 4
+        - button "减免详情"
+      - cell "6 / 0":
+        - generic: 6 / 0
+      - cell "21 / 0":
+        - generic: 21 / 0
+      - cell "不达标":
+        - generic: 不达标

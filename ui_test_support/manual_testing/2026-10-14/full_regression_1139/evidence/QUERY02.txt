@@ -1,0 +1,239 @@
+CUHK-SZ HSS Teacher Teaching Hours Management System
+首页
+教学计划管理
+结算管理
+工作量结算管理
+达标情况对比
+特殊审批
+工作量查询
+待办任务
+系统消息
+系统配置管理
+系统管理
+结算管理
+/
+工作量查询
+En
+学院行政--主管
+首页
+开课管理
+工作量查询
+工作量查询
+实际学科部
+请选择实际学科部
+筛选学年
+2024-2025
+Review 日期段
+-
+筛选学期
+全部
+查询
+课程代码
+列筛选
+导出
+学部汇总
+姓名
+	
+Staff ID
+	
+学部
+	
+教学工作量
+	
+特殊调整
+	
+总工作量
+	
+状态
+	
+操作
+陈纯
+	
+002272
+	
+Division of Applied Psychology
+	
+18 学时
+	
+0 学时
+	
+18 学时
+	
+待确认
+	
+详情
+学部汇总
+学部
+	
+教师人数
+	
+总工作量
+	
+人均工作量
+Division of Intercultural Communication
+	
+13
+	
+278 学时
+	
+21.4 学时
+
+
+Division of Applied Psychology
+	
+14
+	
+189 学时
+	
+13.5 学时
+
+
+Division of Global & Area Studies
+	
+13
+	
+133 学时
+	
+10.2 学时
+
+
+Division of Development & Governance
+	
+12
+	
+191 学时
+	
+15.9 学时
+
+
+Division of Computational Social Science
+	
+13
+	
+70 学时
+	
+5.4 学时
+
+
+Division of Language Education
+	
+47
+	
+1436.5 学时
+	
+30.6 学时
+
+
+Division of Chinese Studies
+	
+10
+	
+270 学时
+	
+27 学时
+
+
+Division of General Education
+	
+39
+	
+1257.5 学时
+	
+32.2 学时
+
+
+Division of Physical Education
+	
+10
+	
+322 学时
+	
+32.2 学时
+
+
+Division of Civic Education
+	
+15
+	
+522.5 学时
+	
+34.8 学时
+个人查询
+管理查询
+陈纯 (002272) - 课程明细
+姓名	陈纯	Staff ID	002272
+学部	Division of Applied Psychology	总工作量	18 学时
+教学工作量	18 学时	特殊调整	0 学时
+状态	
+待确认
+课程明细
+列筛选
+导出
+课程代码
+	
+课程名称
+	
+学期
+	
+工作量
+PSY2110
+	
+Motivation and Emotion
+	
+TERM_1
+	
+3 学时
+
+
+PSY3110
+	
+Educational Psychology
+	
+TERM_1
+	
+3 学时
+
+
+PSY3110
+	
+Educational Psychology
+	
+TERM_2
+	
+3 学时
+
+
+PSY5040
+	
+Research Project
+	
+TERM_2
+	
+0 学时
+
+
+PSY5310
+	
+Counseling and Clinical Psychology
+	
+TERM_2
+	
+3 学时
+
+
+PSY2110
+	
+Motivation and Emotion
+	
+TERM_1
+	
+3 学时
+
+
+PSY3110
+	
+Educational Psychology
+	
+TERM_1
+	
+3 学时

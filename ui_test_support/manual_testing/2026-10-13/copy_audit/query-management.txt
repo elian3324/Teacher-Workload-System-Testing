@@ -1,0 +1,3305 @@
+CUHK-SZ HSS Teacher Teaching Hours Management System
+首页
+教学计划管理
+结算管理
+工作量结算管理
+达标情况对比
+特殊审批
+工作量查询
+待办任务
+系统消息
+系统配置管理
+系统管理
+结算管理
+/
+工作量查询
+En
+首页
+工作量查询
+工作量查询
+实际学科部
+请选择实际学科部
+筛选学年
+2024-2025
+Review 日期段
+-
+筛选学期
+全部
+查询
+课程代码
+列筛选
+导出
+学部汇总
+姓名
+	
+Staff ID
+	
+学部
+	
+教学工作量
+	
+特殊调整
+	
+总工作量
+	
+状态
+	
+操作
+顾阳
+	
+000027
+	
+Division of Intercultural Communication
+	
+3 学时
+	
+0 学时
+	
+3 学时
+	
+待确认
+	
+详情
+
+
+王立弟
+	
+000208
+	
+Division of Intercultural Communication
+	
+9 学时
+	
+6 学时
+	
+15 学时
+	
+待确认
+	
+详情
+
+
+朱纯深
+	
+000732
+	
+Division of Intercultural Communication
+	
+20 学时
+	
+0 学时
+	
+20 学时
+	
+待确认
+	
+详情
+
+
+陈可欣
+	
+000500
+	
+Division of Intercultural Communication
+	
+12 学时
+	
+0 学时
+	
+12 学时
+	
+待确认
+	
+详情
+
+
+李兰
+	
+000743
+	
+Division of Intercultural Communication
+	
+6 学时
+	
+0 学时
+	
+6 学时
+	
+待确认
+	
+详情
+
+
+隋云
+	
+000398
+	
+Division of Intercultural Communication
+	
+27 学时
+	
+0 学时
+	
+27 学时
+	
+待确认
+	
+详情
+
+
+张瓅文
+	
+000144
+	
+Division of Intercultural Communication
+	
+27 学时
+	
+6 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+张舒音
+	
+000381
+	
+Division of Intercultural Communication
+	
+30 学时
+	
+6 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+庄颖异
+	
+000931
+	
+Division of Intercultural Communication
+	
+29 学时
+	
+0 学时
+	
+29 学时
+	
+待确认
+	
+详情
+
+
+张瑞
+	
+001453
+	
+Division of Intercultural Communication
+	
+24 学时
+	
+0 学时
+	
+24 学时
+	
+待确认
+	
+详情
+
+
+周波
+	
+000186
+	
+Division of Intercultural Communication
+	
+24 学时
+	
+6 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+王晓田
+	
+000967
+	
+Division of Applied Psychology
+	
+21 学时
+	
+0 学时
+	
+21 学时
+	
+待确认
+	
+详情
+
+
+栾胜华
+	
+002822
+	
+Division of Applied Psychology
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+李田园
+	
+002150
+	
+Division of Applied Psychology
+	
+18 学时
+	
+0 学时
+	
+18 学时
+	
+待确认
+	
+详情
+
+
+陈纯
+	
+002272
+	
+Division of Applied Psychology
+	
+18 学时
+	
+0 学时
+	
+18 学时
+	
+待确认
+	
+详情
+
+
+许晓敏
+	
+002872
+	
+Division of Applied Psychology
+	
+3 学时
+	
+0 学时
+	
+3 学时
+	
+待确认
+	
+详情
+
+
+黄润珂
+	
+003235
+	
+Division of Applied Psychology
+	
+15 学时
+	
+3 学时
+	
+18 学时
+	
+待确认
+	
+详情
+
+
+曾广宇
+	
+003236
+	
+Division of Applied Psychology
+	
+18 学时
+	
+0 学时
+	
+18 学时
+	
+待确认
+	
+详情
+
+
+朱倩雨
+	
+003314
+	
+Division of Applied Psychology
+	
+21 学时
+	
+6 学时
+	
+27 学时
+	
+待确认
+	
+详情
+
+
+闫津津
+	
+004348
+	
+Division of Applied Psychology
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+董书阳
+	
+004393
+	
+Division of Applied Psychology
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+潘珏
+	
+002779
+	
+Division of Applied Psychology
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+郝雨凡
+	
+001239
+	
+Division of Global & Area Studies
+	
+12 学时
+	
+0 学时
+	
+12 学时
+	
+待确认
+	
+详情
+
+
+郑永年
+	
+001852
+	
+Division of Global & Area Studies
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+党和苹
+	
+000151
+	
+Division of Global & Area Studies
+	
+16 学时
+	
+3 学时
+	
+19 学时
+	
+待确认
+	
+详情
+
+
+段啸林
+	
+001420
+	
+Division of Global & Area Studies
+	
+18 学时
+	
+3 学时
+	
+21 学时
+	
+待确认
+	
+详情
+
+
+高昂
+	
+003265
+	
+Division of Global & Area Studies
+	
+18 学时
+	
+0 学时
+	
+18 学时
+	
+待确认
+	
+详情
+
+
+白宗润
+	
+003717
+	
+Division of Global & Area Studies
+	
+15 学时
+	
+3 学时
+	
+18 学时
+	
+待确认
+	
+详情
+
+
+张彤忻
+	
+003733
+	
+Division of Global & Area Studies
+	
+12 学时
+	
+3 学时
+	
+15 学时
+	
+待确认
+	
+详情
+
+
+吴世阳
+	
+004162
+	
+Division of Global & Area Studies
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+陈溪然
+	
+004164
+	
+Division of Global & Area Studies
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+曹睿星
+	
+004166
+	
+Division of Global & Area Studies
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+王亚杰
+	
+004396
+	
+Division of Global & Area Studies
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+陶然
+	
+002791
+	
+Division of Development & Governance
+	
+12 学时
+	
+6 学时
+	
+18 学时
+	
+待确认
+	
+详情
+
+
+刘锋
+	
+000202
+	
+Division of Development & Governance
+	
+15 学时
+	
+3 学时
+	
+18 学时
+	
+待确认
+	
+详情
+
+
+余伟铿
+	
+003347
+	
+Division of Development & Governance
+	
+16 学时
+	
+3 学时
+	
+19 学时
+	
+待确认
+	
+详情
+
+
+阎述良
+	
+002795
+	
+Division of Development & Governance
+	
+18 学时
+	
+3 学时
+	
+21 学时
+	
+待确认
+	
+详情
+
+
+王宁馨
+	
+003218
+	
+Division of Development & Governance
+	
+9 学时
+	
+3 学时
+	
+12 学时
+	
+待确认
+	
+详情
+
+
+皇甫怡悦
+	
+003232
+	
+Division of Development & Governance
+	
+21 学时
+	
+0 学时
+	
+21 学时
+	
+待确认
+	
+详情
+
+
+康思勤
+	
+003234
+	
+Division of Development & Governance
+	
+18 学时
+	
+3 学时
+	
+21 学时
+	
+待确认
+	
+详情
+
+
+罗淑莉
+	
+003300
+	
+Division of Development & Governance
+	
+15 学时
+	
+0 学时
+	
+15 学时
+	
+待确认
+	
+详情
+
+
+王易孚
+	
+003493
+	
+Division of Development & Governance
+	
+13 学时
+	
+3 学时
+	
+16 学时
+	
+待确认
+	
+详情
+
+
+王艺琁
+	
+004394
+	
+Division of Development & Governance
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+马洁琪
+	
+001795
+	
+Division of Development & Governance
+	
+21 学时
+	
+6 学时
+	
+27 学时
+	
+待确认
+	
+详情
+
+
+唐文方
+	
+002499
+	
+Division of Computational Social Science
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+陈捷
+	
+003409
+	
+Division of Computational Social Science
+	
+10 学时
+	
+0 学时
+	
+10 学时
+	
+待确认
+	
+详情
+
+
+郝海燕
+	
+003238
+	
+Division of Computational Social Science
+	
+12 学时
+	
+0 学时
+	
+12 学时
+	
+待确认
+	
+详情
+
+
+巢凤清
+	
+003604
+	
+Division of Computational Social Science
+	
+15 学时
+	
+0 学时
+	
+15 学时
+	
+待确认
+	
+详情
+
+
+靳荣波
+	
+003666
+	
+Division of Computational Social Science
+	
+12 学时
+	
+3 学时
+	
+15 学时
+	
+待确认
+	
+详情
+
+
+赵展展
+	
+003894
+	
+Division of Computational Social Science
+	
+3 学时
+	
+3 学时
+	
+6 学时
+	
+待确认
+	
+详情
+
+
+刘东
+	
+003932
+	
+Division of Computational Social Science
+	
+3 学时
+	
+3 学时
+	
+6 学时
+	
+待确认
+	
+详情
+
+
+罗骏
+	
+004165
+	
+Division of Computational Social Science
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+高梦霞
+	
+004220
+	
+Division of Computational Social Science
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+刘梦琳
+	
+004221
+	
+Division of Computational Social Science
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+李宇杰
+	
+004387
+	
+Division of Computational Social Science
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+于颖
+	
+004395
+	
+Division of Computational Social Science
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+龚文高
+	
+000166
+	
+Division of Language Education
+	
+18 学时
+	
+12 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+侯朔炤
+	
+000748
+	
+Division of Language Education
+	
+12 学时
+	
+6 学时
+	
+18 学时
+	
+待确认
+	
+详情
+
+
+林庆舟
+	
+002306
+	
+Division of Language Education
+	
+24 学时
+	
+0 学时
+	
+24 学时
+	
+待确认
+	
+详情
+
+
+松永源二郎
+	
+002999
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+许惠玲
+	
+003931
+	
+Division of Language Education
+	
+9 学时
+	
+0 学时
+	
+9 学时
+	
+待确认
+	
+详情
+
+
+王秋晨
+	
+000085
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+何薇
+	
+000270
+	
+Division of Language Education
+	
+33 学时
+	
+0 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+卜建中
+	
+000379
+	
+Division of Language Education
+	
+27 学时
+	
+6 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+刘梦彬
+	
+000593
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+刘黎明
+	
+000595
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+洪明雁
+	
+000749
+	
+Division of Language Education
+	
+18 学时
+	
+0 学时
+	
+18 学时
+	
+待确认
+	
+详情
+
+
+谢莹莹
+	
+001069
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+杨笑吟
+	
+001070
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+肖扬
+	
+001071
+	
+Division of Language Education
+	
+33 学时
+	
+0 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+杨旸
+	
+001136
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+郭昕
+	
+001149
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+肖扬羽
+	
+001161
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+曹德荣
+	
+001251
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+杨榕
+	
+001269
+	
+Division of Language Education
+	
+30 学时
+	
+6 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+王凯希
+	
+001451
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+陈冰茹
+	
+001485
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+姚瑶
+	
+001500
+	
+Division of Language Education
+	
+27 学时
+	
+0 学时
+	
+27 学时
+	
+待确认
+	
+详情
+
+
+刘瑛
+	
+001772
+	
+Division of Language Education
+	
+30 学时
+	
+0 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+梁慧玲
+	
+001799
+	
+Division of Language Education
+	
+30 学时
+	
+0 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+聂翼露
+	
+001925
+	
+Division of Language Education
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+王倩
+	
+002014
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+甘麟翰
+	
+002253
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+刘晓华
+	
+002255
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+夏思宸
+	
+002257
+	
+Division of Language Education
+	
+27 学时
+	
+0 学时
+	
+27 学时
+	
+待确认
+	
+详情
+
+
+应佳
+	
+002520
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+刘迎昕
+	
+002794
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+陈品希
+	
+002860
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+李宇龙
+	
+003270
+	
+Division of Language Education
+	
+30 学时
+	
+0 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+洪婉萌
+	
+003271
+	
+Division of Language Education
+	
+27 学时
+	
+0 学时
+	
+27 学时
+	
+待确认
+	
+详情
+
+
+彭佩然
+	
+001256
+	
+Division of Language Education
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+庞慧
+	
+000594
+	
+Division of Language Education
+	
+27 学时
+	
+0 学时
+	
+27 学时
+	
+待确认
+	
+详情
+
+
+谭晓莹
+	
+001450
+	
+Division of Language Education
+	
+33 学时
+	
+0 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+翟圣洁
+	
+003237
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+吴菁轩
+	
+003301
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+田思源
+	
+003302
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+赵璞嵩
+	
+000050
+	
+Division of Chinese Studies
+	
+18 学时
+	
+12 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+林成川
+	
+000347
+	
+Division of Chinese Studies
+	
+24 学时
+	
+6 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+李博寒
+	
+000673
+	
+Division of Chinese Studies
+	
+33 学时
+	
+0 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+张齐迎
+	
+000740
+	
+Division of Chinese Studies
+	
+30 学时
+	
+0 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+黄永顺
+	
+001100
+	
+Division of Chinese Studies
+	
+27 学时
+	
+0 学时
+	
+27 学时
+	
+待确认
+	
+详情
+
+
+金佳
+	
+001101
+	
+Division of Chinese Studies
+	
+24 学时
+	
+0 学时
+	
+24 学时
+	
+待确认
+	
+详情
+
+
+余鹏
+	
+001539
+	
+Division of Chinese Studies
+	
+33 学时
+	
+0 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+吕识途
+	
+001798
+	
+Division of Chinese Studies
+	
+33 学时
+	
+0 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+李颖瑜
+	
+002283
+	
+Division of Chinese Studies
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+陈月
+	
+002891
+	
+Division of Chinese Studies
+	
+30 学时
+	
+0 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+姜丽丽
+	
+000081
+	
+Division of General Education
+	
+21 学时
+	
+12 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+邓扬舟
+	
+000082
+	
+Division of General Education
+	
+35 学时
+	
+0 学时
+	
+35 学时
+	
+待确认
+	
+详情
+
+
+李潇雨
+	
+000152
+	
+Division of General Education
+	
+18 学时
+	
+0 学时
+	
+18 学时
+	
+待确认
+	
+详情
+
+
+宋红彬
+	
+000155
+	
+Division of General Education
+	
+29 学时
+	
+6 学时
+	
+35 学时
+	
+待确认
+	
+详情
+
+
+陈山泉
+	
+000189
+	
+Division of General Education
+	
+29.5 学时
+	
+0 学时
+	
+29.5 学时
+	
+待确认
+	
+详情
+
+
+韩雨晨
+	
+000269
+	
+Division of General Education
+	
+35 学时
+	
+3 学时
+	
+38 学时
+	
+待确认
+	
+详情
+
+
+邹婧
+	
+000416
+	
+Division of General Education
+	
+33 学时
+	
+0 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+卢锦明
+	
+000156
+	
+Division of General Education
+	
+30.5 学时
+	
+0 学时
+	
+30.5 学时
+	
+待确认
+	
+详情
+
+
+雷仕伟
+	
+000224
+	
+Division of General Education
+	
+34 学时
+	
+0 学时
+	
+34 学时
+	
+待确认
+	
+详情
+
+
+廖睿智
+	
+000367
+	
+Division of General Education
+	
+35 学时
+	
+0 学时
+	
+35 学时
+	
+待确认
+	
+详情
+
+
+王沁
+	
+000807
+	
+Division of General Education
+	
+31 学时
+	
+6 学时
+	
+37 学时
+	
+待确认
+	
+详情
+
+
+刘冠岩
+	
+000826
+	
+Division of General Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+李雪石
+	
+001097
+	
+Division of General Education
+	
+37 学时
+	
+0 学时
+	
+37 学时
+	
+待确认
+	
+详情
+
+
+刘畅
+	
+001098
+	
+Division of General Education
+	
+29 学时
+	
+3 学时
+	
+32 学时
+	
+待确认
+	
+详情
+
+
+左旭然
+	
+001252
+	
+Division of General Education
+	
+33 学时
+	
+0 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+白宗让
+	
+001432
+	
+Division of General Education
+	
+39.5 学时
+	
+0 学时
+	
+39.5 学时
+	
+待确认
+	
+详情
+
+
+蔡一帆
+	
+001489
+	
+Division of General Education
+	
+37 学时
+	
+0 学时
+	
+37 学时
+	
+待确认
+	
+详情
+
+
+毛迪
+	
+001524
+	
+Division of General Education
+	
+29 学时
+	
+0 学时
+	
+29 学时
+	
+待确认
+	
+详情
+
+
+李默
+	
+001883
+	
+Division of General Education
+	
+37 学时
+	
+0 学时
+	
+37 学时
+	
+待确认
+	
+详情
+
+
+彭丽芳
+	
+002066
+	
+Division of General Education
+	
+31 学时
+	
+0 学时
+	
+31 学时
+	
+待确认
+	
+详情
+
+
+张缪斯
+	
+002307
+	
+Division of General Education
+	
+40.5 学时
+	
+0 学时
+	
+40.5 学时
+	
+待确认
+	
+详情
+
+
+杨彦妮
+	
+002326
+	
+Division of General Education
+	
+34 学时
+	
+0 学时
+	
+34 学时
+	
+待确认
+	
+详情
+
+
+季作玮
+	
+002359
+	
+Division of General Education
+	
+40 学时
+	
+0 学时
+	
+40 学时
+	
+待确认
+	
+详情
+
+
+张弘慧
+	
+002778
+	
+Division of General Education
+	
+41.5 学时
+	
+0 学时
+	
+41.5 学时
+	
+待确认
+	
+详情
+
+
+胡晓倩
+	
+002783
+	
+Division of General Education
+	
+33 学时
+	
+0 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+王超
+	
+002998
+	
+Division of General Education
+	
+31 学时
+	
+0 学时
+	
+31 学时
+	
+待确认
+	
+详情
+
+
+杨圣宇
+	
+003268
+	
+Division of General Education
+	
+29 学时
+	
+0 学时
+	
+29 学时
+	
+待确认
+	
+详情
+
+
+郑诗涵
+	
+003319
+	
+Division of General Education
+	
+29 学时
+	
+0 学时
+	
+29 学时
+	
+待确认
+	
+详情
+
+
+林泳芊
+	
+003489
+	
+Division of General Education
+	
+37 学时
+	
+0 学时
+	
+37 学时
+	
+待确认
+	
+详情
+
+
+马奏旦
+	
+003761
+	
+Division of General Education
+	
+19 学时
+	
+0 学时
+	
+19 学时
+	
+待确认
+	
+详情
+
+
+马晗雨
+	
+004014
+	
+Division of General Education
+	
+5 学时
+	
+0 学时
+	
+5 学时
+	
+待确认
+	
+详情
+
+
+梁宇辰
+	
+004163
+	
+Division of General Education
+	
+0 学时
+	
+0 学时
+	
+0 学时
+	
+待确认
+	
+详情
+
+
+毛德伟
+	
+003734
+	
+Division of Physical Education
+	
+6 学时
+	
+6 学时
+	
+12 学时
+	
+待确认
+	
+详情
+
+
+张延杰
+	
+000072
+	
+Division of Physical Education
+	
+26 学时
+	
+0 学时
+	
+26 学时
+	
+待确认
+	
+详情
+
+
+陈海瑞
+	
+000191
+	
+Division of Physical Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+蒋昊
+	
+000252
+	
+Division of Physical Education
+	
+32 学时
+	
+0 学时
+	
+32 学时
+	
+待确认
+	
+详情
+
+
+马程浩
+	
+000383
+	
+Division of Physical Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+王纯
+	
+000059
+	
+Division of Physical Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+王琛
+	
+000384
+	
+Division of Physical Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+张萍
+	
+000503
+	
+Division of Physical Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+陈汕聪
+	
+001128
+	
+Division of Physical Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+周漫璐
+	
+001452
+	
+Division of Physical Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+赵蕊娟
+	
+000153
+	
+Division of Civic Education
+	
+13.5 学时
+	
+12 学时
+	
+25.5 学时
+	
+待确认
+	
+详情
+
+
+陈小珍
+	
+000346
+	
+Division of Civic Education
+	
+29 学时
+	
+6 学时
+	
+35 学时
+	
+待确认
+	
+详情
+
+
+王薛时
+	
+002151
+	
+Division of Civic Education
+	
+39 学时
+	
+0 学时
+	
+39 学时
+	
+待确认
+	
+详情
+
+
+巫依阳
+	
+002273
+	
+Division of Civic Education
+	
+42 学时
+	
+0 学时
+	
+42 学时
+	
+待确认
+	
+详情
+
+
+林宝仪
+	
+002315
+	
+Division of Civic Education
+	
+40 学时
+	
+0 学时
+	
+40 学时
+	
+待确认
+	
+详情
+
+
+屈静如
+	
+002319
+	
+Division of Civic Education
+	
+39 学时
+	
+0 学时
+	
+39 学时
+	
+待确认
+	
+详情
+
+
+陶桢
+	
+002349
+	
+Division of Civic Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+王红梅
+	
+002350
+	
+Division of Civic Education
+	
+30 学时
+	
+0 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+莫广明
+	
+002518
+	
+Division of Civic Education
+	
+32 学时
+	
+0 学时
+	
+32 学时
+	
+待确认
+	
+详情
+
+
+尹孟杰
+	
+002777
+	
+Division of Civic Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+杨婕
+	
+002780
+	
+Division of Civic Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+姜雯
+	
+002781
+	
+Division of Civic Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+张俊夫
+	
+002796
+	
+Division of Civic Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+衣慎思
+	
+002983
+	
+Division of Civic Education
+	
+30 学时
+	
+0 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+方达
+	
+003015
+	
+Division of Civic Education
+	
+30 学时
+	
+0 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+陈永勤
+	
+001054
+	
+Division of Development & Governance
+	
+3 学时
+	
+0 学时
+	
+3 学时
+	
+待确认
+	
+详情
+
+
+Foong Ha Yap
+	
+000745
+	
+Division of Intercultural Communication
+	
+17 学时
+	
+0 学时
+	
+17 学时
+	
+待确认
+	
+详情
+
+
+Michael Geoffrey Salter
+	
+001797
+	
+Division of Intercultural Communication
+	
+26 学时
+	
+0 学时
+	
+26 学时
+	
+待确认
+	
+详情
+
+
+Frederick Leong
+	
+003306
+	
+Division of Applied Psychology
+	
+9 学时
+	
+6 学时
+	
+15 学时
+	
+待确认
+	
+详情
+
+
+Stavroula Tsirogianni
+	
+001442
+	
+Division of Applied Psychology
+	
+27 学时
+	
+0 学时
+	
+27 学时
+	
+待确认
+	
+详情
+
+
+Serge Hoefeijzers
+	
+001973
+	
+Division of Applied Psychology
+	
+24 学时
+	
+0 学时
+	
+24 学时
+	
+待确认
+	
+详情
+
+
+Richard Carney
+	
+003303
+	
+Division of Global & Area Studies
+	
+9 学时
+	
+6 学时
+	
+15 学时
+	
+待确认
+	
+详情
+
+
+PaweI Charasz
+	
+003718
+	
+Division of Global & Area Studies
+	
+12 学时
+	
+3 学时
+	
+15 学时
+	
+待确认
+	
+详情
+
+
+Sahba Zojaji
+	
+003853
+	
+Division of Computational Social Science
+	
+3 学时
+	
+3 学时
+	
+6 学时
+	
+待确认
+	
+详情
+
+
+Charles Kieffer
+	
+000178
+	
+Division of Language Education
+	
+30 学时
+	
+0 学时
+	
+30 学时
+	
+待确认
+	
+详情
+
+
+Mark Crimmins
+	
+000403
+	
+Division of Language Education
+	
+33 学时
+	
+0 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+Joo Hyun Jung
+	
+001492
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+Morgan Mok-Won Park
+	
+003272
+	
+Division of Language Education
+	
+36.5 学时
+	
+0 学时
+	
+36.5 学时
+	
+待确认
+	
+详情
+
+
+Daniel Worthing
+	
+003494
+	
+Division of Language Education
+	
+18 学时
+	
+0 学时
+	
+18 学时
+	
+待确认
+	
+详情
+
+
+Wesley Lockhart
+	
+000230
+	
+Division of Language Education
+	
+26 学时
+	
+0 学时
+	
+26 学时
+	
+待确认
+	
+详情
+
+
+Matthew John Morgan-James
+	
+000493
+	
+Division of Language Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+Thomas Donald Carroll
+	
+000376
+	
+Division of General Education
+	
+36 学时
+	
+0 学时
+	
+36 学时
+	
+待确认
+	
+详情
+
+
+Christopher Kluz
+	
+000425
+	
+Division of General Education
+	
+32.5 学时
+	
+6 学时
+	
+38.5 学时
+	
+待确认
+	
+详情
+
+
+Aurelien Boucher
+	
+000377
+	
+Division of General Education
+	
+31 学时
+	
+0 学时
+	
+31 学时
+	
+待确认
+	
+详情
+
+
+Corinne Doria
+	
+002519
+	
+Division of General Education
+	
+39.5 学时
+	
+0 学时
+	
+39.5 学时
+	
+待确认
+	
+详情
+
+
+Czerkawski Maciej Bartlomiej
+	
+002784
+	
+Division of General Education
+	
+33 学时
+	
+0 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+Evander Lewis Price
+	
+003000
+	
+Division of General Education
+	
+33 学时
+	
+0 学时
+	
+33 学时
+	
+待确认
+	
+详情
+
+
+Hanna Manente Nunes
+	
+003304
+	
+Division of General Education
+	
+38 学时
+	
+0 学时
+	
+38 学时
+	
+待确认
+	
+详情
+学部汇总
+学部
+	
+教师人数
+	
+总工作量
+	
+人均工作量
+Division of Intercultural Communication
+	
+13
+	
+278 学时
+	
+21.4 学时
+
+
+Division of Applied Psychology
+	
+14
+	
+189 学时
+	
+13.5 学时
+
+
+Division of Global & Area Studies
+	
+13
+	
+133 学时
+	
+10.2 学时
+
+
+Division of Development & Governance
+	
+12
+	
+191 学时
+	
+15.9 学时
+
+
+Division of Computational Social Science
+	
+13
+	
+70 学时
+	
+5.4 学时
+
+
+Division of Language Education
+	
+47
+	
+1436.5 学时
+	
+30.6 学时
+
+
+Division of Chinese Studies
+	
+10
+	
+270 学时
+	
+27 学时
+
+
+Division of General Education
+	
+39
+	
+1257.5 学时
+	
+32.2 学时
+
+
+Division of Physical Education
+	
+10
+	
+322 学时
+	
+32.2 学时
+
+
+Division of Civic Education
+	
+15
+	
+522.5 学时
+	
+34.8 学时
+个人查询
+管理查询

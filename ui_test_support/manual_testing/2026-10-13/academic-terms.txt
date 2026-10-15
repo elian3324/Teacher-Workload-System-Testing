@@ -1,0 +1,274 @@
+- link "CUHK-SZ HSS Teacher Teaching Hours Management System":
+  - /url: /
+  - generic: CUHK-SZ HSS Teacher Teaching Hours Management System
+- menubar:
+  - menuitem "首页":
+    - generic: 首页
+  - menuitem "教学计划管理":
+    - generic: 教学计划管理
+  - menuitem "结算管理":
+    - generic: 结算管理
+  - menuitem "待办任务":
+    - generic: 待办任务
+  - menuitem "系统消息":
+    - generic: 系统消息
+  - menuitem "系统配置管理" [expanded]:
+    - generic: 系统配置管理
+    - menu:
+      - menuitem "学年学期管理":
+        - generic: 学年学期管理
+      - menuitem "学院工作量标准":
+        - generic: 学院工作量标准
+      - menuitem "计算规则管理":
+        - generic: 计算规则管理
+      - menuitem "课程信息维护":
+        - generic: 课程信息维护
+      - menuitem "教师管理":
+        - generic: 教师管理
+  - menuitem "系统管理":
+    - generic: 系统管理
+- navigation "面包屑":
+  - link "系统配置管理"
+  - text: /
+  - link "学年学期管理"
+- generic: En
+- button:
+- button "首页":
+  - text: 首页
+- button "学年学期管理":
+  - text: 学年学期管理
+- button:
+- generic: 学年学期管理
+- generic: 管理学年版本与学期配置，版本启用后关联所有计算规则数据
+- tabpanel "学期管理":
+  - generic: 学期管理
+  - combobox
+  - generic: 全部学年
+  - button "列筛选":
+    - text: 列筛选
+  - button "导出":
+    - text: 导出
+  - alert:
+    - generic: 管理学年学期信息，一学年最多 3 个学期（Term 1 / Term 2 / Summer），用于计算引擎学期系数匹配。
+  - table:
+    - rowgroup:
+      - row "学期代码 学年 学期名称 学期类别 起始日期 结束日期 当前学期 排序 操作":
+        - columnheader "学期代码":
+          - generic: 学期代码
+        - columnheader "学年":
+          - generic: 学年
+        - columnheader "学期名称":
+          - generic: 学期名称
+        - columnheader "学期类别":
+          - generic: 学期类别
+        - columnheader "起始日期":
+          - generic: 起始日期
+        - columnheader "结束日期":
+          - generic: 结束日期
+        - columnheader "当前学期":
+          - generic: 当前学期
+        - columnheader "排序":
+          - generic: 排序
+        - columnheader "操作":
+          - generic: 操作
+  - table:
+    - rowgroup:
+      - row "2610 2026-2027 2026-2027 Term 1 Term 1 2026-08-31 2026-12-18 - 1 编辑 设为当前":
+        - cell "2610":
+          - generic: "2610"
+        - cell "2026-2027":
+          - generic: 2026-2027
+        - cell "2026-2027 Term 1":
+          - generic: 2026-2027 Term 1
+        - cell "Term 1":
+          - generic: Term 1
+        - cell "2026-08-31":
+          - generic: 2026-08-31
+        - cell "2026-12-18":
+          - generic: 2026-12-18
+        - cell "-":
+          - generic: "-"
+        - cell "1":
+          - generic: "1"
+        - cell "编辑 设为当前":
+          - button "编辑":
+            - generic: 编辑
+          - button "设为当前":
+            - generic: 设为当前
+      - row "2620 2026-2027 2026-2027 Term 2 Term 2 2027-01-04 2027-05-07 - 2 编辑 设为当前":
+        - cell "2620":
+          - generic: "2620"
+        - cell "2026-2027":
+          - generic: 2026-2027
+        - cell "2026-2027 Term 2":
+          - generic: 2026-2027 Term 2
+        - cell "Term 2":
+          - generic: Term 2
+        - cell "2027-01-04":
+          - generic: 2027-01-04
+        - cell "2027-05-07":
+          - generic: 2027-05-07
+        - cell "-":
+          - generic: "-"
+        - cell "2":
+          - generic: "2"
+        - cell "编辑 设为当前":
+          - button "编辑":
+            - generic: 编辑
+          - button "设为当前":
+            - generic: 设为当前
+      - row "2650 2026-2027 2026-2027 Summer Summer 2027-06-01 2027-07-20 - 3 编辑 设为当前":
+        - cell "2650":
+          - generic: "2650"
+        - cell "2026-2027":
+          - generic: 2026-2027
+        - cell "2026-2027 Summer":
+          - generic: 2026-2027 Summer
+        - cell "Summer":
+          - generic: Summer
+        - cell "2027-06-01":
+          - generic: 2027-06-01
+        - cell "2027-07-20":
+          - generic: 2027-07-20
+        - cell "-":
+          - generic: "-"
+        - cell "3":
+          - generic: "3"
+        - cell "编辑 设为当前":
+          - button "编辑":
+            - generic: 编辑
+          - button "设为当前":
+            - generic: 设为当前
+      - row "2510 2025-2026 2025-2026 Term 1 Term 1 2025-09-01 2025-12-12 - 1 编辑 设为当前":
+        - cell "2510":
+          - generic: "2510"
+        - cell "2025-2026":
+          - generic: 2025-2026
+        - cell "2025-2026 Term 1":
+          - generic: 2025-2026 Term 1
+        - cell "Term 1":
+          - generic: Term 1
+        - cell "2025-09-01":
+          - generic: 2025-09-01
+        - cell "2025-12-12":
+          - generic: 2025-12-12
+        - cell "-":
+          - generic: "-"
+        - cell "1":
+          - generic: "1"
+        - cell "编辑 设为当前":
+          - button "编辑":
+            - generic: 编辑
+          - button "设为当前":
+            - generic: 设为当前
+      - row "2520 2025-2026 2025-2026 Term 2 Term 2 2026-01-05 2026-05-08 - 2 编辑 设为当前":
+        - cell "2520":
+          - generic: "2520"
+        - cell "2025-2026":
+          - generic: 2025-2026
+        - cell "2025-2026 Term 2":
+          - generic: 2025-2026 Term 2
+        - cell "Term 2":
+          - generic: Term 2
+        - cell "2026-01-05":
+          - generic: 2026-01-05
+        - cell "2026-05-08":
+          - generic: 2026-05-08
+        - cell "-":
+          - generic: "-"
+        - cell "2":
+          - generic: "2"
+        - cell "编辑 设为当前":
+          - button "编辑":
+            - generic: 编辑
+          - button "设为当前":
+            - generic: 设为当前
+      - row "2550 2025-2026 2025-2026 Summer Summer 2026-06-02 2026-07-20 - 3 编辑 设为当前":
+        - cell "2550":
+          - generic: "2550"
+        - cell "2025-2026":
+          - generic: 2025-2026
+        - cell "2025-2026 Summer":
+          - generic: 2025-2026 Summer
+        - cell "Summer":
+          - generic: Summer
+        - cell "2026-06-02":
+          - generic: 2026-06-02
+        - cell "2026-07-20":
+          - generic: 2026-07-20
+        - cell "-":
+          - generic: "-"
+        - cell "3":
+          - generic: "3"
+        - cell "编辑 设为当前":
+          - button "编辑":
+            - generic: 编辑
+          - button "设为当前":
+            - generic: 设为当前
+      - row "2410 2024-2025 2024-2025 Term 1 Term 1 2024-09-02 2024-12-13 ✓ 1 编辑":
+        - cell "2410":
+          - generic: "2410"
+        - cell "2024-2025":
+          - generic: 2024-2025
+        - cell "2024-2025 Term 1":
+          - generic: 2024-2025 Term 1
+        - cell "Term 1":
+          - generic: Term 1
+        - cell "2024-09-02":
+          - generic: 2024-09-02
+        - cell "2024-12-13":
+          - generic: 2024-12-13
+        - cell "✓":
+          - generic: ✓
+        - cell "1":
+          - generic: "1"
+        - cell "编辑":
+          - button "编辑":
+            - generic: 编辑
+      - row "2420 2024-2025 2024-2025 Term 2 Term 2 2025-01-06 2025-05-09 - 2 编辑 设为当前":
+        - cell "2420":
+          - generic: "2420"
+        - cell "2024-2025":
+          - generic: 2024-2025
+        - cell "2024-2025 Term 2":
+          - generic: 2024-2025 Term 2
+        - cell "Term 2":
+          - generic: Term 2
+        - cell "2025-01-06":
+          - generic: 2025-01-06
+        - cell "2025-05-09":
+          - generic: 2025-05-09
+        - cell "-":
+          - generic: "-"
+        - cell "2":
+          - generic: "2"
+        - cell "编辑 设为当前":
+          - button "编辑":
+            - generic: 编辑
+          - button "设为当前":
+            - generic: 设为当前
+      - row "2450 2024-2025 2024-2025 Summer Summer 2025-06-03 2025-07-21 - 3 编辑 设为当前":
+        - cell "2450":
+          - generic: "2450"
+        - cell "2024-2025":
+          - generic: 2024-2025
+        - cell "2024-2025 Summer":
+          - generic: 2024-2025 Summer
+        - cell "Summer":
+          - generic: Summer
+        - cell "2025-06-03":
+          - generic: 2025-06-03
+        - cell "2025-07-21":
+          - generic: 2025-07-21
+        - cell "-":
+          - generic: "-"
+        - cell "3":
+          - generic: "3"
+        - cell "编辑 设为当前":
+          - button "编辑":
+            - generic: 编辑
+          - button "设为当前":
+            - generic: 设为当前
+- tablist:
+  - tab "学年管理"
+  - tab "学期管理" [active] [selected]

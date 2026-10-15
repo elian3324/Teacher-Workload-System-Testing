@@ -1,0 +1,70 @@
+基于当前配置的系数规则进行试算
+
+修改系数配置后,试算结果会即时更新。当前使用版本: 2024-2025
+
+输入参数
+Course Code
+Days&Time
+Enrolled (选课人数)
+Units (学分)
+Component
+LEC (讲座)
+每周/隔周
+每周
+Term Code
+授课权重
+Grading Basis (评分基础)
+A-D,F
+Course Type (课程类型)
+CEC 常规
+Course Level (课程等级)
+UG 本科
+上课教室数
+试算
+试算结果汇总
+基于当前系数配置
+原始课时	0	逻辑检查	
+PASS
+	调整后工作量	0
+最终工作量	0	SCH	0	计算状态	
+成功
+Step 1
+解析原始课时
+Days&Time → 原始课时(h)（仅分钟取整，不含 GE 折算）
+输入
+daysTime=Mon:11:00-10:00 units=3 courseCode=PSY101 section= 
+输出
+0
+备注
+Step 2
+运算逻辑判断
+逻辑校验 → PASS / WARNING
+输入
+classroomCount=1 
+输出
+0
+备注
+Step 3
+SCH 计算
+跳过
+输入
+enrolled=30 units=3 
+输出
+0
+备注
+Step 4
+工作量计算
+规则课时 × 频率 × 学期系数
+输入
+rawHours=0 workloadBaseHours=0 geFactor=1 weeklyFactor=1 termFactor=1 supervisionFactor=1 coListFactor=1 
+输出
+0
+备注
+Step 5
+多教师权重分配
+工作量 × 授课权重
+输入
+adjustedLoad=0 weight=1 
+输出
+0
+备注

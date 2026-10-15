@@ -1,0 +1,33 @@
+新增课程
+先修 / 同修 / 互斥课程 (— N8)
+先修课程
+输入课程代码后回车添加
+同修课程
+e.g. MATH200
+互斥课程
+e.g. PSY100
+Target Students
+招生要求备注
+班级配额
+LEC Size Released
+LEC Size Max
+No. of LEC
+TUT Size Released
+TUT Size Max
+No. of TUT
+Total Quota
+Base Quota
+Max Quota
+推导班数
+3
+= Quota / Base
+招生名额备注
+Base(30) × 班数(3) = 90，与 Quota(80) 不一致，请校验
+课程基本信息
+教学安排
+教学模式与课时
+在线课程大纲
+招生要求与名额
+其他
+取消
+保存

@@ -1,0 +1,68 @@
+王立弟 (000208) - 课程明细
+姓名	王立弟	Staff ID	000208
+学部	Division of Intercultural Communication	总工作量	15 学时
+教学工作量	9 学时	特殊调整	6 学时
+状态	
+待确认
+课程明细
+列筛选
+导出
+课程代码
+	
+课程名称
+	
+学期
+	
+工作量
+TRA4030
+	
+Capstone Translation Project
+	
+TERM_1
+	
+0 学时
+
+
+TRA6020
+	
+Translation Pedagogy
+	
+TERM_1
+	
+3 学时
+
+
+TRA4030
+	
+Capstone Translation Project
+	
+TERM_2
+	
+0 学时
+
+
+TRA5101
+	
+Advanced Chinese to English Translation
+	
+TERM_2
+	
+3 学时
+
+
+TRA4030
+	
+Capstone Translation Project
+	
+TERM_1
+	
+0 学时
+
+
+TRA6020
+	
+Translation Pedagogy
+	
+TERM_1
+	
+3 学时

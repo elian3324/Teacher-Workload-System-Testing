@@ -1,0 +1,175 @@
+2024-2025 Term 2 实际版
+期末实际
+计划 vs 实际 · 运算后可保存
+展开汇总
+刷新
+重新生成
+保存
+数据提示
+收起
+698 条课程暂无开课计划对照，计划列显示为 --，状态为正常（仅展示 SIS 实际运算结果）
+SIS 中有 8 条 Course Units 为 0
+
+· 8 条因缺少上课时间归入「缺上课时间」（需导入 TIME_INSTRUCTOR）。
+
+有 37 条偏差记录尚未填写说明
+全部
+正常
+警告
+异常
+全部运算
+缺上课时间
+运算未通过
+重置
+列筛选
+导出
+课程明细
+按教师汇总
+高级筛选（学部 / 课程级别 / 类型 / 教学环节）
+黄色 = SIS 实际数据
+|
+白色 = 计划/开课数据
+紫色数字 = 运算结果
+#
+	
+课程信息
+	
+计划
+	
+SIS 实际
+	
+运算结果
+	
+偏差说明
+	
+运算说明
+	
+操作
+
+
+教师
+	
+Staff ID
+	
+合同类型
+	
+学部
+	
+课程代码
+	
+课程名称
+	
+Section
+	
+学分
+	
+计划学时
+	
+计划工作量
+	
+上课时间
+	
+选课人数
+	
+Graded Component
+	
+原始课时
+	
+最终工作量
+	
+偏差%
+	
+状态
+1
+	
+WANG,Lidi
+	
+000208
+	
+Contractually Limited
+	
+Division of Intercultural Communication
+	
+TRA4030
+	
+Capstone Translation Project
+	
+L01
+	
+3
+	
+--
+	
+--
+	
+--
+	
+3
+	
+Y (通过)
+	
+0
+	
+0
+	
+0%
+	
+ERROR
+缺上课时间
+	
+保存
+	
+缺上课时间
+【缺上课时间】无法解析课时：SIS 未提供 Days&Time。请导入 TIME_INSTRUCTOR 表或手动补全上课时间后再运算。
+	
+查看详情
+调整
+
+
+2
+	
+WANG,Lidi
+	
+000208
+	
+Contractually Limited
+	
+Division of Intercultural Communication
+	
+TRA5101
+	
+Advanced Chinese to English Translation
+	
+L01
+	
+3
+	
+--
+	
+--
+	
+Wed 08:30-11:20
+	
+17
+	
+Y (通过)
+	
+3
+	
+3
+	
+0%
+	
+NORMAL
+	
+无需填写
+	
+--
+	
+查看详情
+调整
+共 2 条
+50条/页
+1
+前往
+页

@@ -1,0 +1,103 @@
+CUHK-SZ HSS Teacher Teaching Hours Management System
+首页
+教学计划管理
+学院工作量标准
+开课管理
+审批跟踪
+结算管理
+待办任务
+系统消息
+系统配置管理
+系统管理
+教学计划管理
+/
+开课管理
+En
+首页
+计算规则管理
+工作量结算管理
+开课管理
+开课管理
+
+基于 Course Offering 模板管理开课信息
+
+学年：
+QA1014_1139测试学年
+学期：
+Term 1
+ 待提交
+提交开课计划
+课程级别
+教学环节
+Mode
+每周/隔周
+授课语言
+查询
+重置
+新增课程
+批量导入
+列筛选
+导出列表
+导出WDC
+复制上学期
+清除开课列表
+	
+课程级别
+	
+学科部
+	
+课程代码
+	
+课程名称
+	
+学分
+	
+教学环节
+	
+Course Category
+	
+教室
+	
+三连堂
+	
+Mode
+	
+教师1
+	
+工号1
+	
+合同类型1
+	
+授课权重
+	
+讲座课时/周
+	
+辅导课时/周
+	
+Size(Released/Max)
+	
+Quota
+	
+Base/Max
+	
+参与计算
+	
+每周/隔周
+	
+授课语言
+	
+操作
+暂无数据
+第 1 / 1 页
+课时减免
+跨学年结转
+开课列表
+计划版
+历史导入记录
+批量导入课程
+步骤 1：上传 Excel 文件
+下载导入模板
+请使用 Updated Course Offerings 表（含 Division、Instructor 1–3、LEC/TUT hr/week/section），支持 .xlsx/.xls
+拖拽文件到此处，或点击上传
+仅支持 .xlsx/.xls 格式文件
+取消

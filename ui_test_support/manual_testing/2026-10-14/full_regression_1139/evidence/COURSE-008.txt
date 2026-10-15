@@ -1,0 +1,70 @@
+CUHK-SZ HSS Teacher Teaching Hours Management System
+首页
+教学计划管理
+学院工作量标准
+开课管理
+审批跟踪
+结算管理
+待办任务
+系统消息
+系统配置管理
+教学计划管理
+/
+开课管理
+En
+学科部助理--本科
+首页
+开课管理
+开课管理
+
+基于 Course Offering 模板管理开课信息
+
+学年：
+2026-2027学年
+学期：
+Summer
+ 待提交
+提交开课计划
+计划版按 Updated Course Offering 表计算：Hours/w/t = (LEC + TUT hr/week/section) × 授课权重（隔周÷2），不乘学期/环节系数。数据来自当前学年学期的开课列表。
+按教师
+按课程明细
+导出计划版
+教师 1 · Hours 2 · 课程分摊 1
+教师
+	
+	
+Staff ID
+	
+学部
+	
+合同类型
+	
+课程数
+	
+学分合计
+	
+Hours/w/t
+	
+选课人数合计
+陈纯
+	
+	
+002272
+	
+Division of Applied Psychology
+	
+Tenure-track
+	
+1
+	
+3
+	
+2
+	
+30
+课时减免
+跨学年结转
+开课列表
+计划版
+历史导入记录
+审批跟踪

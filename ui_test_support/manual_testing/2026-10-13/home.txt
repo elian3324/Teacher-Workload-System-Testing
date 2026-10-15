@@ -1,0 +1,607 @@
+- link "CUHK-SZ HSS Teacher Teaching Hours Management System":
+  - /url: /
+  - generic: CUHK-SZ HSS Teacher Teaching Hours Management System
+- menubar:
+  - menuitem "首页":
+    - generic: 首页
+  - menuitem "教学计划管理":
+    - generic: 教学计划管理
+  - menuitem "结算管理":
+    - generic: 结算管理
+  - menuitem "待办任务":
+    - generic: 待办任务
+  - menuitem "系统消息":
+    - generic: 系统消息
+  - menuitem "系统配置管理":
+    - generic: 系统配置管理
+  - menuitem "系统管理":
+    - generic: 系统管理
+- navigation "面包屑":
+  - link "首页"
+- generic: En
+- button:
+- button "首页":
+  - text: 首页
+- button:
+- generic: 教师工作量管理首页
+- radiogroup "radio-group":
+  - radio "2024-2025学年" [checked]
+  - generic: 2024-2025学年
+  - radio "2025-2026学年"
+  - generic: 2025-2026学年
+  - radio "2026-2027学年"
+  - generic: 2026-2027学年
+- generic: 待处理项
+- generic: 2 项
+- generic: 查看更多待办 →
+- generic: SIS数据同步状态
+- generic: 0%
+- progressbar:
+  - generic: 0%
+- generic: 待处理差异数
+- generic: 69 项
+- generic: 查看差异详情 →
+- generic: 结算引擎状态
+- generic: 已完成
+- generic: 总预算工作量
+- text: "0"
+- generic: 小时
+- generic: 实际核实工作量
+- text: 3,277
+- generic: 小时
+- generic: 学科部预算 vs 实际
+- generic: 学期工作量趋势
+- generic: 教学环节分布
+- generic: 合同类型分布
+- generic: 待办任务中心
+- generic: 预算
+- generic: Division of Development & Governance 2025-2026 TERM_2 开课计划待审
+- generic: 普通
+- generic: 预算
+- generic: Division of Applied Psychology 2025-2026 TERM_1 开课计划待审
+- generic: 普通
+- button "查看更多待办":
+  - generic: 查看更多待办
+- generic: 最近活动日志
+- list
+- generic: SIS 同步明细
+- generic: SIS (PeopleSoft) common.dataSync
+- button "查看同步详情":
+  - generic: 查看同步详情
+- table:
+  - rowgroup:
+    - row "上次同步时间 2026-10-13T09:03:46.663Z 同步课程数 1554 匹配率 0% 不匹配 / 待处理 0 / 1554":
+      - cell "上次同步时间"
+      - cell "2026-10-13T09:03:46.663Z"
+      - cell "同步课程数"
+      - cell "1554"
+      - cell "匹配率"
+      - cell "0%"
+      - cell "不匹配 / 待处理"
+      - cell "0 / 1554"
+- generic: 已同步
+- generic: 0 / 1554
+- progressbar:
+- generic: 不匹配
+- generic: 0 / 1554
+- progressbar:
+  - generic: 0%
+- generic: 待处理
+- generic: 1554 / 1554
+- progressbar:
+  - generic: 100%
+- generic: 学科部年度概览
+- generic: 2024-2025学年
+- combobox
+- generic: 2024-2025学年
+- button "重置":
+  - text: 重置
+- button "列筛选":
+  - text: 列筛选
+- button "导出 Excel":
+  - text: 导出 Excel
+- alert:
+  - generic: 注：已排除 UG/TPG/RPG 课程中不涉及常规授课的课程（SUP 论文指导、LAB 实验课等）
+- table:
+  - rowgroup:
+    - row "实际学科部 合同类型 平均选课人数 Avg Courses Avg Teaching hrs/wk Avg Credits 教师数 课程数":
+      - columnheader "实际学科部":
+        - generic: 实际学科部
+      - columnheader "合同类型":
+        - generic: 合同类型
+      - columnheader "平均选课人数":
+        - generic: 平均选课人数
+      - columnheader "Avg Courses":
+        - generic: Avg Courses
+      - columnheader "Avg Teaching hrs/wk":
+        - generic: Avg Teaching hrs/wk
+      - columnheader "Avg Credits":
+        - generic: Avg Credits
+      - columnheader "教师数":
+        - generic: 教师数
+      - columnheader "课程数":
+        - generic: 课程数
+- table:
+  - rowgroup:
+    - row "Division of Applied Psychology Teaching-track 34.4 5.33 12 14 3 16":
+      - cell "Division of Applied Psychology":
+        - generic: Division of Applied Psychology
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "34.4":
+        - generic: "34.4"
+      - cell "5.33":
+        - generic: "5.33"
+      - cell "12":
+        - generic: "12"
+      - cell "14":
+        - generic: "14"
+      - cell "3":
+        - generic: "3"
+      - cell "16":
+        - generic: "16"
+    - row "Tenure-track 25.7 5 9.5 10 6 30":
+      - cell "Tenure-track":
+        - generic: Tenure-track
+      - cell "25.7":
+        - generic: "25.7"
+      - cell "5":
+        - generic: "5"
+      - cell "9.5":
+        - generic: "9.5"
+      - cell "10":
+        - generic: "10"
+      - cell "6":
+        - generic: "6"
+      - cell "30":
+        - generic: "30"
+    - row "Division of Chinese Studies Teaching-track 20.1 10.56 17.7 31.7 9 95":
+      - cell "Division of Chinese Studies":
+        - generic: Division of Chinese Studies
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "20.1":
+        - generic: "20.1"
+      - cell "10.56":
+        - generic: "10.56"
+      - cell "17.7":
+        - generic: "17.7"
+      - cell "31.7":
+        - generic: "31.7"
+      - cell "9":
+        - generic: "9"
+      - cell "95":
+        - generic: "95"
+    - row "Division of Civic Education Teaching-track 67.2 9.73 22.8 16.5 15 146":
+      - cell "Division of Civic Education":
+        - generic: Division of Civic Education
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "67.2":
+        - generic: "67.2"
+      - cell "9.73":
+        - generic: "9.73"
+      - cell "22.8":
+        - generic: "22.8"
+      - cell "16.5":
+        - generic: "16.5"
+      - cell "15":
+        - generic: "15"
+      - cell "146":
+        - generic: "146"
+    - row "Division of Computational Social Science Tenure-track 26.5 2 5.5 6 6 12":
+      - cell "Division of Computational Social Science":
+        - generic: Division of Computational Social Science
+      - cell "Tenure-track":
+        - generic: Tenure-track
+      - cell "26.5":
+        - generic: "26.5"
+      - cell "2":
+        - generic: "2"
+      - cell "5.5":
+        - generic: "5.5"
+      - cell "6":
+        - generic: "6"
+      - cell "6":
+        - generic: "6"
+      - cell "12":
+        - generic: "12"
+    - row "Division of Development & Governance Teaching-track 21.4 7 12 21 1 7":
+      - cell "Division of Development & Governance":
+        - generic: Division of Development & Governance
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "21.4":
+        - generic: "21.4"
+      - cell "7":
+        - generic: "7"
+      - cell "12":
+        - generic: "12"
+      - cell "21":
+        - generic: "21"
+      - cell "1":
+        - generic: "1"
+      - cell "7":
+        - generic: "7"
+    - row "Tenure-track 17.6 4.5 8.3 10.9 8 36":
+      - cell "Tenure-track":
+        - generic: Tenure-track
+      - cell "17.6":
+        - generic: "17.6"
+      - cell "4.5":
+        - generic: "4.5"
+      - cell "8.3":
+        - generic: "8.3"
+      - cell "10.9":
+        - generic: "10.9"
+      - cell "8":
+        - generic: "8"
+      - cell "36":
+        - generic: "36"
+    - row "Division of General Education Teaching-track 20.4 13.49 23.2 39 38 513":
+      - cell "Division of General Education":
+        - generic: Division of General Education
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "20.4":
+        - generic: "20.4"
+      - cell "13.49":
+        - generic: "13.49"
+      - cell "23.2":
+        - generic: "23.2"
+      - cell "39":
+        - generic: "39"
+      - cell "38":
+        - generic: "38"
+      - cell "513":
+        - generic: "513"
+    - row "Division of Global & Area Studies Tenure-track 15.3 3.83 9.7 10.5 6 23":
+      - cell "Division of Global & Area Studies":
+        - generic: Division of Global & Area Studies
+      - cell "Tenure-track":
+        - generic: Tenure-track
+      - cell "15.3":
+        - generic: "15.3"
+      - cell "3.83":
+        - generic: "3.83"
+      - cell "9.7":
+        - generic: "9.7"
+      - cell "10.5":
+        - generic: "10.5"
+      - cell "6":
+        - generic: "6"
+      - cell "23":
+        - generic: "23"
+    - row "Division of Intercultural Communication Contractually Limited 9.4 6.29 11 15.9 7 44":
+      - cell "Division of Intercultural Communication":
+        - generic: Division of Intercultural Communication
+      - cell "Contractually Limited":
+        - generic: Contractually Limited
+      - cell "9.4":
+        - generic: "9.4"
+      - cell "6.29":
+        - generic: "6.29"
+      - cell "11":
+        - generic: "11"
+      - cell "15.9":
+        - generic: "15.9"
+      - cell "7":
+        - generic: "7"
+      - cell "44":
+        - generic: "44"
+    - row "Teaching-track 8.9 10.8 17.9 26.4 5 54":
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "8.9":
+        - generic: "8.9"
+      - cell "10.8":
+        - generic: "10.8"
+      - cell "17.9":
+        - generic: "17.9"
+      - cell "26.4":
+        - generic: "26.4"
+      - cell "5":
+        - generic: "5"
+      - cell "54":
+        - generic: "54"
+    - row "Division of Language Education Contractually Limited 16.7 5.67 16.7 16.7 3 17":
+      - cell "Division of Language Education":
+        - generic: Division of Language Education
+      - cell "Contractually Limited":
+        - generic: Contractually Limited
+      - cell "16.7":
+        - generic: "16.7"
+      - cell "5.67":
+        - generic: "5.67"
+      - cell "16.7":
+        - generic: "16.7"
+      - cell "16.7":
+        - generic: "16.7"
+      - cell "3":
+        - generic: "3"
+      - cell "17":
+        - generic: "17"
+    - row "Teaching-track 22.2 7.19 21.2 21.3 42 302":
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "22.2":
+        - generic: "22.2"
+      - cell "7.19":
+        - generic: "7.19"
+      - cell "21.2":
+        - generic: "21.2"
+      - cell "21.3":
+        - generic: "21.3"
+      - cell "42":
+        - generic: "42"
+      - cell "302":
+        - generic: "302"
+    - row "Division of Physical Education Teaching-track 34.4 11.44 22.9 11.4 9 103":
+      - cell "Division of Physical Education":
+        - generic: Division of Physical Education
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "34.4":
+        - generic: "34.4"
+      - cell "11.44":
+        - generic: "11.44"
+      - cell "22.9":
+        - generic: "22.9"
+      - cell "11.4":
+        - generic: "11.4"
+      - cell "9":
+        - generic: "9"
+      - cell "103":
+        - generic: "103"
+- table:
+  - rowgroup:
+    - row "实际学科部 合同类型 选课人数合计 Total Courses Total Teaching hrs Total Credits Teachers Courses":
+      - columnheader "实际学科部":
+        - generic: 实际学科部
+      - columnheader "合同类型":
+        - generic: 合同类型
+      - columnheader "选课人数合计":
+        - generic: 选课人数合计
+      - columnheader "Total Courses":
+        - generic: Total Courses
+      - columnheader "Total Teaching hrs":
+        - generic: Total Teaching hrs
+      - columnheader "Total Credits":
+        - generic: Total Credits
+      - columnheader "Teachers":
+        - generic: Teachers
+      - columnheader "Courses":
+        - generic: Courses
+- table:
+  - rowgroup:
+    - row "Division of Applied Psychology Teaching-track 551 16 36 42 3 16":
+      - cell "Division of Applied Psychology":
+        - generic: Division of Applied Psychology
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "551":
+        - generic: "551"
+      - cell "16":
+        - generic: "16"
+      - cell "36":
+        - generic: "36"
+      - cell "42":
+        - generic: "42"
+      - cell "3":
+        - generic: "3"
+      - cell "16":
+        - generic: "16"
+    - row "Tenure-track 770 30 57 60 6 30":
+      - cell "Tenure-track":
+        - generic: Tenure-track
+      - cell "770":
+        - generic: "770"
+      - cell "30":
+        - generic: "30"
+      - cell "57":
+        - generic: "57"
+      - cell "60":
+        - generic: "60"
+      - cell "6":
+        - generic: "6"
+      - cell "30":
+        - generic: "30"
+    - row "Division of Chinese Studies Teaching-track 1905 95 159 285 9 95":
+      - cell "Division of Chinese Studies":
+        - generic: Division of Chinese Studies
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "1905":
+        - generic: "1905"
+      - cell "95":
+        - generic: "95"
+      - cell "159":
+        - generic: "159"
+      - cell "285":
+        - generic: "285"
+      - cell "9":
+        - generic: "9"
+      - cell "95":
+        - generic: "95"
+    - row "Division of Civic Education Teaching-track 9805 146 342.5 248 15 146":
+      - cell "Division of Civic Education":
+        - generic: Division of Civic Education
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "9805":
+        - generic: "9805"
+      - cell "146":
+        - generic: "146"
+      - cell "342.5":
+        - generic: "342.5"
+      - cell "248":
+        - generic: "248"
+      - cell "15":
+        - generic: "15"
+      - cell "146":
+        - generic: "146"
+    - row "Division of Computational Social Science Tenure-track 318 12 33 36 6 12":
+      - cell "Division of Computational Social Science":
+        - generic: Division of Computational Social Science
+      - cell "Tenure-track":
+        - generic: Tenure-track
+      - cell "318":
+        - generic: "318"
+      - cell "12":
+        - generic: "12"
+      - cell "33":
+        - generic: "33"
+      - cell "36":
+        - generic: "36"
+      - cell "6":
+        - generic: "6"
+      - cell "12":
+        - generic: "12"
+    - row "Division of Development & Governance Teaching-track 150 7 12 21 1 7":
+      - cell "Division of Development & Governance":
+        - generic: Division of Development & Governance
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "150":
+        - generic: "150"
+      - cell "7":
+        - generic: "7"
+      - cell "12":
+        - generic: "12"
+      - cell "21":
+        - generic: "21"
+      - cell "1":
+        - generic: "1"
+      - cell "7":
+        - generic: "7"
+    - row "Tenure-track 632 36 66 87 8 36":
+      - cell "Tenure-track":
+        - generic: Tenure-track
+      - cell "632":
+        - generic: "632"
+      - cell "36":
+        - generic: "36"
+      - cell "66":
+        - generic: "66"
+      - cell "87":
+        - generic: "87"
+      - cell "8":
+        - generic: "8"
+      - cell "36":
+        - generic: "36"
+    - row "Division of General Education Teaching-track 10459 512.5 880 1482 38 513":
+      - cell "Division of General Education":
+        - generic: Division of General Education
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "10459":
+        - generic: "10459"
+      - cell "512.5":
+        - generic: "512.5"
+      - cell "880":
+        - generic: "880"
+      - cell "1482":
+        - generic: "1482"
+      - cell "38":
+        - generic: "38"
+      - cell "513":
+        - generic: "513"
+    - row "Division of Global & Area Studies Tenure-track 351 23 58 63 6 23":
+      - cell "Division of Global & Area Studies":
+        - generic: Division of Global & Area Studies
+      - cell "Tenure-track":
+        - generic: Tenure-track
+      - cell "351":
+        - generic: "351"
+      - cell "23":
+        - generic: "23"
+      - cell "58":
+        - generic: "58"
+      - cell "63":
+        - generic: "63"
+      - cell "6":
+        - generic: "6"
+      - cell "23":
+        - generic: "23"
+    - row "Division of Intercultural Communication Contractually Limited 415 44 77 111 7 44":
+      - cell "Division of Intercultural Communication":
+        - generic: Division of Intercultural Communication
+      - cell "Contractually Limited":
+        - generic: Contractually Limited
+      - cell "415":
+        - generic: "415"
+      - cell "44":
+        - generic: "44"
+      - cell "77":
+        - generic: "77"
+      - cell "111":
+        - generic: "111"
+      - cell "7":
+        - generic: "7"
+      - cell "44":
+        - generic: "44"
+    - row "Teaching-track 483 54 89.5 132 5 54":
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "483":
+        - generic: "483"
+      - cell "54":
+        - generic: "54"
+      - cell "89.5":
+        - generic: "89.5"
+      - cell "132":
+        - generic: "132"
+      - cell "5":
+        - generic: "5"
+      - cell "54":
+        - generic: "54"
+    - row "Division of Language Education Contractually Limited 284 17 50 50 3 17":
+      - cell "Division of Language Education":
+        - generic: Division of Language Education
+      - cell "Contractually Limited":
+        - generic: Contractually Limited
+      - cell "284":
+        - generic: "284"
+      - cell "17":
+        - generic: "17"
+      - cell "50":
+        - generic: "50"
+      - cell "50":
+        - generic: "50"
+      - cell "3":
+        - generic: "3"
+      - cell "17":
+        - generic: "17"
+    - row "Teaching-track 6714 302 888.5 894 42 302":
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "6714":
+        - generic: "6714"
+      - cell "302":
+        - generic: "302"
+      - cell "888.5":
+        - generic: "888.5"
+      - cell "894":
+        - generic: "894"
+      - cell "42":
+        - generic: "42"
+      - cell "302":
+        - generic: "302"
+    - row "Division of Physical Education Teaching-track 3547 103 206 103 9 103":
+      - cell "Division of Physical Education":
+        - generic: Division of Physical Education
+      - cell "Teaching-track":
+        - generic: Teaching-track
+      - cell "3547":
+        - generic: "3547"
+      - cell "103":
+        - generic: "103"
+      - cell "206":
+        - generic: "206"
+      - cell "103":
+        - generic: "103"
+      - cell "9":
+        - generic: "9"
+      - cell "103":
+        - generic: "103"
+- generic: 共 14 条记录 · 数据基于结算系统自动计算

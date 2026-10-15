@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+import {Workbook,SpreadsheetFile,FileBlob} from '@oai/artifact-tool';
+const wb=await SpreadsheetFile.importXlsx(await FileBlob.load('C:/phanes/temp/Course_Offering_Import_Template_v005.xlsx'));
+console.log((await wb.inspect({kind:'table',range:"'Updated_Course Offerings'!A1:AT5",tableMaxRows:5,tableMaxCols:46,maxChars:10000})).ndjson);
+const img=await wb.render({sheetName:'Updated_Course Offerings',range:'B1:M5',scale:1,format:'png'}); await fs.writeFile(new URL('./开课模板原始预览.png',import.meta.url),new Uint8Array(await img.arrayBuffer()));
+const s=wb.worksheets.getItem('Updated_Course Offerings'); s.getRange('A4:AU43').clear({applyTo:'contents'});
+const rows=[{B:'Division of Applied Psychology',C:'UG',D:'PSY1020',E:'QA1014_1139导入本科模拟',F:3,H:'No',I:'Single',J:'陈纯',K:'002272',L:'Category A',M:100,Z:'English',AA:'Lecture+Tutorial',AB:'2h* 1 time/each week/section',AC:'2h* 1 time/biweekly/section',AJ:20,AK:25,AL:1,AM:10,AN:15,AO:1,AP:20,AT:'QA1014_1139仅模拟测试，后续清理'}, {B:'Division of Applied Psychology',C:'TPG',D:'PSY1020',E:'QA1014_1139导入多教师模拟',F:3,H:'No',I:'Multiple',J:'陈纯',K:'002272',L:'Category A',M:50,N:'王立弟',O:'000208',P:'Category A',Q:50,Z:'English',AA:'Lecture Only',AB:'1.5h*2 times each week/section',AC:0,AJ:15,AK:20,AL:1,AP:15,AT:'QA1014_1139仅模拟测试，后续清理'}];
+rows.forEach((obj,i)=>Object.entries(obj).forEach(([c,v])=>s.getRange(c+(4+i)).values=[[v]])); wb.recalculate();
+console.log((await wb.inspect({kind:'table',range:"'Updated_Course Offerings'!B4:Q5",tableMaxRows:2,tableMaxCols:16,maxChars:3500})).ndjson);
+const finalImage=await wb.render({sheetName:'Updated_Course Offerings',range:'B4:Q5',scale:1,format:'png'}); await fs.writeFile(new URL('./开课模拟数据预览.png',import.meta.url),new Uint8Array(await finalImage.arrayBuffer()));
+await (await SpreadsheetFile.exportXlsx(wb)).save(fileURLToPath(new URL('./QA1014_1139_Course_Offering.xlsx',import.meta.url)));

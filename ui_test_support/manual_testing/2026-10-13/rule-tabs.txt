@@ -1,0 +1,158 @@
+- link "CUHK-SZ HSS Teacher Teaching Hours Management System":
+  - /url: /
+  - generic: CUHK-SZ HSS Teacher Teaching Hours Management System
+- menubar:
+  - menuitem "首页":
+    - generic: 首页
+  - menuitem "教学计划管理":
+    - generic: 教学计划管理
+  - menuitem "结算管理":
+    - generic: 结算管理
+  - menuitem "待办任务":
+    - generic: 待办任务
+  - menuitem "系统消息":
+    - generic: 系统消息
+  - menuitem "系统配置管理" [expanded]:
+    - generic: 系统配置管理
+    - menu:
+      - menuitem "学年学期管理":
+        - generic: 学年学期管理
+      - menuitem "学院工作量标准":
+        - generic: 学院工作量标准
+      - menuitem "计算规则管理":
+        - generic: 计算规则管理
+      - menuitem "课程信息维护":
+        - generic: 课程信息维护
+      - menuitem "教师管理":
+        - generic: 教师管理
+  - menuitem "系统管理":
+    - generic: 系统管理
+- navigation "面包屑":
+  - link "系统配置管理"
+  - text: /
+  - link "计算规则管理"
+- generic: En
+- button:
+- button "首页":
+  - text: 首页
+- button "计算规则管理":
+  - text: 计算规则管理
+- button:
+- generic: 计算规则管理
+- generic: 配置 Teaching Load 5 步法计算引擎参数、系数规则与异常检测
+- generic: "当前版本:"
+- combobox
+- generic: 2024-2025学年 (2024-2025)
+- text: 24 条规则
+- button "重新计算":
+  - text: 重新计算
+- tabpanel "系数规则库":
+  - alert:
+    - generic: 系数配置
+    - paragraph: 以下各组系数规则共同构成教学工作量计算引擎的系数体系。修改后即时生效。
+  - tabpanel "课时计算":
+    - generic: 决定课时解析方式：时间解析、分钟取整、异常检测、论文指导课时
+    - button "分钟取整规则 分钟取整规则 分钟取整规则：≥50 进一、≥20 且 <50 取半、<10 舍去 — N17" [expanded]:
+      - generic: 分钟取整规则
+      - generic: 分钟取整规则
+      - generic: 分钟取整规则：≥50 进一、≥20 且 <50 取半、<10 舍去 — N17
+    - region "分钟取整规则 分钟取整规则 分钟取整规则：≥50 进一、≥20 且 <50 取半、<10 舍去 — N17":
+      - alert:
+        - generic: 原则：≥50 分钟进一、≥20 且 <50 分钟取半、<10 分钟舍去。例：2:50→3、1:20→1.5。同一门课仅会命中一条生效规则。
+      - button "条件测试" [active]:
+        - text: 条件测试
+      - button "添加规则":
+        - text: 添加规则
+      - table:
+        - rowgroup:
+          - row "规则名称 代码 值 匹配条件 说明 状态 操作":
+            - columnheader "规则名称":
+              - generic: 规则名称
+            - columnheader "代码":
+              - generic: 代码
+            - columnheader "值":
+              - generic: 值
+            - columnheader "匹配条件":
+              - generic: 匹配条件
+            - columnheader "说明":
+              - generic: 说明
+            - columnheader "状态":
+              - generic: 状态
+            - columnheader "操作":
+              - generic: 操作
+      - table:
+        - rowgroup:
+          - row "≥20 且 <50 分钟取半 CEIL_HALF 0.5 minutes >= 20 && minutes < 50 超出整点后额外 ≥20 且 <50 分钟 → 取半小时。例：1:20 → 1.5 — N17 生效中 编辑 删除":
+            - cell "≥20 且 <50 分钟取半":
+              - generic: ≥20 且 <50 分钟取半
+            - cell "CEIL_HALF":
+              - generic: CEIL_HALF
+            - cell "0.5":
+              - generic: "0.5"
+            - cell "minutes >= 20 && minutes < 50":
+              - code: minutes >= 20 && minutes < 50
+            - cell "超出整点后额外 ≥20 且 <50 分钟 → 取半小时。例：1:20 → 1.5 — N17":
+              - generic: 超出整点后额外 ≥20 且 <50 分钟 → 取半小时。例：1:20 → 1.5 — N17
+            - cell "生效中":
+              - generic: 生效中
+            - cell "编辑 删除":
+              - button "编辑":
+                - generic: 编辑
+              - button "删除":
+                - generic: 删除
+          - row "≥50 分钟进一 CEIL_INT 1 minutes >= 50 超出整点后额外 ≥50 分钟 → 进一小时。例：2:50 → 3 — N17 生效中 编辑 删除":
+            - cell "≥50 分钟进一":
+              - generic: ≥50 分钟进一
+            - cell "CEIL_INT":
+              - generic: CEIL_INT
+            - cell "1":
+              - generic: "1"
+            - cell "minutes >= 50":
+              - code: minutes >= 50
+            - cell "超出整点后额外 ≥50 分钟 → 进一小时。例：2:50 → 3 — N17":
+              - generic: 超出整点后额外 ≥50 分钟 → 进一小时。例：2:50 → 3 — N17
+            - cell "生效中":
+              - generic: 生效中
+            - cell "编辑 删除":
+              - button "编辑":
+                - generic: 编辑
+              - button "删除":
+                - generic: 删除
+          - row "<10 分钟舍去 FLOOR_INT 0 minutes < 10 超出整点后额外 <10 分钟 → 舍去。例：2:05 → 2 — N17 生效中 编辑 删除":
+            - cell "<10 分钟舍去":
+              - generic: <10 分钟舍去
+            - cell "FLOOR_INT":
+              - generic: FLOOR_INT
+            - cell "0":
+              - generic: "0"
+            - cell "minutes < 10":
+              - code: minutes < 10
+            - cell "超出整点后额外 <10 分钟 → 舍去。例：2:05 → 2 — N17":
+              - generic: 超出整点后额外 <10 分钟 → 舍去。例：2:05 → 2 — N17
+            - cell "生效中":
+              - generic: 生效中
+            - cell "编辑 删除":
+              - button "编辑":
+                - generic: 编辑
+              - button "删除":
+                - generic: 删除
+    - button "异常检测阈值 异常检测阈值 异常检测阈值，用于自动标记异常数据":
+      - generic: 异常检测阈值
+      - generic: 异常检测阈值
+      - generic: 异常检测阈值，用于自动标记异常数据
+    - button "论文指导人数系数 论文指导人数系数 论文指导课时：按课程代码配置「满多少人 → 多少课时」，人数与课时均可自由维护":
+      - generic: 论文指导人数系数
+      - generic: 论文指导人数系数
+      - generic: 论文指导课时：按课程代码配置「满多少人 → 多少课时」，人数与课时均可自由维护
+  - tablist:
+    - tab "课时计算" [selected]:
+      - generic: 课时计算
+    - tab "逻辑规则":
+      - generic: 逻辑规则
+    - tab "SCH计算规则":
+      - generic: SCH计算规则
+    - tab "工作量计算规则":
+      - generic: 工作量计算规则
+- tablist:
+  - tab "计算流程图"
+  - tab "系数规则库" [selected]
